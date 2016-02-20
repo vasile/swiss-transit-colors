@@ -44,7 +44,7 @@ class SwissTransitHelpers
             end
         end
 
-        colors_html_path = "#{APP_PATH}/out/agency_colors_data.html"
+        colors_html_path = "#{APP_PATH}/index.html"
         colors_html_template_path = "#{APP_PATH}/inc/colors_data.template.html"
         colors_html = File.open(colors_html_template_path, 'r').read
         colors_html = colors_html.sub('[TRs]', trs.join("\n"))
