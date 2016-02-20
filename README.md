@@ -1,4 +1,7 @@
 # Swiss Transit Colors
+
+**TL;DR** http://vasile.github.io/swiss-transit-colors/
+
 This repo contains the vehicle route colors used by public transport operators in Switzerland. It's useful for public transport apps which deal with vehicle lines and their associated colors. 
 
 The [config file](https://github.com/vasile/swiss-transit-colors/blob/master/agency_colors.yml) covers only a bit of all swiss public transport operators for which I used manual color pickers to get the right colors. Contributions are welcome!
