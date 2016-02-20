@@ -7056,15 +7056,12 @@ agency:
                     <<: *TRAIN_SBAHN
             S:
                 "4":
-                    bg: ""
-                    fg: ""
+                    <<: *TRAIN_SBAHN
                 "10":
-                    bg: ""
-                    fg: ""
+                    <<: *TRAIN_SBAHN
             SN:
                 "4":
-                    bg: ""
-                    fg: ""
+                    <<: *NIGHT
     # SZU Auto - Automobildienst SZU
     "000807":
         short_name: SZU Auto
