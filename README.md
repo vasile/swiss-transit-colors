@@ -1,6 +1,6 @@
 # Swiss Transit Colors
 Repo hosting vehicle line colors used by public transport operators in Switzerland.
-Useful for public transport applications that renders vehicle lines and their colors. 
+Useful for public transport apps which deal with vehicle lines and associated colors. 
 
 Examples from [Swiss Transit App](www.transitapp.ch) stations lookup
 
