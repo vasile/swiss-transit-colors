@@ -2,7 +2,7 @@
 Repo hosting vehicle line colors used by public transport operators in Switzerland.
 Useful for public transport apps which deal with vehicle lines and associated colors. 
 
-Examples from [Swiss Transit App](www.transitapp.ch) stations lookup
+Examples from [Swiss Transit App](http://www.transitapp.ch) stations lookup
 
 ![Aarau](https://api.monosnap.com/rpc/file/download?id=oLN7zMEgRNAPCpTeZpWGk7ePSq0lic) ![Lausanne](https://api.monosnap.com/rpc/file/download?id=Ffm29DUYcmAh0C76SdcxasTu6yVRbu)
 ![Oerlikon](https://api.monosnap.com/rpc/file/download?id=lRrFHOzaRmWFpx66R5nJgnpuVmlTuf)
