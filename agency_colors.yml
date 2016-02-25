@@ -6809,6 +6809,15 @@ agency:
         colors_source:
         vehicle_types:
             NFB:
+                "6B":
+                    bg: "#0089cf"
+                    fg: "#ffffff"
+                "8B":
+                    bg: "#f171ab"
+                    fg: "#ffffff"
+                "9B":
+                    bg: "#fec210"
+                    fg: "#000000"
                 "10":
                     bg: "#00a54f"
                     fg: "#ffffff"
