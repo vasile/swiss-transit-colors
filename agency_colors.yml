@@ -10392,6 +10392,7 @@ agency:
         colors_source: http://www.zvb.ch/fahrplan/linienuebersicht-zvb-busse/
         vehicle_types:
             KB:
+                "19":
                     bg: ""
                     fg: ""
             NFB:
