@@ -60,6 +60,9 @@ agency:
                     <<: *NIGHT
                 "N53":
                     <<: *NIGHT
+            TX:
+                "N50":
+                    <<: *NIGHT
     # AAGR - Auto AG Rothenburg
     "000812":
         short_name: AAGR
@@ -500,6 +503,9 @@ agency:
                 "544":
                     bg: ""
                     fg: ""
+                "545":
+                    bg: ""
+                    fg: ""
     # ASGS - Autotransports Sion-Grône-Sierre
     "000888":
         short_name: ASGS
@@ -576,6 +582,8 @@ agency:
         colors_source:
         vehicle_types:
             FUN:
+                "ALL_LINES":
+                    <<: *DEFAULT
                 "2016":
                     bg: ""
                     fg: ""
@@ -583,6 +591,15 @@ agency:
     "000056":
         short_name: ASM-rvo
         agency_name: Aare Seeland mobil (rvo)
+        colors_source:
+        vehicle_types:
+            R:
+                "ALL_LINES":
+                    <<: *TRAIN_SBAHN
+    # ASM-snb - Aare Seeland mobil (snb)
+    "000081":
+        short_name: ASM-snb
+        agency_name: Aare Seeland mobil (snb)
         colors_source:
         vehicle_types:
             R:
@@ -596,6 +613,19 @@ agency:
         vehicle_types:
             BUS:
                 "421":
+                    bg: ""
+                    fg: ""
+    # AVB - Aroser Verkehrsbetriebe
+    "007031":
+        short_name: AVB
+        agency_name: Aroser Verkehrsbetriebe
+        colors_source:
+        vehicle_types:
+            BUS:
+                "061":
+                    bg: ""
+                    fg: ""
+                "062":
                     bg: ""
                     fg: ""
     # AVJ - Autotransports de la Vallée de Joux
@@ -2016,6 +2046,35 @@ agency:
         agency_name: Basler Verkehrsbetriebe
         colors_source:
         vehicle_types:
+            BUS:
+                "ALL_LINES":
+                    bg: "#bfbfbf"
+                    fg: "#231f20"
+                "33":
+                    bg: ""
+                    fg: ""
+                "42":
+                    bg: ""
+                    fg: ""
+            KB:
+                "ALL_LINES":
+                    bg: "#bfbfbf"
+                    fg: "#231f20"
+                "30":
+                    bg: ""
+                    fg: ""
+                "32":
+                    bg: ""
+                    fg: ""
+                "34":
+                    bg: ""
+                    fg: ""
+                "35":
+                    bg: ""
+                    fg: ""
+                "45":
+                    bg: ""
+                    fg: ""
             NFB:
                 "ALL_LINES":
                     bg: "#bfbfbf"
@@ -2093,6 +2152,10 @@ agency:
                 "16":
                     bg: "#a6ce39"
                     fg: "#000000"
+                "21":
+                    bg: "#00ae9d"
+                    fg: "#ffffff"
+            T:
                 "21":
                     bg: "#00ae9d"
                     fg: "#ffffff"
@@ -2286,6 +2349,9 @@ agency:
             R:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
+            EXT:
+                "ALL_LINES":
+                    <<: *TRAIN_LONG_DISTANCE
     # EB - Engelberg-Brunni
     "000203":
         short_name: EB
@@ -2341,9 +2407,15 @@ agency:
         agency_name: Interimsfahrplan / Horaire interimaire / Orario ad interim
         colors_source:
         vehicle_types:
+            BAT:
+                "ALL_LINES":
+                    <<: *DEFAULT
             BUS:
                 "ALL_LINES":
                     <<: *DEFAULT
+            EC:
+                "ALL_LINES":
+                    <<: *TRAIN_LONG_DISTANCE
             KB:
                 "ALL_LINES":
                     <<: *DEFAULT
@@ -2440,10 +2512,12 @@ agency:
         agency_name: Forchbahn
         colors_source:
         vehicle_types:
+            EXT:
+                "ALL_LINES":
+                    <<: *TRAIN_SBAHN
             S:
                 "18":
-                    bg: ""
-                    fg: ""
+                    <<: *TRAIN_SBAHN
             SN:
                 "ALL_LINES":
                     <<: *NIGHT
@@ -2704,6 +2778,12 @@ agency:
             R:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
+            BAT:
+                "ALL_LINES":
+                    <<: *DEFAULT
+            BUS:
+                "ALL_LINES":
+                    <<: *DEFAULT
     # KBS - Kaisereggbahnen Schwarzsee AG
     "003005":
         short_name: KBS
@@ -2877,6 +2957,10 @@ agency:
             R:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
+            BUS:
+                "78":
+                    bg: ""
+                    fg: ""
     # LEE - Luftseilbahn Elsigbach-Elsigenalp
     "003072":
         short_name: LEE
@@ -3656,6 +3740,9 @@ agency:
         agency_name: Nyon-St-Cergue-Morez
         colors_source:
         vehicle_types:
+            BUS:
+                "ALL_LINES":
+                    <<: *DEFAULT
             R:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
@@ -5747,6 +5834,9 @@ agency:
             R:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
+            EXT:
+                "ALL_LINES":
+                    <<: *TRAIN_SBAHN
     # RA     F - Regionalalps INFO+
     "003074":
         short_name: RA     F
@@ -5817,26 +5907,33 @@ agency:
                 "396":
                     bg: ""
                     fg: ""
+                "N82":
+                    <<: *NIGHT
+                "N90":
+                    <<: *NIGHT
+                "N94":
+                    <<: *NIGHT
+                "N99":
+                    <<: *NIGHT
     # RBS - Regionalverkehr Bern-Solothurn
     "000088":
         short_name: RBS
         agency_name: Regionalverkehr Bern-Solothurn
         colors_source:
         vehicle_types:
+            EXT:
+                "ALL_LINES":
+                    <<: *TRAIN_SBAHN
             RE:
                 "8":
-                    bg: ""
-                    fg: ""
+                    <<: *TRAIN_LONG_DISTANCE
             S:
                 "7":
-                    bg: ""
-                    fg: ""
+                    <<: *TRAIN_SBAHN
                 "8":
-                    bg: ""
-                    fg: ""
+                    <<: *TRAIN_SBAHN
                 "9":
-                    bg: ""
-                    fg: ""
+                    <<: *TRAIN_SBAHN
     # RBS Auto - Autobusbetrieb RBS
     "000850":
         short_name: RBS Auto
@@ -6327,6 +6424,9 @@ agency:
                 "6":
                     bg: ""
                     fg: ""
+            BUS:
+                "SEV":
+                    <<: *DEFAULT
     # SBB Auto - SBB Auto Bahnersatz
     "007037":
         short_name: SBB Auto
@@ -6473,6 +6573,9 @@ agency:
                 "NT":
                     bg: ""
                     fg: ""
+            TX:
+                "TX":
+                    <<: *DEFAULT
     # SBG - Südbadenbus GmbH
     "000354":
         short_name: SBG
@@ -7014,12 +7117,24 @@ agency:
         colors_source:
         vehicle_types:
             NFB:
+                "3":
+                    bg: "#ffffff"
+                    fg: "#231f20"
                 "6B":
                     bg: "#0089cf"
+                    fg: "#ffffff"
+                "7":
+                    bg: "#ee1d23"
+                    fg: "#ffffff"
+                "8":
+                    bg: "#f171ab"
                     fg: "#ffffff"
                 "8B":
                     bg: "#f171ab"
                     fg: "#ffffff"
+                "9":
+                    bg: "#fec210"
+                    fg: "#000000"
                 "9B":
                     bg: "#fec210"
                     fg: "#000000"
@@ -7047,6 +7162,9 @@ agency:
                 "21":
                     bg: "#ffffff"
                     fg: "#000000"
+                "22":
+                    bg: ""
+                    fg: ""
                 "26":
                     bg: "#00a54f"
                     fg: "#ffffff"
@@ -7259,16 +7377,32 @@ agency:
             GB:
                 "ALL_LINES":
                     <<: *DEFAULT
+    # SZR-ET - Schiff Eglisau-Tössegg
+    "003186":
+        short_name: SZR-ET
+        agency_name: Schiff Eglisau-Tössegg
+        colors_source:
+        vehicle_types:
+            BAT:
+                "ALL_LINES":
+                    <<: *DEFAULT
     # SZU - Sihltal-Zürich-Uetliberg-Bahn
     "000078":
         short_name: SZU
         agency_name: Sihltal-Zürich-Uetliberg-Bahn
         colors_source:
         vehicle_types:
+            EXT:
+                "ALL_LINES":
+                    <<: *TRAIN_SBAHN
+                "4":
+                    <<: *TRAIN_SBAHN
             R:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
             S:
+                "ALL_LINES":
+                    <<: *TRAIN_SBAHN
                 "4":
                     <<: *TRAIN_SBAHN
                 "10":
@@ -7455,6 +7589,9 @@ agency:
             LB:
                 "ALL_LINES":
                     <<: *DEFAULT
+            KB:
+                "ALL_LINES":
+                    <<: *DEFAULT
     # TDN - Téléphériques de Nendaz
     "003028":
         short_name: TDN
@@ -7482,6 +7619,9 @@ agency:
                 "5":
                     bg: ""
                     fg: ""
+            IR:
+                "ALL_LINES":
+                    <<: *TRAIN_LONG_DISTANCE
             RE:
                 "ALL_LINES":
                     <<: *TRAIN_LONG_DISTANCE
@@ -7563,6 +7703,9 @@ agency:
             BUS:
                 "ALL_LINES":
                     <<: *DEFAULT
+            RE:
+                "ALL_LINES":
+                    <<: *TRAIN_LONG_DISTANCE
             S:
                 "11":
                     bg: ""
@@ -7913,6 +8056,9 @@ agency:
                 "60":
                     bg: ""
                     fg: ""
+            BUS:
+                "ALL_LINES":
+                    <<: *DEFAULT
     # TPF Auto - Service d'automobiles TPF
     "000834":
         short_name: TPF Auto
@@ -8194,6 +8340,9 @@ agency:
                 "36":
                     bg: "#666666"
                     fg: "#ffffff"
+                "44":
+                    bg: "#009999"
+                    fg: "#ffffff"
                 "47":
                     bg: "#009999"
                     fg: "#ffffff"
@@ -8203,6 +8352,9 @@ agency:
                 "T":
                     bg: "#FF9999"
                     fg: "#000000"
+                "V":
+                    bg: "#FF6600"
+                    fg: "#ffffff"
             NFB:
                 "1":
                     bg: "#5A338B"
@@ -8256,6 +8408,9 @@ agency:
                     bg: "#009999"
                     fg: "#ffffff"
                 "42":
+                    bg: "#99CCCC"
+                    fg: "#000000"
+                "43":
                     bg: "#99CCCC"
                     fg: "#000000"
                 "44":
@@ -8365,6 +8520,9 @@ agency:
                     fg: "#ffffff"
                 "NT":
                     bg: "#00A7E3"
+                    fg: "#ffffff"
+                "NV":
+                    bg: "#FF6600"
                     fg: "#ffffff"
             NFO:
                 "2":
@@ -8519,6 +8677,9 @@ agency:
             R:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
+            KB:
+                "ALL_LINES":
+                    <<: *DEFAULT
     # TRAVYS/a - Transports Vallée de Joux-Yverdon-Ste-Croix (auto ystec)
     "000868":
         short_name: TRAVYS/a
@@ -8898,8 +9059,45 @@ agency:
                     bg: "#97979b"
                     fg: "#ffffff"
             NFB:
+                "1":
+                    bg: "#e60005"
+                    fg: "#ffffff"
+                "2":
+                    bg: "#008fd7"
+                    fg: "#ffffff"
+                "4":
+                    bg: "#006f31"
+                    fg: "#ffffff"
+                "5":
+                    bg: "#5eaf21"
+                    fg: "#ffffff"
+                "6":
+                    bg: "#d70083"
+                    fg: "#ffffff"
+                "7":
+                    bg: "#ee7900"
+                    fg: "#ffffff"
+                "8":
+                    bg: "#813b92"
+                    fg: "#ffffff"
+                "11":
+                    bg: "#a71818"
+                    fg: "#ffffff"
+                "70":
+                    bg: "#97979b"
+                    fg: "#ffffff"
+                "71":
+                    bg: "#97979b"
+                    fg: "#ffffff"
                 "75":
                     bg: "#97979b"
+                    fg: "#ffffff"
+            NFO:
+                "1":
+                    bg: "#e60005"
+                    fg: "#ffffff"
+                "4":
+                    bg: "#006f31"
                     fg: "#ffffff"
             TRO:
                 "1":
@@ -8913,6 +9111,26 @@ agency:
                     bg: ""
                     fg: ""
                 "FUNIC Ma":
+                    bg: ""
+                    fg: ""
+    # VB-be - Verkehrsbetriebe Biel
+    "000101":
+        short_name: VB-be
+        agency_name: Verkehrsbetriebe Biel
+        colors_source:
+        vehicle_types:
+            FUN:
+                "2023":
+                    bg: ""
+                    fg: ""
+    # VB-bm - Verkehrsbetriebe Biel
+    "000103":
+        short_name: VB-bm
+        agency_name: Verkehrsbetriebe Biel
+        colors_source:
+        vehicle_types:
+            FUN:
+                "2022":
                     bg: ""
                     fg: ""
     # VBD - Verkehrsbetrieb der Landschaft Davos
@@ -8946,9 +9164,17 @@ agency:
                 "13":
                     bg: ""
                     fg: ""
-                "N":
+                "B":
                     bg: ""
                     fg: ""
+                "G":
+                    bg: ""
+                    fg: ""
+                "R":
+                    bg: ""
+                    fg: ""
+                "N":
+                    <<: *NIGHT
     # VBG - Verkehrsbetriebe Glattal
     "000773":
         short_name: VBG
@@ -9130,6 +9356,25 @@ agency:
         agency_name: Verkehrsbetriebe Herisau
         colors_source:
         vehicle_types:
+            BUS:
+                "171":
+                    bg: ""
+                    fg: ""
+                "172":
+                    bg: ""
+                    fg: ""
+                "173":
+                    bg: ""
+                    fg: ""
+                "174":
+                    bg: ""
+                    fg: ""
+                "175":
+                    bg: ""
+                    fg: ""
+                "176":
+                    bg: ""
+                    fg: ""
             NFB:
                 "171":
                     bg: ""
@@ -9155,6 +9400,10 @@ agency:
         agency_name: Verkehrsbetriebe Luzern
         colors_source: http://www.vbl.ch/fileadmin/customer/Billette_und_Abos/Netz-_und_Zonenplan_2013/Aggloplan_A4_ab14.12.2014.pdf
         vehicle_types:
+            FUN:
+                "2510":
+                    bg: ""
+                    fg: ""
             NFB:
                 "1":
                     bg: "#00a54f"
@@ -9608,6 +9857,12 @@ agency:
         colors_source:
         vehicle_types:
             NFB:
+                "2":
+                    bg: "#c0322a"
+                    fg: "#ffffff"
+                "6":
+                    bg: "#caa84f"
+                    fg: "#ffffff"
                 "7":
                     bg: "#000000"
                     fg: "#ffffff"
@@ -9616,6 +9871,9 @@ agency:
                     fg: "#ffffff"
                 "14":
                     bg: "#61aadb"
+                    fg: "#ffffff"
+                "17":
+                    bg: "#872563"
                     fg: "#ffffff"
             NFT:
                 "E":
@@ -9672,6 +9930,9 @@ agency:
                 "5":
                     bg: "#826231"
                     fg: "#ffffff"
+                "6":
+                    bg: "#caa84f"
+                    fg: "#ffffff"
                 "8":
                     bg: "#accc2d"
                     fg: "#000000"
@@ -9693,6 +9954,8 @@ agency:
                 "17":
                     bg: "#872563"
                     fg: "#ffffff"
+                "E":
+                    <<: *DEFAULT
     # VMCV - Transports publics Vevey-Montreux-Chillon-Villeneuve
     "000876":
         short_name: VMCV
@@ -9996,6 +10259,9 @@ agency:
                 "14":
                     bg: ""
                     fg: ""
+            BUS:
+                "ALL_LINES":
+                    <<: *DEFAULT
     # WSU - Walker's Söhne Urnerboden
     "007027":
         short_name: WSU
@@ -10035,6 +10301,8 @@ agency:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
             S:
+                "ALL_LINES":
+                    <<: *TRAIN_SBAHN
                 "4":
                     bg: ""
                     fg: ""
@@ -10123,6 +10391,9 @@ agency:
         agency_name: Zugerland Verkehrsbetriebe
         colors_source: http://www.zvb.ch/fahrplan/linienuebersicht-zvb-busse/
         vehicle_types:
+            KB:
+                    bg: ""
+                    fg: ""
             NFB:
                 "1":
                     bg: "#8dc047"
