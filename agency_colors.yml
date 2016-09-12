@@ -111,6 +111,9 @@ agency:
         agency_name: Auto AG Schwyz
         colors_source:
         vehicle_types:
+            BAT:
+                "ALL_LINES":
+                    <<: *DEFAULT
             KB:
                 "5":
                     bg: ""
@@ -168,6 +171,21 @@ agency:
         colors_source:
         vehicle_types:
             NFB:
+                "1":
+                    bg: ""
+                    fg: ""
+                "2":
+                    bg: ""
+                    fg: ""
+                "3":
+                    bg: ""
+                    fg: ""
+                "4":
+                    bg: ""
+                    fg: ""
+                "6":
+                    bg: ""
+                    fg: ""
                 "401":
                     bg: ""
                     fg: ""
@@ -3294,6 +3312,9 @@ agency:
         agency_name: Raron-Eischoll
         colors_source:
         vehicle_types:
+            KB:
+                "ALL_LINES":
+                    <<: *DEFAULT
             LB:
                 "ALL_LINES":
                     <<: *DEFAULT
@@ -3647,6 +3668,9 @@ agency:
         agency_name: Montreux-Vevey-Riviera (cev)
         colors_source:
         vehicle_types:
+            BUS:
+                "ALL_LINES":
+                    <<: *DEFAULT
             R:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
@@ -5843,6 +5867,9 @@ agency:
         agency_name: Regionalalps INFO+
         colors_source:
         vehicle_types:
+            BUS:
+                "ALL_LINES":
+                    <<: *DEFAULT
             R:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
@@ -5924,6 +5951,10 @@ agency:
             EXT:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
+            NFB:
+                "7":
+                    bg: ""
+                    fg: ""
             RE:
                 "8":
                     <<: *TRAIN_LONG_DISTANCE
@@ -6277,6 +6308,9 @@ agency:
             IR:
                 "ALL_LINES":
                     <<: *TRAIN_LONG_DISTANCE
+            NZ:
+                "ALL_LINES":
+                    <<: *NIGHT
             R:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
@@ -6436,6 +6470,16 @@ agency:
             BUS:
                 "ALL_LINES":
                     <<: *DEFAULT
+            NFB:
+                "1":
+                    bg: ""
+                    fg: ""
+                "2":
+                    bg: ""
+                    fg: ""
+                "3":
+                    bg: ""
+                    fg: ""
                 "736":
                     bg: ""
                     fg: ""
@@ -7120,6 +7164,9 @@ agency:
                 "3":
                     bg: "#ffffff"
                     fg: "#231f20"
+                "6":
+                    bg: "#0089cf"
+                    fg: "#ffffff"
                 "6B":
                     bg: "#0089cf"
                     fg: "#ffffff"
@@ -8473,6 +8520,12 @@ agency:
                 "S":
                     bg: "#003399"
                     fg: "#ffffff"
+                "T1":
+                    bg: "#FF9999"
+                    fg: "#000000"
+                "T2":
+                    bg: "#FF9999"
+                    fg: "#000000"
                 "U":
                     bg: ""
                     fg: ""
@@ -9181,6 +9234,10 @@ agency:
         agency_name: Verkehrsbetriebe Glattal
         colors_source:
         vehicle_types:
+            BUS:
+                "640":
+                    bg: ""
+                    fg: ""
             NB:
                 "N45":
                     <<: *NIGHT
@@ -9413,6 +9470,9 @@ agency:
                     fg: "#ffffff"
                 "6":
                     bg: "#cb572b"
+                    fg: "#ffffff"
+                "7":
+                    bg: "#ee1d23"
                     fg: "#ffffff"
                 "8":
                     bg: "#feca0a"
@@ -10029,6 +10089,9 @@ agency:
                     bg: ""
                     fg: ""
                 "906":
+                    bg: ""
+                    fg: ""
+                "907":
                     bg: ""
                     fg: ""
     # VZO - Verkehrsbetriebe Zürichsee und Oberland
