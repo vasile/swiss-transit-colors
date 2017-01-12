@@ -19,6 +19,15 @@ agency:
         agency_name: Autobus AG Liestal
         colors_source:
         vehicle_types:
+            NB:
+                "N28":
+                    <<: *NIGHT
+                "N51":
+                    <<: *NIGHT
+                "N52":
+                    <<: *NIGHT
+                "N53":
+                    <<: *NIGHT
             NFB:
                 "70":
                     bg: ""
@@ -73,6 +82,9 @@ agency:
                 "13":
                     bg: "#800000"
                     fg: "#ffffff"
+                "40":
+                    bg: ""
+                    fg: ""
                 "42":
                     bg: "#ffff00"
                     fg: "#000000"
@@ -85,6 +97,9 @@ agency:
                 "45":
                     bg: "#feca0a"
                     fg: "#000000"
+                "46":
+                    bg: ""
+                    fg: ""
                 "50":
                     bg: "#969696"
                     fg: "#ffffff"
@@ -100,6 +115,9 @@ agency:
                 "54":
                     bg: "#00cc00"
                     fg: "#ffffff"
+                "55":
+                    bg: ""
+                    fg: ""
                 "41/54":
                     bg: ""
                     fg: ""
@@ -282,7 +300,13 @@ agency:
                 "131":
                     bg: ""
                     fg: ""
+                "132":
+                    bg: ""
+                    fg: ""
                 "135":
+                    bg: ""
+                    fg: ""
+                "135A":
                     bg: ""
                     fg: ""
                 "136":
@@ -465,6 +489,9 @@ agency:
                 "65":
                     bg: "#c6aad2"
                     fg: "#ffffff"
+                "66":
+                    bg: "#f8a624"
+                    fg: "#ffffff"
                 "272":
                     bg: ""
                     fg: ""
@@ -496,6 +523,12 @@ agency:
                     bg: ""
                     fg: ""
             NFB:
+                "60":
+                    bg: ""
+                    fg: ""
+                "61":
+                    bg: ""
+                    fg: ""
                 "441":
                     bg: ""
                     fg: ""
@@ -725,6 +758,15 @@ agency:
                 "107":
                     bg: ""
                     fg: ""
+    # BB - Bürgenstockbahn
+    "000107":
+        short_name: BB
+        agency_name: Bürgenstockbahn
+        colors_source:
+        vehicle_types:
+            FUN:
+                "ALL_LINES":
+                    <<: *DEFAULT
     # BBA - Busbetrieb Aarau
     "000840":
         short_name: BBA
@@ -756,6 +798,8 @@ agency:
                 "N21":
                     <<: *NIGHT
                 "N23":
+                    <<: *NIGHT
+                "N23X":
                     <<: *NIGHT
                 "N24":
                     <<: *NIGHT
@@ -878,6 +922,8 @@ agency:
                 "340":
                     bg: ""
                     fg: ""
+                "N32":
+                    <<: *NIGHT
     # BEAG - Bergbahnen Engstligenalp AG
     "000282":
         short_name: BEAG
@@ -985,6 +1031,12 @@ agency:
         vehicle_types:
             KB:
                 "591":
+                    bg: ""
+                    fg: ""
+                "592":
+                    bg: ""
+                    fg: ""
+                "593":
                     bg: ""
                     fg: ""
     # BGF - Grindelwald-First
@@ -1326,6 +1378,26 @@ agency:
                     <<: *NIGHT
                 "N11":
                     <<: *NIGHT
+            NFT:
+                "10":
+                    bg: "#feca0a"
+                    fg: "#000000"
+                "11":
+                    bg: "#ee1d23"
+                    fg: "#ffffff"
+                "17":
+                    bg: "#00aeef"
+                    fg: "#ffffff"
+                "E11":
+                    bg: "#ee1d23"
+                    fg: "#ffffff"
+                "N10":
+                    <<: *NIGHT
+                "N11":
+                    <<: *NIGHT
+            R:
+                "502":
+                    <<: *DEFAULT
     # BLT Auto - Auto BLT
     "000879":
         short_name: BLT Auto
@@ -1539,6 +1611,8 @@ agency:
                 "572":
                     bg: "#009ee0"
                     fg: "#ffffff"
+                "N23":
+                    <<: *NIGHT
                 "N55":
                     <<: *NIGHT
                 "N57":
@@ -1629,6 +1703,9 @@ agency:
                     bg: ""
                     fg: ""
                 "444":
+                    bg: ""
+                    fg: ""
+                "650":
                     bg: ""
                     fg: ""
                 "702":
@@ -1756,6 +1833,8 @@ agency:
                     bg: ""
                     fg: ""
                 "N33":
+                    <<: *NIGHT
+                "NB":
                     <<: *NIGHT
             NFB:
                 "300":
@@ -2310,12 +2389,18 @@ agency:
             BEX:
                 "ALL_LINES":
                     <<: *TRAIN_LONG_DISTANCE
+            EXT:
+                "ALL_LINES":
+                    <<: *DEFAULT
             GEX:
                 "ALL_LINES":
                     <<: *TRAIN_LONG_DISTANCE
             IC:
                 "ALL_LINES":
                     <<: *TRAIN_LONG_DISTANCE
+            R:
+                "ALL_LINES":
+                    <<: *TRAIN_SBAHN
             S:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
@@ -2440,6 +2525,9 @@ agency:
             NFB:
                 "ALL_LINES":
                     <<: *DEFAULT
+            TX:
+                "ALL_LINES":
+                    <<: *DEFAULT
     # Extrabus - Events / Manifestations / Eventi
     "007001":
         short_name: Extrabus
@@ -2474,38 +2562,50 @@ agency:
     "000817":
         short_name: FART Aut
         agency_name: Autolinee FART
-        colors_source:
+        colors_source: http://www.centovalli.ch/index.php?id=20
         vehicle_types:
             BUS:
                 "2":
+                    bg: "#08a850"
+                    fg: "#ffffff"
+                "8":
                     bg: ""
                     fg: ""
                 "312":
-                    bg: ""
-                    fg: ""
+                    bg: "#95d6f7"
+                    fg: "#000000"
                 "314":
-                    bg: ""
-                    fg: ""
+                    bg: "#90d8f9"
+                    fg: "#000000"
                 "316":
-                    bg: ""
-                    fg: ""
+                    bg: "#8fd8f9"
+                    fg: "#000000"
             KB:
                 "5":
                     bg: ""
                     fg: ""
             NFB:
                 "1":
-                    bg: ""
-                    fg: ""
+                    bg: "#f00023"
+                    fg: "#ffffff"
+                "2":
+                    bg: "#08a850"
+                    fg: "#ffffff"
                 "7":
-                    bg: ""
-                    fg: ""
+                    bg: "#00acef"
+                    fg: "#ffffff"
                 "8":
-                    bg: ""
-                    fg: ""
+                    bg: "#a9d238"
+                    fg: "#ffffff"
+                "312":
+                    bg: "#95d6f7"
+                    fg: "#000000"
+                "314":
+                    bg: "#90d8f9"
+                    fg: "#000000"
                 "315":
-                    bg: ""
-                    fg: ""
+                    bg: "#92d8f7"
+                    fg: "#000000"
     # FART-kli - Intragna-Pila Costa
     "000278":
         short_name: FART-kli
@@ -2534,11 +2634,31 @@ agency:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
             S:
+                "ALL_LINES":
+                    <<: *TRAIN_SBAHN
                 "18":
                     <<: *TRAIN_SBAHN
             SN:
                 "ALL_LINES":
                     <<: *NIGHT
+    # FBG - Fähre Beckenried-Gersau
+    "003190":
+        short_name: FBG
+        agency_name: Fähre Beckenried-Gersau
+        colors_source:
+        vehicle_types:
+            FAE:
+                "ALL_LINES":
+                    <<: *DEFAULT
+    # FBS - Brusino-Arsizio-Serpiano
+    "000296":
+        short_name: FBS
+        agency_name: Brusino-Arsizio-Serpiano
+        colors_source:
+        vehicle_types:
+            LB:
+                "ALL_LINES":
+                    <<: *DEFAULT
     # FCK - Funicar Kursbetriebe AG Biel
     "007055":
         short_name: FCK
@@ -2653,6 +2773,18 @@ agency:
                 "2010":
                     bg: ""
                     fg: ""
+    # FW - Frauenfeld-Wil
+    "000051":
+        short_name: FW
+        agency_name: Frauenfeld-Wil
+        colors_source:
+        vehicle_types:
+            S:
+                "15":
+                    <<: *TRAIN_SBAHN
+            SN:
+                "ALL_LINES":
+                    <<: *NIGHT
     # FWS - Franz Weiss Sarnen (Sarnersee)
     "003194":
         short_name: FWS
@@ -3453,6 +3585,16 @@ agency:
             LB:
                 "ALL_LINES":
                     <<: *DEFAULT
+    # LTB - LTN Lungern-Turren-Bahn AG (LTBAG)
+    "000349":
+        short_name: LTB|LTBAG
+        agency_name: LTN Lungern-Turren-Bahn AG
+        colors_source:
+        vehicle_types:
+            LB:
+                "ALL_LINES":
+                    <<: *DEFAULT
+
     # LTUO - Turtmann-Unterems-Oberems
     "000290":
         short_name: LTUO
@@ -3586,6 +3728,16 @@ agency:
             SL:
                 "ALL_LINES":
                     <<: *DEFAULT
+    # MG - Ferrovia Monte Generoso (MG)
+    "000129":
+        short_name: MG
+        agency_name: Ferrovia Monte Generoso
+        colors_source:
+        vehicle_types:
+            R:
+                "ALL_LINES":
+                    <<: *TRAIN_SBAHN
+
     # MGB-bvz - Matterhorn Gotthard Bahn (bvz)
     "000093":
         short_name: MGB-bvz
@@ -3774,39 +3926,45 @@ agency:
     "000716":
         short_name: OBSM
         agency_name: Ortsbus St. Moritz
-        colors_source:
+        colors_source: http://www.engadinbus.ch/pdf/Fahrplaene/2015_2016/herbst/Linienplan.pdf
         vehicle_types:
             BUS:
                 "1":
-                    bg: ""
-                    fg: ""
+                    bg: "#12ab57"
+                    fg: "#ffffff"
                 "2":
-                    bg: ""
-                    fg: ""
+                    bg: "#f8c934"
+                    fg: "#000000"
                 "3":
-                    bg: ""
-                    fg: ""
+                    bg: "#d92888"
+                    fg: "#ffffff"
                 "4":
-                    bg: ""
-                    fg: ""
+                    bg: "#70207a"
+                    fg: "#ffffff"
                 "6":
-                    bg: ""
-                    fg: ""
+                    bg: "#009acf"
+                    fg: "#ffffff"
                 "7":
-                    bg: ""
-                    fg: ""
+                    bg: "#8d4a8e"
+                    fg: "#ffffff"
                 "8":
-                    bg: ""
-                    fg: ""
+                    bg: "#1a1919"
+                    fg: "#ffffff"
                 "9":
-                    bg: ""
-                    fg: ""
+                    bg: "#b96332"
+                    fg: "#ffffff"
                 "BL":
                     bg: ""
                     fg: ""
                 "N":
-                    bg: ""
-                    fg: ""
+                    <<: *NIGHT
+            NFB:
+                "3":
+                    bg: "#d92888"
+                    fg: "#ffffff"
+                "9":
+                    bg: "#b96332"
+                    fg: "#ffffff"
     # OTL - Office du tourisme de Leysin
     "007062":
         short_name: OTL
@@ -5900,6 +6058,10 @@ agency:
         agency_name: Regionalbus Lenzburg
         colors_source:
         vehicle_types:
+            EB:
+                "390":
+                    bg: ""
+                    fg: ""
             NFB:
                 "380":
                     bg: ""
@@ -5953,6 +6115,9 @@ agency:
                     <<: *TRAIN_SBAHN
             NFB:
                 "7":
+                    bg: ""
+                    fg: ""
+                "8":
                     bg: ""
                     fg: ""
             RE:
@@ -6220,6 +6385,9 @@ agency:
             GEX:
                 "ALL_LINES":
                     <<: *TRAIN_LONG_DISTANCE
+            NB:
+                "ALL_LINES":
+                    <<: *DEFAULT
             R:
                 "ALL_LINES":
                     <<: *TRAIN_SBAHN
@@ -6235,6 +6403,9 @@ agency:
                 "2":
                     bg: ""
                     fg: ""
+            TX:
+                "ALL_LINES":
+                    <<: *DEFAULT
     # RhB Auto - Autoverkehr RhB
     "000865":
         short_name: RhB Auto
@@ -6246,6 +6417,16 @@ agency:
                     bg: ""
                     fg: ""
                 "5951":
+                    bg: ""
+                    fg: ""
+    # SAP - Société des Auto-transports du Pied du Jura Vaudois - SAPJV
+    "000719":
+        short_name: SAP
+        agency_name: Société des Auto-transports du Pied du Jura Vaudois
+        colors_source:
+        vehicle_types:
+            BUS:
+                "755":
                     bg: ""
                     fg: ""
     # SB - Savognin-Bergbahnen AG
@@ -6471,6 +6652,8 @@ agency:
                 "ALL_LINES":
                     <<: *DEFAULT
             NFB:
+                "ALL_LINES":
+                    <<: *DEFAULT
                 "1":
                     bg: ""
                     fg: ""
@@ -6550,12 +6733,15 @@ agency:
         agency_name: Stadtbus Chur
         colors_source: http://www.buschur.ch/index.php
         vehicle_types:
-            NFB:
+            BUS:
                 "1":
                     bg: "#00ab66"
                     fg: "#ffffff"
                 "2":
                     bg: "#ffdc01"
+                    fg: "#000000"
+                "3":
+                    bg: "#d60007"
                     fg: "#000000"
                 "4":
                     bg: "#006bb6"
@@ -6566,9 +6752,46 @@ agency:
                 "9":
                     bg: "#b07807"
                     fg: "#ffffff"
-                "N":
+                "NB":
+                    <<: *NIGHT
+                "Schibus":
                     bg: ""
                     fg: ""
+            NFB:
+                "1":
+                    bg: "#00ab66"
+                    fg: "#ffffff"
+                "2":
+                    bg: "#ffdc01"
+                    fg: "#000000"
+                "3":
+                    bg: "#d60007"
+                    fg: "#000000"
+                "4":
+                    bg: "#006bb6"
+                    fg: "#ffffff"
+                "6":
+                    bg: "#10abca"
+                    fg: "#ffffff"
+                "7":
+                    bg: ""
+                    fg: ""
+                "8":
+                    bg: ""
+                    fg: ""
+                "9":
+                    bg: "#b07807"
+                    fg: "#ffffff"
+                "10":
+                    bg: ""
+                    fg: ""
+                "17":
+                    bg: ""
+                    fg: ""
+                "N":
+                    <<: *NIGHT
+                "NB":
+                    <<: *NIGHT
     # SBE - Sportbahnen Elm
     "003139":
         short_name: SBE
@@ -6618,6 +6841,8 @@ agency:
                     bg: ""
                     fg: ""
             TX:
+                "NB":
+                    <<: *NIGHT
                 "TX":
                     <<: *DEFAULT
     # SBG - Südbadenbus GmbH
@@ -6684,22 +6909,14 @@ agency:
         agency_name: Stadtbus Winterthur
         colors_source: http://stadtbus.winterthur.ch/fileadmin/user_upload/Stadtbus/Dateien/2014/1254_Stadt_Winterthur_A4_quer_14_high.pdf
         vehicle_types:
-            NB:
-                "N59":
-                    <<: *NIGHT
-                "N61":
-                    <<: *NIGHT
-                "N65":
-                    <<: *NIGHT
-                "N66":
-                    <<: *NIGHT
-                "N67":
-                    <<: *NIGHT
-            NFB:
+            BUS:
                 "1":
                     bg: "#231f20"
                     fg: "#ffffff"
                 "2":
+                    bg: "#ee1d23"
+                    fg: "#ffffff"
+                "2E":
                     bg: "#ee1d23"
                     fg: "#ffffff"
                 "3":
@@ -6744,9 +6961,69 @@ agency:
                 "674":
                     bg: "#aad5f1"
                     fg: "#000000"
+            NB:
+                "N59":
+                    <<: *NIGHT
+                "N61":
+                    <<: *NIGHT
+                "N65":
+                    <<: *NIGHT
+                "N66":
+                    <<: *NIGHT
+                "N67":
+                    <<: *NIGHT
+            NFB:
+                "1":
+                    bg: "#231f20"
+                    fg: "#ffffff"
+                "2":
+                    bg: "#ee1d23"
+                    fg: "#ffffff"
                 "2E":
                     bg: "#ee1d23"
                     fg: "#ffffff"
+                "3":
+                    bg: "#23b24b"
+                    fg: "#ffffff"
+                "4":
+                    bg: "#fcb814"
+                    fg: "#000000"
+                "5":
+                    bg: "#0072bc"
+                    fg: "#ffffff"
+                "7":
+                    bg: "#3f979f"
+                    fg: "#ffffff"
+                "9":
+                    bg: "#ee9b53"
+                    fg: "#ffffff"
+                "10":
+                    bg: "#1a5692"
+                    fg: "#ffffff"
+                "11":
+                    bg: "#ed3896"
+                    fg: "#ffffff"
+                "12":
+                    bg: "#815732"
+                    fg: "#ffffff"
+                "14":
+                    bg: "#f0e43d"
+                    fg: "#000000"
+                "610":
+                    bg: "#aad5f1"
+                    fg: "#000000"
+                "611":
+                    bg: "#73bde9"
+                    fg: "#000000"
+                "660":
+                    bg: "#73bde9"
+                    fg: "#000000"
+                "667":
+                    bg: "#aad5f1"
+                    fg: "#000000"
+                "674":
+                    bg: "#aad5f1"
+                    fg: "#000000"
     # SDS-dsb - Sportbahnen Davos
     "000111":
         short_name: SDS-dsb
@@ -6872,6 +7149,21 @@ agency:
                     bg: ""
                     fg: ""
                 "422":
+                    bg: ""
+                    fg: ""
+                "431":
+                    bg: ""
+                    fg: ""
+                "432":
+                    bg: ""
+                    fg: ""
+                "433":
+                    bg: ""
+                    fg: ""
+                "434":
+                    bg: ""
+                    fg: ""
+                "435":
                     bg: ""
                     fg: ""
             FUN:
@@ -7154,6 +7446,10 @@ agency:
                 "475":
                     bg: ""
                     fg: ""
+            TX:
+                "475":
+                    bg: ""
+                    fg: ""
     # SVB Auto - Städtische Verkehrsbetriebe Bern
     "000827":
         short_name: SVB Auto
@@ -7161,16 +7457,27 @@ agency:
         colors_source:
         vehicle_types:
             NFB:
+                "ALL_LINES":
+                    <<: *DEFAULT
                 "3":
                     bg: "#ffffff"
                     fg: "#231f20"
+                "3B":
+                    bg: "#ffffff"
+                    fg: "#231f20"
                 "6":
+                    bg: "#0089cf"
+                    fg: "#ffffff"
+                "6b":
                     bg: "#0089cf"
                     fg: "#ffffff"
                 "6B":
                     bg: "#0089cf"
                     fg: "#ffffff"
                 "7":
+                    bg: "#ee1d23"
+                    fg: "#ffffff"
+                "7B":
                     bg: "#ee1d23"
                     fg: "#ffffff"
                 "8":
@@ -7209,6 +7516,7 @@ agency:
                 "21":
                     bg: "#ffffff"
                     fg: "#000000"
+                # TODO - add bern colors for 22
                 "22":
                     bg: ""
                     fg: ""
@@ -7463,6 +7771,67 @@ agency:
         agency_name: Automobildienst SZU
         colors_source:
         vehicle_types:
+            BUS:
+                "121":
+                    bg: ""
+                    fg: ""
+                "122":
+                    bg: ""
+                    fg: ""
+                "123":
+                    bg: ""
+                    fg: ""
+                "125":
+                    bg: ""
+                    fg: ""
+                "126":
+                    bg: ""
+                    fg: ""
+                "127":
+                    bg: ""
+                    fg: ""
+                "128":
+                    bg: ""
+                    fg: ""
+                "129":
+                    bg: ""
+                    fg: ""
+                "131":
+                    bg: ""
+                    fg: ""
+                "132":
+                    bg: ""
+                    fg: ""
+                "133":
+                    bg: ""
+                    fg: ""
+                "134":
+                    bg: ""
+                    fg: ""
+                "136":
+                    bg: ""
+                    fg: ""
+                "140":
+                    bg: ""
+                    fg: ""
+                "142":
+                    bg: ""
+                    fg: ""
+                "145":
+                    bg: ""
+                    fg: ""
+                "151":
+                    bg: ""
+                    fg: ""
+                "152":
+                    bg: ""
+                    fg: ""
+                "153":
+                    bg: ""
+                    fg: ""
+                "156":
+                    bg: ""
+                    fg: ""
             KB:
                 "137":
                     bg: ""
@@ -7815,6 +8184,9 @@ agency:
                 "25":
                     bg: "#adc4e5"
                     fg: "#ffffff"
+                "29":
+                    bg: ""
+                    fg: ""
                 "31":
                     bg: "#c5d9e4"
                     fg: "#ffffff"
@@ -7870,8 +8242,14 @@ agency:
                     bg: "#fcb814"
                     fg: "#000000"
                 "67":
-                    bg: ""
-                    fg: ""
+                    bg: "#c3b622"
+                    fg: "#ffffff"
+                "68":
+                    bg: "#5e5da9"
+                    fg: "#ffffff"
+                "69":
+                    bg: "#5e5da9"
+                    fg: "#ffffff"
             KB:
                 "68":
                     bg: "#5e5da9"
@@ -7971,6 +8349,18 @@ agency:
             GB:
                 "ALL_LINES":
                     <<: *DEFAULT
+    # TN - TreNord
+    "327000":
+        short_name: TN
+        agency_name: TreNord
+        colors_source:
+        vehicle_types:
+            RE:
+                "ALL_LINES":
+                    <<: *TRAIN_LONG_DISTANCE
+            S:
+                "11":
+                    <<: *TRAIN_SBAHN
     # TOJ - Télésiège Ovronnaz-Jorasse
     "003040":
         short_name: TOJ
@@ -8112,6 +8502,13 @@ agency:
         agency_name: Service d'automobiles TPF
         colors_source: http://www.tpf.ch/documents/10180/20722/zone_10.pdf/3bbebab6-6f0b-45ab-a899-037e79de0232
         vehicle_types:
+            BUS:
+                "130":
+                    bg: ""
+                    fg: ""
+                "235":
+                    bg: ""
+                    fg: ""
             KB:
                 "ALL_LINES":
                     bg: "#d1d2d4"
@@ -8359,26 +8756,227 @@ agency:
     "000881":
         short_name: TPG
         agency_name: Transports Publics Genevois
-        colors_source: http://fr.wikipedia.org/wiki/Transports_publics_genevois
+        colors_source: http://www.tpg.ch/livre_horaire
         vehicle_types:
             BUS:
+                "1":
+                    bg: "#5A338B"
+                    fg: "#ffffff"
+                "2":
+                    bg: "#D6E63A"
+                    fg: "#000000"
+                "3":
+                    bg: "#A13B96"
+                    fg: "#ffffff"
+                "4":
+                    bg: "#E3000B"
+                    fg: "#ffffff"
+                "5":
+                    bg: "#00A7E3"
+                    fg: "#ffffff"
+                "6":
+                    bg: "#4392D6"
+                    fg: "#ffffff"
+                "7":
+                    bg: "#3BAA1B"
+                    fg: "#ffffff"
+                "8":
+                    bg: "#993333"
+                    fg: "#ffffff"
+                "9":
+                    bg: "#CC0033"
+                    fg: "#ffffff"
+                "10":
+                    bg: "#1C753C"
+                    fg: "#ffffff"
+                "11":
+                    bg: "#9683EC"
+                    fg: "#ffffff"
+                "19":
+                    bg: "#F6ED00"
+                    fg: "#000000"
+                "21":
+                    bg: "#663333"
+                    fg: "#ffffff"
+                "22":
+                    bg: "#663399"
+                    fg: "#ffffff"
+                "23":
+                    bg: "#CC3399"
+                    fg: "#ffffff"
+                "25":
+                    bg: "#996600"
+                    fg: "#ffffff"
+                "28":
+                    bg: "#FFCC00"
+                    fg: "#000000"
+                "31":
+                    bg: "#009999"
+                    fg: "#ffffff"
                 "32":
                     bg: "#666666"
                     fg: "#ffffff"
+                "33":
+                    bg: "#009999"
+                    fg: "#ffffff"
+                "34":
+                    bg: "#99CCCC"
+                    fg: "#000000"
+                "35":
+                    bg: "#666666"
+                    fg: "#ffffff"
+                "36":
+                    bg: "#666666"
+                    fg: "#ffffff"
+                "41":
+                    bg: "#009999"
+                    fg: "#ffffff"
+                "42":
+                    bg: "#99CCCC"
+                    fg: "#000000"
                 "43":
                     bg: "#99CCCC"
                     fg: "#000000"
+                "44":
+                    bg: "#009999"
+                    fg: "#ffffff"
+                "45":
+                    bg: "#99CCCC"
+                    fg: "#000000"
+                "46":
+                    bg: "#009999"
+                    fg: "#ffffff"
+                "47":
+                    bg: "#009999"
+                    fg: "#ffffff"
+                "51":
+                    bg: "#009999"
+                    fg: "#ffffff"
                 "53":
                     bg: "#99CCCC"
                     fg: "#000000"
+                "54":
+                    bg: "#009999"
+                    fg: "#ffffff"
+                "57":
+                    bg: "#99CCCC"
+                    fg: "#000000"
+                "61":
+                    bg: "#FF9999"
+                    fg: "#000000"
+                "A":
+                    bg: "#FF6600"
+                    fg: "#ffffff"
                 "B":
+                    bg: "#FF6600"
+                    fg: "#ffffff"
+                "C":
                     bg: "#FF6600"
                     fg: "#ffffff"
                 "D":
                     bg: "#FF9999"
                     fg: "#000000"
+                "DA":
+                    bg: "#FF9999"
+                    fg: "#000000"
+                "E":
+                    bg: "#FF6600"
+                    fg: "#ffffff"
+                "F":
+                    bg: "#FF9999"
+                    fg: "#000000"
+                "G":
+                    bg: "#FF9999"
+                    fg: "#000000"
+                "J":
+                    bg: "#d88726"
+                    fg: "#ffffff"
+                "K":
+                    bg: "#FF9999"
+                    fg: "#000000"
+                "L":
+                    bg: "#FF6600"
+                    fg: "#ffffff"
+                "M":
+                    bg: "#59C3EB"
+                    fg: "#ffffff"
+                "O":
+                    bg: "#FF9999"
+                    fg: "#000000"
+                "P":
+                    bg: "#25498c"
+                    fg: "#ffffff"
+                "S":
+                    bg: "#003399"
+                    fg: "#ffffff"
+                "T":
+                    bg: "#d3b2cc"
+                    fg: "#ffffff"
+                "T1":
+                    bg: "#FF9999"
+                    fg: "#000000"
+                "T2":
+                    bg: "#FF9999"
+                    fg: "#000000"
+                "U":
+                    bg: "#2b5294"
+                    fg: "#ffffff"
+                "V":
+                    bg: "#FF6600"
+                    fg: "#ffffff"
+                "X":
+                    bg: "#003399"
+                    fg: "#ffffff"
+                "Y":
+                    bg: "#FF9999"
+                    fg: "#000000"
                 "W":
                     bg: "#003399"
+                    fg: "#ffffff"
+                "Z":
+                    bg: "#FF9999"
+                    fg: "#000000"
+                "NA":
+                    bg: "#4D2A9B"
+                    fg: "#ffffff"
+                "NC":
+                    bg: "#4D2A9B"
+                    fg: "#ffffff"
+                "ND":
+                    bg: "#774C2D"
+                    fg: "#ffffff"
+                "NE":
+                    bg: "#A13B96"
+                    fg: "#ffffff"
+                "NJ":
+                    bg: "#D6E63A"
+                    fg: "#000000"
+                "NK":
+                    bg: "#F0A802"
+                    fg: "#000000"
+                "NM":
+                    bg: "#F0A802"
+                    fg: "#000000"
+                "NO":
+                    bg: "#805697"
+                    fg: "#ffffff"
+                "NOU":
+                    bg: "#805697"
+                    fg: "#ffffff"
+                "NP":
+                    bg: "#009999"
+                    fg: "#ffffff"
+                "NPA6":
+                    bg: "#009999"
+                    fg: "#ffffff"
+                "NS":
+                    bg: "#4392D6"
+                    fg: "#ffffff"
+                "NT":
+                    bg: "#00A7E3"
+                    fg: "#ffffff"
+                "NV":
+                    bg: "#FF6600"
                     fg: "#ffffff"
             KB:
                 "35":
@@ -8527,8 +9125,8 @@ agency:
                     bg: "#FF9999"
                     fg: "#000000"
                 "U":
-                    bg: ""
-                    fg: ""
+                    bg: "#2b5294"
+                    fg: "#ffffff"
                 "V":
                     bg: "#FF6600"
                     fg: "#ffffff"
@@ -8541,6 +9139,7 @@ agency:
                 "Z":
                     bg: "#FF9999"
                     fg: "#000000"
+                # TODO - check if the N* are night buses
                 "NA":
                     bg: "#4D2A9B"
                     fg: "#ffffff"
@@ -8563,8 +9162,8 @@ agency:
                     bg: "#F0A802"
                     fg: "#000000"
                 "NO":
-                    bg: ""
-                    fg: ""
+                    bg: "#805697"
+                    fg: "#ffffff"
                 "NP":
                     bg: "#009999"
                     fg: "#ffffff"
@@ -8597,6 +9196,19 @@ agency:
                     bg: "#F6ED00"
                     fg: "#000000"
             NFT:
+                "12":
+                    bg: "#F0A802"
+                    fg: "#000000"
+                "14":
+                    bg: "#4D2A9B"
+                    fg: "#ffffff"
+                "15":
+                    bg: "#774C2D"
+                    fg: "#ffffff"
+                "18":
+                    bg: "#A84B97"
+                    fg: "#ffffff"
+            T:
                 "12":
                     bg: "#F0A802"
                     fg: "#000000"
@@ -8660,6 +9272,15 @@ agency:
                 "7":
                     bg: "#00ab4d"
                     fg: "#ffffff"
+                "8":
+                    bg: "#c8db5c"
+                    fg: "#000000"
+                "11":
+                    bg: "#0089cf"
+                    fg: "#ffffff"
+                "12":
+                    bg: "#0089cf"
+                    fg: "#ffffff"
                 "16":
                     bg: "#ee1b2d"
                     fg: "#ffffff"
@@ -8672,6 +9293,15 @@ agency:
                 "S":
                     bg: "#feca0a"
                     fg: "#ffffff"
+    # TPL - Trasporti Pubblici Luganesi INFO+
+    "003955":
+        short_name: TPL
+        agency_name: Trasporti Pubblici Luganesi INFO+
+        colors_source: 
+        vehicle_types:
+            FUN:
+                "ALL_LINES":
+                    <<: *DEFAULT
     # TPN - Transports Publics de la Région Nyonnaise
     "000738":
         short_name: TPN
@@ -9190,33 +9820,55 @@ agency:
     "000740":
         short_name: VBD
         agency_name: Verkehrsbetrieb der Landschaft Davos
-        colors_source:
+        colors_source: http://www.vbd.ch/dl.php/de/0e9ha-mo16fx/Internet_Streckenplan_2016.pdf
         vehicle_types:
+            BUS:
+                "1":
+                    bg: "#802275"
+                    fg: "#ffffff"
+                "3":
+                    bg: "#ce2f2b"
+                    fg: "#ffffff"
+                "4":
+                    bg: "#eb8e33"
+                    fg: "#000000"
+                "8":
+                    bg: "#e88cb2"
+                    fg: "#000000"
+                "10":
+                    bg: "#1a1919"
+                    fg: "#ffffff"
+                "12":
+                    bg: "#ffffff"
+                    fg: "#000000"
+                "13":
+                    bg: "#31af6f"
+                    fg: "#ffffff"
             NFB:
                 "1":
-                    bg: ""
-                    fg: ""
+                    bg: "#802275"
+                    fg: "#ffffff"
                 "3":
-                    bg: ""
-                    fg: ""
+                    bg: "#ce2f2b"
+                    fg: "#ffffff"
                 "4":
-                    bg: ""
-                    fg: ""
+                    bg: "#eb8e33"
+                    fg: "#000000"
                 "7":
-                    bg: ""
-                    fg: ""
+                    bg: "#3a7fb7"
+                    fg: "#ffffff"
                 "8":
-                    bg: ""
-                    fg: ""
+                    bg: "#e88cb2"
+                    fg: "#000000"
                 "10":
-                    bg: ""
-                    fg: ""
+                    bg: "#1a1919"
+                    fg: "#ffffff"
                 "12":
-                    bg: ""
-                    fg: ""
+                    bg: "#ffffff"
+                    fg: "#000000"
                 "13":
-                    bg: ""
-                    fg: ""
+                    bg: "#31af6f"
+                    fg: "#ffffff"
                 "B":
                     bg: ""
                     fg: ""
@@ -9235,7 +9887,163 @@ agency:
         colors_source:
         vehicle_types:
             BUS:
+                "449":
+                    bg: ""
+                    fg: ""
+                "450":
+                    bg: ""
+                    fg: ""
+                "451":
+                    bg: ""
+                    fg: ""
+                "452":
+                    bg: ""
+                    fg: ""
+                "453":
+                    bg: ""
+                    fg: ""
+                "454":
+                    bg: ""
+                    fg: ""
+                "455":
+                    bg: ""
+                    fg: ""
+                "456":
+                    bg: ""
+                    fg: ""
+                "485":
+                    bg: ""
+                    fg: ""
+                "491":
+                    bg: ""
+                    fg: ""
+                "593":
+                    bg: ""
+                    fg: ""
                 "640":
+                    bg: ""
+                    fg: ""
+                "650":
+                    bg: ""
+                    fg: ""
+                "652":
+                    bg: ""
+                    fg: ""
+                "655":
+                    bg: ""
+                    fg: ""
+                "656":
+                    bg: ""
+                    fg: ""
+                "658":
+                    bg: ""
+                    fg: ""
+                "659":
+                    bg: ""
+                    fg: ""
+                "662":
+                    bg: ""
+                    fg: ""
+                "720":
+                    bg: ""
+                    fg: ""
+                "721":
+                    bg: ""
+                    fg: ""
+                "725":
+                    bg: ""
+                    fg: ""
+                "726":
+                    bg: ""
+                    fg: ""
+                "727":
+                    bg: ""
+                    fg: ""
+                "731":
+                    bg: ""
+                    fg: ""
+                "732":
+                    bg: ""
+                    fg: ""
+                "733":
+                    bg: ""
+                    fg: ""
+                "734":
+                    bg: ""
+                    fg: ""
+                "735":
+                    bg: ""
+                    fg: ""
+                "736":
+                    bg: ""
+                    fg: ""
+                "737":
+                    bg: ""
+                    fg: ""
+                "742":
+                    bg: ""
+                    fg: ""
+                "748":
+                    bg: ""
+                    fg: ""
+                "749":
+                    bg: ""
+                    fg: ""
+                "752":
+                    bg: ""
+                    fg: ""
+                "754":
+                    bg: ""
+                    fg: ""
+                "759":
+                    bg: ""
+                    fg: ""
+                "760":
+                    bg: ""
+                    fg: ""
+                "761":
+                    bg: ""
+                    fg: ""
+                "762":
+                    bg: ""
+                    fg: ""
+                "764":
+                    bg: ""
+                    fg: ""
+                "765":
+                    bg: ""
+                    fg: ""
+                "766":
+                    bg: ""
+                    fg: ""
+                "768":
+                    bg: ""
+                    fg: ""
+                "769":
+                    bg: ""
+                    fg: ""
+                "771":
+                    bg: ""
+                    fg: ""
+                "772":
+                    bg: ""
+                    fg: ""
+                "781":
+                    bg: ""
+                    fg: ""
+                "787":
+                    bg: ""
+                    fg: ""
+                "795":
+                    bg: ""
+                    fg: ""
+                "796":
+                    bg: ""
+                    fg: ""
+                "797":
+                    bg: ""
+                    fg: ""
+                "E":
                     bg: ""
                     fg: ""
             NB:
@@ -9407,6 +10215,10 @@ agency:
                 "E":
                     bg: ""
                     fg: ""
+            TX:
+                "435":
+                    bg: ""
+                    fg: ""
     # VBH - Verkehrsbetriebe Herisau
     "000799":
         short_name: VBH
@@ -9462,6 +10274,8 @@ agency:
                     bg: ""
                     fg: ""
             NFB:
+                "ALL_LINES":
+                    <<: *DEFAULT
                 "1":
                     bg: "#00a54f"
                     fg: "#ffffff"
@@ -9525,6 +10339,12 @@ agency:
                 "26":
                     bg: "#a153a1"
                     fg: "#ffffff"
+                "93":
+                    bg: ""
+                    fg: ""
+                "Bus":
+                    bg: ""
+                    fg: ""
                 "N1":
                     <<: *NIGHT
                 "N10":
@@ -9543,9 +10363,15 @@ agency:
                 "1":
                     bg: "#00a54f"
                     fg: "#ffffff"
+                "2":
+                    bg: "#f7931d"
+                    fg: "#ffffff"
                 "4":
                     bg: "#a153a1"
                     fg: "#ffffff"
+                "5":
+                    bg: ""
+                    fg: ""
                 "6":
                     bg: "#cb572b"
                     fg: "#ffffff"
@@ -9648,6 +10474,10 @@ agency:
             NFO:
                 "1":
                     bg: "#006f3c"
+                    fg: "#ffffff"
+            TX:
+                "8":
+                    bg: "#593e99"
                     fg: "#ffffff"
     # VBZ - Verkehrsbetriebe Zürich
     "000849":
@@ -9916,6 +10746,25 @@ agency:
         agency_name: Verkehrsbetriebe Zürich INFO+
         colors_source:
         vehicle_types:
+            BUS:
+                "2":
+                    bg: "#c0322a"
+                    fg: "#ffffff"
+                "6":
+                    bg: "#caa84f"
+                    fg: "#ffffff"
+                "7":
+                    bg: "#000000"
+                    fg: "#ffffff"
+                "9":
+                    bg: "#4b3889"
+                    fg: "#ffffff"
+                "14":
+                    bg: "#61aadb"
+                    fg: "#ffffff"
+                "17":
+                    bg: "#872563"
+                    fg: "#ffffff"
             NFB:
                 "2":
                     bg: "#c0322a"
@@ -9993,15 +10842,24 @@ agency:
                 "6":
                     bg: "#caa84f"
                     fg: "#ffffff"
+                "7":
+                    bg: "#000000"
+                    fg: "#ffffff"
                 "8":
                     bg: "#accc2d"
                     fg: "#000000"
                 "9":
                     bg: "#4b3889"
                     fg: "#ffffff"
+                "10":
+                    bg: "#c74486"
+                    fg: "#ffffff"
                 "11":
                     bg: "#5ca040"
                     fg: "#ffffff"
+                "12":
+                    bg: "#b6d6e5"
+                    fg: "#000000"
                 "13":
                     bg: "#efdb2c"
                     fg: "#000000"
@@ -10044,6 +10902,9 @@ agency:
                 "207":
                     bg: ""
                     fg: ""
+                "208":
+                    bg: ""
+                    fg: ""
                 "210":
                     bg: ""
                     fg: ""
@@ -10057,6 +10918,12 @@ agency:
                     bg: ""
                     fg: ""
                 "214":
+                    bg: ""
+                    fg: ""
+                "215":
+                    bg: ""
+                    fg: ""
+                "291":
                     bg: ""
                     fg: ""
     # VNB - Verein Naturpark Beverin
@@ -10101,7 +10968,154 @@ agency:
         colors_source:
         vehicle_types:
             BUS:
+                "811":
+                    bg: ""
+                    fg: ""
+                "812":
+                    bg: ""
+                    fg: ""
+                "813":
+                    bg: ""
+                    fg: ""
+                "816":
+                    bg: ""
+                    fg: ""
+                "817":
+                    bg: ""
+                    fg: ""
+                "842":
+                    bg: ""
+                    fg: ""
+                "845":
+                    bg: ""
+                    fg: ""
+                "850":
+                    bg: ""
+                    fg: ""
+                "851":
+                    bg: ""
+                    fg: ""
+                "852":
+                    bg: ""
+                    fg: ""
+                "853":
+                    bg: ""
+                    fg: ""
+                "854":
+                    bg: ""
+                    fg: ""
+                "856":
+                    bg: ""
+                    fg: ""
+                "857":
+                    bg: ""
+                    fg: ""
+                "858":
+                    bg: ""
+                    fg: ""
+                "862":
+                    bg: ""
+                    fg: ""
+                "867":
+                    bg: ""
+                    fg: ""
+                "869":
+                    bg: ""
+                    fg: ""
+                "870":
+                    bg: ""
+                    fg: ""
+                "875":
+                    bg: ""
+                    fg: ""
+                "880":
+                    bg: ""
+                    fg: ""
+                "882":
+                    bg: ""
+                    fg: ""
                 "883":
+                    bg: ""
+                    fg: ""
+                "884":
+                    bg: ""
+                    fg: ""
+                "885":
+                    bg: ""
+                    fg: ""
+                "888":
+                    bg: ""
+                    fg: ""
+                "893":
+                    bg: ""
+                    fg: ""
+                "921":
+                    bg: ""
+                    fg: ""
+                "922":
+                    bg: ""
+                    fg: ""
+                "923":
+                    bg: ""
+                    fg: ""
+                "925":
+                    bg: ""
+                    fg: ""
+                "931":
+                    bg: ""
+                    fg: ""
+                "932":
+                    bg: ""
+                    fg: ""
+                "940":
+                    bg: ""
+                    fg: ""
+                "941":
+                    bg: ""
+                    fg: ""
+                "950":
+                    bg: ""
+                    fg: ""
+                "951":
+                    bg: ""
+                    fg: ""
+                "952":
+                    bg: ""
+                    fg: ""
+                "955":
+                    bg: ""
+                    fg: ""
+                "961":
+                    bg: ""
+                    fg: ""
+                "962":
+                    bg: ""
+                    fg: ""
+                "970":
+                    bg: ""
+                    fg: ""
+                "972":
+                    bg: ""
+                    fg: ""
+                "973":
+                    bg: ""
+                    fg: ""
+                "974":
+                    bg: ""
+                    fg: ""
+                "991":
+                    bg: ""
+                    fg: ""
+                "992":
+                    bg: ""
+                    fg: ""
+                "993":
+                    bg: ""
+                    fg: ""
+                "994":
+                    bg: ""
+                    fg: ""
+                "995":
                     bg: ""
                     fg: ""
             KB:
@@ -10455,7 +11469,20 @@ agency:
         colors_source: http://www.zvb.ch/fahrplan/linienuebersicht-zvb-busse/
         vehicle_types:
             KB:
+                # TODO - check online for colors
+                "2":
+                    bg: "#40b1da"
+                    fg: "#000000"
+                "12":
+                    bg: "#30a68e"
+                    fg: "#ffffff"
                 "19":
+                    bg: ""
+                    fg: ""
+                "22":
+                    bg: "#cd0a20"
+                    fg: "#ffffff"
+                "619":
                     bg: ""
                     fg: ""
             NFB:
@@ -10504,6 +11531,7 @@ agency:
                 "16":
                     bg: "#da5335"
                     fg: "#ffffff"
+                # TODO - check online for colors
                 "19":
                     bg: ""
                     fg: ""
