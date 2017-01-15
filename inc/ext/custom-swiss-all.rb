@@ -1,0 +1,1 @@
+/Users/vasile/Stuff/projects/gtfs/gtfs-importer/inc/custom/swiss-all/custom.rb
