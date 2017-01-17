@@ -98,18 +98,32 @@ agency_data.each do |agency_row|
                 colors_to_use = "night"
             end
 
-            case colors_to_use
-            when "DEFAULT"
-                config_lines << "                    <<: *DEFAULT"
-            when "sbahn"
-                config_lines << "                    <<: *TRAIN_SBAHN"
-            when "train_long_distance"
-                config_lines << "                    <<: *TRAIN_LONG_DISTANCE"
-            when "night"
-                config_lines << "                    <<: *NIGHT"
+            if colors_to_use
+                case colors_to_use
+                when "DEFAULT"
+                    config_lines << "                    <<: *DEFAULT"
+                when "sbahn"
+                    config_lines << "                    <<: *TRAIN_SBAHN"
+                when "train_long_distance"
+                    config_lines << "                    <<: *TRAIN_LONG_DISTANCE"
+                when "night"
+                    config_lines << "                    <<: *NIGHT"
+                else
+                    config_lines << "                    bg: \"\""
+                    config_lines << "                    fg: \"\""
+                end
             else
-                config_lines << "                    bg: \"\""
-                config_lines << "                    fg: \"\""
+                bg_color = ''
+                fg_color = ''
+
+                color_data = color_data_from_old_config(trip_data)
+                if color_data
+                    bg_color = color_data['bg']
+                    fg_color = color_data['fg']
+                end
+
+                config_lines << "                    bg: \"#{bg_color}\""
+                config_lines << "                    fg: \"#{fg_color}\""
             end
         end
     end
