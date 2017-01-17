@@ -8,10 +8,7 @@ require "#{APP_PATH}/inc/ext/custom-swiss-all.rb"
 
 Profiler::init('START')
 
-gtfs_importer_path = "/Users/vasile/Stuff/projects/gtfs/gtfs-importer"
-gtfs_profile = "swiss-all"
-
-db_path = "#{gtfs_importer_path}/tmp/#{gtfs_profile}/gtfs.db"
+db_path = "/Users/vasile/Stuff/projects/gtfs/gtfs-crawlers/gtfs-swiss/tmp/all/gtfs-transit-swiss.db"
 db = GTFS_DB::db_with_path(db_path)
 
 Profiler::init('... query trips')

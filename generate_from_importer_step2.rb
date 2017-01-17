@@ -40,7 +40,7 @@ config = YAML.load_file(config_path)
 old_colors_config_path = "#{APP_PATH}/agency_colors.yml"
 OLD_COLORS_CONFIG = YAML.load_file(old_colors_config_path)
 
-db_path = "#{gtfs_importer_path}/tmp/#{gtfs_profile}/gtfs.db"
+db_path = "/Users/vasile/Stuff/projects/gtfs/gtfs-crawlers/gtfs-swiss/tmp/all/gtfs-transit-swiss.db"
 db = GTFS_DB::db_with_path(db_path)
 
 sql = "SELECT * FROM agency"
