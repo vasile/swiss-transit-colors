@@ -77,6 +77,7 @@ agency_data.each do |agency_row|
                 'fplan_vehicle_type' => line_data['fplan_vehicle_type'],
                 'trip_short_name' => line_data['trip_short_name'],
                 'vehicle_types_order' => 0,
+                'agency_id' => agency_id,
             }
 
             colors_to_use = nil
