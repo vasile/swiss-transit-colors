@@ -473,10 +473,10 @@ agency_data:
                 "60":
                     bg: ""
                     fg: ""
-                "61":
+                "441":
                     bg: ""
                     fg: ""
-                "441":
+                "461":
                     bg: ""
                     fg: ""
 
@@ -2156,6 +2156,10 @@ agency_data:
                 "RE":
                     <<: *TRAIN_LONG_DISTANCE
                 "TER":
+                    <<: *TRAIN_LONG_DISTANCE
+                "18":
+                    <<: *TRAIN_LONG_DISTANCE
+                "19":
                     <<: *TRAIN_LONG_DISTANCE
                 "S":
                     <<: *TRAIN_SBAHN
@@ -5607,21 +5611,6 @@ agency_data:
                 "950":
                     bg: ""
                     fg: ""
-                "9605":
-                    bg: ""
-                    fg: ""
-                "9606":
-                    bg: ""
-                    fg: ""
-                "9606.61":
-                    bg: ""
-                    fg: ""
-                "9607":
-                    bg: ""
-                    fg: ""
-                "9608":
-                    bg: ""
-                    fg: ""
                 "Bus de n":
                     bg: ""
                     fg: ""
@@ -5681,8 +5670,6 @@ agency_data:
                     fg: ""
                 "NMP":
                     <<: *NIGHT
-                "Nachtbus":
-                    <<: *NIGHT
                 "Navette":
                     <<: *NIGHT
                 "N1":
@@ -5692,6 +5679,14 @@ agency_data:
                 "N3":
                     <<: *NIGHT
                 "N4":
+                    <<: *NIGHT
+                "N5":
+                    <<: *NIGHT
+                "N6":
+                    <<: *NIGHT
+                "N7":
+                    <<: *NIGHT
+                "N8":
                     <<: *NIGHT
                 "N10":
                     <<: *NIGHT
@@ -5740,6 +5735,8 @@ agency_data:
                 "N59":
                     <<: *NIGHT
                 "N60":
+                    <<: *NIGHT
+                "N61":
                     <<: *NIGHT
                 "N63":
                     <<: *NIGHT
@@ -5993,6 +5990,8 @@ agency_data:
         colors_source:
         color_by_types:
             train:
+                "EXT":
+                    <<: *TRAIN_LONG_DISTANCE
                 "8":
                     <<: *TRAIN_LONG_DISTANCE
                 "S7":
@@ -6436,6 +6435,8 @@ agency_data:
                     <<: *TRAIN_SBAHN
                 "S99":
                     <<: *TRAIN_SBAHN
+                "SN":
+                    <<: *NIGHT
                 "SN1":
                     <<: *NIGHT
                 "SN5":
@@ -6514,8 +6515,6 @@ agency_data:
             train:
                 "RB":
                     <<: *TRAIN_LONG_DISTANCE
-                "S":
-                    <<: *TRAIN_SBAHN
                 "S5":
                     <<: *TRAIN_SBAHN
                 "S6":
@@ -7276,6 +7275,9 @@ agency_data:
                 "12":
                     bg: "#f7931d"
                     fg: "#ffffff"
+                "15":
+                    bg: ""
+                    fg: ""
                 "16":
                     bg: "#ee1d23"
                     fg: "#ffffff"
@@ -8013,8 +8015,6 @@ agency_data:
         colors_source:
         color_by_types:
             train:
-                "RE":
-                    <<: *TRAIN_LONG_DISTANCE
                 "S11":
                     <<: *TRAIN_SBAHN
 
@@ -8049,6 +8049,8 @@ agency_data:
         colors_source:
         color_by_types:
             train:
+                "EXT":
+                    <<: *TRAIN_LONG_DISTANCE
                 "R":
                     <<: *TRAIN_SBAHN
 
@@ -8130,9 +8132,6 @@ agency_data:
         colors_source:
         color_by_types:
             bus:
-                "ALL_LINES":
-                    bg: "#d1d2d4"
-                    fg: "#000000"
                 "1":
                     bg: "#64982f"
                     fg: "#ffffff"
@@ -8411,9 +8410,6 @@ agency_data:
                     fg: "#ffffff"
                 "11":
                     bg: "#9683EC"
-                    fg: "#ffffff"
-                "14":
-                    bg: "#4D2A9B"
                     fg: "#ffffff"
                 "19":
                     bg: "#F6ED00"
@@ -9207,6 +9203,15 @@ agency_data:
                 "13":
                     bg: "#31af6f"
                     fg: "#ffffff"
+                "WEF Blau":
+                    bg: ""
+                    fg: ""
+                "WEF Gelb":
+                    bg: ""
+                    fg: ""
+                "WEF Rot":
+                    bg: ""
+                    fg: ""
 
     # Verkehrsbetriebe Glattal - VBG
     "000773":

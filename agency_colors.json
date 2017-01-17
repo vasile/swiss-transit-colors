@@ -5,19 +5,19 @@
         "trip_short_name": "RB",
         "fplan_vehicle_type": "RB",
         "vehicle_line_sort": "00_00_000_RB",
-        "count": 2238
+        "count": 2400
       },
       "RE": {
         "trip_short_name": "RE",
         "fplan_vehicle_type": "RE",
         "vehicle_line_sort": "00_00_000_RE",
-        "count": 921
+        "count": 975
       },
       "IRE": {
         "trip_short_name": "IRE",
         "fplan_vehicle_type": "IRE",
         "vehicle_line_sort": "00_00_000_IRE",
-        "count": 39
+        "count": 41
       },
       "S60": {
         "trip_short_name": "S60",
@@ -31,35 +31,35 @@
         "vehicle_line_sort": "00_01_001_S1",
         "count": 352
       },
-      "S": {
-        "trip_short_name": "S",
+      "S3": {
+        "trip_short_name": "S3",
         "fplan_vehicle_type": "S",
-        "vehicle_line_sort": "00_01_000_S",
-        "count": 78
+        "vehicle_line_sort": "00_01_003_S3",
+        "count": 351
       },
       "S2": {
         "trip_short_name": "S2",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_002_S2",
-        "count": 248
+        "count": 250
       },
-      "S3": {
-        "trip_short_name": "S3",
+      "S": {
+        "trip_short_name": "S",
         "fplan_vehicle_type": "S",
-        "vehicle_line_sort": "00_01_003_S3",
-        "count": 302
+        "vehicle_line_sort": "00_01_000_S",
+        "count": 80
       },
       "S4": {
         "trip_short_name": "S4",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_004_S4",
-        "count": 328
+        "count": 329
       },
       "S5": {
         "trip_short_name": "S5",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_005_S5",
-        "count": 284
+        "count": 291
       },
       "S6": {
         "trip_short_name": "S6",
@@ -71,13 +71,19 @@
         "trip_short_name": "S22",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_022_S22",
-        "count": 42
+        "count": 45
       },
       "TER": {
         "trip_short_name": "TER",
         "fplan_vehicle_type": "TER",
         "vehicle_line_sort": "00_00_000_TER",
-        "count": 22
+        "count": 26
+      },
+      "19": {
+        "trip_short_name": "19",
+        "fplan_vehicle_type": "TER",
+        "vehicle_line_sort": "00_00_019_19",
+        "count": 5
       },
       "S24": {
         "trip_short_name": "S24",
@@ -96,6 +102,12 @@
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_033_S33",
         "count": 78
+      },
+      "18": {
+        "trip_short_name": "18",
+        "fplan_vehicle_type": "TER",
+        "vehicle_line_sort": "00_00_018_18",
+        "count": 7
       }
     }
   },
@@ -173,19 +185,19 @@
         "trip_short_name": "ICE",
         "fplan_vehicle_type": "ICE",
         "vehicle_line_sort": "00_00_000_ICE",
-        "count": 105
+        "count": 171
       },
       "IC": {
         "trip_short_name": "IC",
         "fplan_vehicle_type": "IC",
         "vehicle_line_sort": "00_00_000_IC",
-        "count": 433
+        "count": 745
       },
       "EC": {
         "trip_short_name": "EC",
         "fplan_vehicle_type": "EC",
         "vehicle_line_sort": "00_00_000_EC",
-        "count": 80
+        "count": 96
       },
       "RJ": {
         "trip_short_name": "RJ",
@@ -203,43 +215,43 @@
         "trip_short_name": "EN",
         "fplan_vehicle_type": "EN",
         "vehicle_line_sort": "00_00_000_EN",
-        "count": 8
+        "count": 13
       },
       "ICN": {
         "trip_short_name": "ICN",
         "fplan_vehicle_type": "ICN",
         "vehicle_line_sort": "00_00_000_ICN",
-        "count": 179
+        "count": 238
       },
       "IR": {
         "trip_short_name": "IR",
         "fplan_vehicle_type": "IR",
         "vehicle_line_sort": "00_00_000_IR",
-        "count": 749
+        "count": 998
       },
       "RE": {
         "trip_short_name": "RE",
         "fplan_vehicle_type": "RE",
         "vehicle_line_sort": "00_00_000_RE",
-        "count": 834
+        "count": 843
       },
       "EXT": {
         "trip_short_name": "EXT",
         "fplan_vehicle_type": "EXT",
         "vehicle_line_sort": "00_00_000_EXT",
-        "count": 38
+        "count": 94
       },
       "R": {
         "trip_short_name": "R",
         "fplan_vehicle_type": "R",
         "vehicle_line_sort": "00_01_000_R",
-        "count": 1025
+        "count": 1035
       },
       "TGV": {
         "trip_short_name": "TGV",
         "fplan_vehicle_type": "TGV",
         "vehicle_line_sort": "00_00_000_TGV",
-        "count": 77
+        "count": 136
       },
       "S23": {
         "trip_short_name": "S23",
@@ -281,25 +293,25 @@
         "trip_short_name": "S",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_000_S",
-        "count": 88
+        "count": 211
       },
       "S1": {
         "trip_short_name": "S1",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_001_S1",
-        "count": 405
+        "count": 471
       },
       "S2": {
         "trip_short_name": "S2",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_002_S2",
-        "count": 228
+        "count": 231
       },
       "S3": {
         "trip_short_name": "S3",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_003_S3",
-        "count": 290
+        "count": 333
       },
       "S4": {
         "trip_short_name": "S4",
@@ -311,7 +323,7 @@
         "trip_short_name": "S5",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_005_S5",
-        "count": 163
+        "count": 176
       },
       "S7": {
         "trip_short_name": "S7",
@@ -335,7 +347,7 @@
         "trip_short_name": "SN5",
         "fplan_vehicle_type": "SN",
         "vehicle_line_sort": "00_05_005_SN5",
-        "count": 16
+        "count": 14
       },
       "SN6": {
         "trip_short_name": "SN6",
@@ -371,13 +383,13 @@
         "trip_short_name": "S30",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_030_S30",
-        "count": 89
+        "count": 99
       },
       "S8": {
         "trip_short_name": "S8",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_008_S8",
-        "count": 287
+        "count": 227
       },
       "S24": {
         "trip_short_name": "S24",
@@ -389,7 +401,7 @@
         "trip_short_name": "S6",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_006_S6",
-        "count": 127
+        "count": 130
       },
       "S42": {
         "trip_short_name": "S42",
@@ -407,7 +419,7 @@
         "trip_short_name": "S12",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_012_S12",
-        "count": 115
+        "count": 155
       },
       "S14": {
         "trip_short_name": "S14",
@@ -419,7 +431,7 @@
         "trip_short_name": "S15",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_015_S15",
-        "count": 78
+        "count": 86
       },
       "S16": {
         "trip_short_name": "S16",
@@ -469,11 +481,17 @@
         "vehicle_line_sort": "00_00_000_ATZ",
         "count": 46
       },
+      "SN": {
+        "trip_short_name": "SN",
+        "fplan_vehicle_type": "SN",
+        "vehicle_line_sort": "00_05_000_SN",
+        "count": 4
+      },
       "TER": {
         "trip_short_name": "TER",
         "fplan_vehicle_type": "TER",
         "vehicle_line_sort": "00_00_000_TER",
-        "count": 96
+        "count": 97
       },
       "TE2": {
         "trip_short_name": "TE2",
@@ -1831,7 +1849,7 @@
         "trip_short_name": "BAT",
         "fplan_vehicle_type": "BAT",
         "vehicle_line_sort": "00_02_000_BAT",
-        "count": 167
+        "count": 168
       },
       "BAV": {
         "trip_short_name": "BAV",
@@ -2103,7 +2121,7 @@
         "trip_short_name": "LB",
         "fplan_vehicle_type": "LB",
         "vehicle_line_sort": "00_02_000_LB",
-        "count": 130
+        "count": 174
       }
     }
   },
@@ -2123,7 +2141,7 @@
         "trip_short_name": "GB",
         "fplan_vehicle_type": "GB",
         "vehicle_line_sort": "00_02_000_GB",
-        "count": 4659
+        "count": 2087
       }
     }
   },
@@ -2496,6 +2514,12 @@
         "fplan_vehicle_type": "R",
         "vehicle_line_sort": "00_01_000_R",
         "count": 69
+      },
+      "EXT": {
+        "trip_short_name": "EXT",
+        "fplan_vehicle_type": "EXT",
+        "vehicle_line_sort": "00_00_000_EXT",
+        "count": 4
       }
     }
   },
@@ -4115,13 +4139,7 @@
         "trip_short_name": "S11",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_011_S11",
-        "count": 102
-      },
-      "RE": {
-        "trip_short_name": "RE",
-        "fplan_vehicle_type": "RE",
-        "vehicle_line_sort": "00_00_000_RE",
-        "count": 1
+        "count": 91
       }
     }
   },
@@ -4141,7 +4159,7 @@
         "trip_short_name": "RE",
         "fplan_vehicle_type": "RE",
         "vehicle_line_sort": "00_00_000_RE",
-        "count": 226
+        "count": 239
       },
       "R": {
         "trip_short_name": "R",
@@ -4153,13 +4171,13 @@
         "trip_short_name": "S",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_000_S",
-        "count": 60
+        "count": 64
       },
       "S1": {
         "trip_short_name": "S1",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_001_S1",
-        "count": 109
+        "count": 108
       },
       "S2": {
         "trip_short_name": "S2",
@@ -4171,7 +4189,7 @@
         "trip_short_name": "S3",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_003_S3",
-        "count": 85
+        "count": 84
       },
       "S4": {
         "trip_short_name": "S4",
@@ -4231,7 +4249,7 @@
         "trip_short_name": "EXT",
         "fplan_vehicle_type": "EXT",
         "vehicle_line_sort": "00_00_000_EXT",
-        "count": 24
+        "count": 26
       }
     }
   },
@@ -4523,6 +4541,48 @@
   },
   "003849": {
     "tram": {
+      "13": {
+        "trip_short_name": "13",
+        "fplan_vehicle_type": "T",
+        "vehicle_line_sort": "00_00_013_13",
+        "count": 947
+      },
+      "8": {
+        "trip_short_name": "8",
+        "fplan_vehicle_type": "T",
+        "vehicle_line_sort": "00_00_008_8",
+        "count": 1136
+      },
+      "17": {
+        "trip_short_name": "17",
+        "fplan_vehicle_type": "T",
+        "vehicle_line_sort": "00_00_017_17",
+        "count": 1154
+      },
+      "2": {
+        "trip_short_name": "2",
+        "fplan_vehicle_type": "T",
+        "vehicle_line_sort": "00_00_002_2",
+        "count": 1170
+      },
+      "4": {
+        "trip_short_name": "4",
+        "fplan_vehicle_type": "T",
+        "vehicle_line_sort": "00_00_004_4",
+        "count": 1132
+      },
+      "3": {
+        "trip_short_name": "3",
+        "fplan_vehicle_type": "T",
+        "vehicle_line_sort": "00_00_003_3",
+        "count": 1079
+      },
+      "7": {
+        "trip_short_name": "7",
+        "fplan_vehicle_type": "T",
+        "vehicle_line_sort": "00_00_007_7",
+        "count": 937
+      },
       "11": {
         "trip_short_name": "11",
         "fplan_vehicle_type": "T",
@@ -4540,48 +4600,6 @@
         "fplan_vehicle_type": "T",
         "vehicle_line_sort": "00_00_014_14",
         "count": 937
-      },
-      "2": {
-        "trip_short_name": "2",
-        "fplan_vehicle_type": "T",
-        "vehicle_line_sort": "00_00_002_2",
-        "count": 1165
-      },
-      "13": {
-        "trip_short_name": "13",
-        "fplan_vehicle_type": "T",
-        "vehicle_line_sort": "00_00_013_13",
-        "count": 939
-      },
-      "3": {
-        "trip_short_name": "3",
-        "fplan_vehicle_type": "T",
-        "vehicle_line_sort": "00_00_003_3",
-        "count": 1073
-      },
-      "4": {
-        "trip_short_name": "4",
-        "fplan_vehicle_type": "T",
-        "vehicle_line_sort": "00_00_004_4",
-        "count": 1126
-      },
-      "7": {
-        "trip_short_name": "7",
-        "fplan_vehicle_type": "T",
-        "vehicle_line_sort": "00_00_007_7",
-        "count": 917
-      },
-      "17": {
-        "trip_short_name": "17",
-        "fplan_vehicle_type": "T",
-        "vehicle_line_sort": "00_00_017_17",
-        "count": 1327
-      },
-      "8": {
-        "trip_short_name": "8",
-        "fplan_vehicle_type": "T",
-        "vehicle_line_sort": "00_00_008_8",
-        "count": 1129
       },
       "6": {
         "trip_short_name": "6",
@@ -4731,7 +4749,7 @@
         "trip_short_name": "R",
         "fplan_vehicle_type": "R",
         "vehicle_line_sort": "00_01_000_R",
-        "count": 161
+        "count": 164
       },
       "GEX": {
         "trip_short_name": "GEX",
@@ -4861,13 +4879,13 @@
         "trip_short_name": "S",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_000_S",
-        "count": 46
+        "count": 53
       },
       "RE": {
         "trip_short_name": "RE",
         "fplan_vehicle_type": "RE",
         "vehicle_line_sort": "00_00_000_RE",
-        "count": 48
+        "count": 54
       },
       "S30": {
         "trip_short_name": "S30",
@@ -4879,13 +4897,13 @@
         "trip_short_name": "S35",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_035_S35",
-        "count": 74
+        "count": 75
       },
       "SN": {
         "trip_short_name": "SN",
         "fplan_vehicle_type": "SN",
         "vehicle_line_sort": "00_05_000_SN",
-        "count": 118
+        "count": 137
       },
       "SN3": {
         "trip_short_name": "SN3",
@@ -4933,7 +4951,7 @@
         "trip_short_name": "S1",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_001_S1",
-        "count": 42
+        "count": 45
       },
       "S2": {
         "trip_short_name": "S2",
@@ -4951,7 +4969,7 @@
         "trip_short_name": "S5",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_005_S5",
-        "count": 46
+        "count": 49
       },
       "S7": {
         "trip_short_name": "S7",
@@ -4963,7 +4981,7 @@
         "trip_short_name": "S8",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_008_S8",
-        "count": 103
+        "count": 104
       },
       "S9": {
         "trip_short_name": "S9",
@@ -5047,13 +5065,13 @@
         "trip_short_name": "BUS",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_BUS",
-        "count": 627
+        "count": 873
       },
       "NFB": {
         "trip_short_name": "NFB",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_05_000_NFB",
-        "count": 405
+        "count": 648
       },
       "TX": {
         "trip_short_name": "TX",
@@ -5075,13 +5093,13 @@
         "trip_short_name": "NFB",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_05_000_NFB",
-        "count": 171
+        "count": 211
       },
       "BUS": {
         "trip_short_name": "BUS",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_BUS",
-        "count": 20
+        "count": 22
       }
     },
     "train": {
@@ -5235,7 +5253,7 @@
         "trip_short_name": "NFB",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_05_000_NFB",
-        "count": 11
+        "count": 13
       },
       "736": {
         "trip_short_name": "736",
@@ -5543,13 +5561,13 @@
         "trip_short_name": "3",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_003_3",
-        "count": 183
+        "count": 297
       },
       "9": {
         "trip_short_name": "9",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_009_9",
-        "count": 46
+        "count": 92
       }
     }
   },
@@ -5611,7 +5629,7 @@
         "trip_short_name": "EXT",
         "fplan_vehicle_type": "EXT",
         "vehicle_line_sort": "00_00_000_EXT",
-        "count": 301
+        "count": 302
       }
     },
     "bus": {
@@ -5789,7 +5807,7 @@
         "trip_short_name": "R",
         "fplan_vehicle_type": "R",
         "vehicle_line_sort": "00_01_000_R",
-        "count": 92
+        "count": 124
       }
     }
   },
@@ -5797,45 +5815,63 @@
     "bus": {
       "1": {
         "trip_short_name": "1",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_001_1",
         "count": 182
       },
       "3": {
         "trip_short_name": "3",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_003_3",
-        "count": 74
-      },
-      "4": {
-        "trip_short_name": "4",
-        "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_004_4",
         "count": 75
       },
       "8": {
         "trip_short_name": "8",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_008_8",
         "count": 38
       },
       "10": {
         "trip_short_name": "10",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_010_10",
         "count": 27
       },
       "12": {
         "trip_short_name": "12",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_012_12",
         "count": 10
       },
       "13": {
         "trip_short_name": "13",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_013_13",
         "count": 46
+      },
+      "WEF Rot": {
+        "trip_short_name": "WEF Rot",
+        "fplan_vehicle_type": "NFB",
+        "vehicle_line_sort": "00_02_000_WEF Rot",
+        "count": 174
+      },
+      "WEF Blau": {
+        "trip_short_name": "WEF Blau",
+        "fplan_vehicle_type": "NFB",
+        "vehicle_line_sort": "00_02_000_WEF Blau",
+        "count": 179
+      },
+      "WEF Gelb": {
+        "trip_short_name": "WEF Gelb",
+        "fplan_vehicle_type": "NFB",
+        "vehicle_line_sort": "00_02_000_WEF Gelb",
+        "count": 164
+      },
+      "4": {
+        "trip_short_name": "4",
+        "fplan_vehicle_type": "NFB",
+        "vehicle_line_sort": "00_00_004_4",
+        "count": 75
       }
     }
   },
@@ -5989,37 +6025,31 @@
         "trip_short_name": "2",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_002_2",
-        "count": 367
+        "count": 493
       },
       "3": {
         "trip_short_name": "3",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_003_3",
-        "count": 351
+        "count": 128
       },
       "4": {
         "trip_short_name": "4",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_004_4",
-        "count": 211
+        "count": 212
       },
       "6": {
         "trip_short_name": "6",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_006_6",
-        "count": 200
+        "count": 317
       },
       "7": {
         "trip_short_name": "7",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_007_7",
         "count": 43
-      },
-      "17": {
-        "trip_short_name": "17",
-        "fplan_vehicle_type": "NFB",
-        "vehicle_line_sort": "00_00_017_17",
-        "count": 17
       },
       "8": {
         "trip_short_name": "8",
@@ -6043,7 +6073,13 @@
         "trip_short_name": "10",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_010_10",
-        "count": 39
+        "count": 53
+      },
+      "17": {
+        "trip_short_name": "17",
+        "fplan_vehicle_type": "NFB",
+        "vehicle_line_sort": "00_00_017_17",
+        "count": 17
       },
       "NB": {
         "trip_short_name": "NB",
@@ -6177,7 +6213,7 @@
         "trip_short_name": "655",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_655_655",
-        "count": 169
+        "count": 171
       },
       "762": {
         "trip_short_name": "762",
@@ -6883,7 +6919,7 @@
         "trip_short_name": "1",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_001_1",
-        "count": 709
+        "count": 710
       },
       "482": {
         "trip_short_name": "482",
@@ -6901,7 +6937,7 @@
         "trip_short_name": "N4",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_05_004_N4",
-        "count": 1
+        "count": 5
       },
       "581": {
         "trip_short_name": "581",
@@ -6949,7 +6985,7 @@
         "trip_short_name": "424",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_424_424",
-        "count": 103
+        "count": 106
       },
       "705": {
         "trip_short_name": "705",
@@ -6967,7 +7003,7 @@
         "trip_short_name": "3",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_003_3",
-        "count": 520
+        "count": 522
       },
       "25": {
         "trip_short_name": "25",
@@ -7039,7 +7075,7 @@
         "trip_short_name": "451",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_451_451",
-        "count": 269
+        "count": 359
       },
       "632": {
         "trip_short_name": "632",
@@ -7117,13 +7153,13 @@
         "trip_short_name": "501",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_501_501",
-        "count": 114
+        "count": 182
       },
       "502": {
         "trip_short_name": "502",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_502_502",
-        "count": 51
+        "count": 52
       },
       "422": {
         "trip_short_name": "422",
@@ -7147,7 +7183,7 @@
         "trip_short_name": "N1",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_05_001_N1",
-        "count": 12
+        "count": 16
       },
       "423": {
         "trip_short_name": "423",
@@ -7159,7 +7195,7 @@
         "trip_short_name": "N2",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_05_002_N2",
-        "count": 3
+        "count": 5
       },
       "331": {
         "trip_short_name": "331",
@@ -7183,7 +7219,7 @@
         "trip_short_name": "N3",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_05_003_N3",
-        "count": 2
+        "count": 4
       },
       "171": {
         "trip_short_name": "171",
@@ -7315,7 +7351,7 @@
         "trip_short_name": "444",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_444_444",
-        "count": 168
+        "count": 150
       },
       "421": {
         "trip_short_name": "421",
@@ -7363,7 +7399,7 @@
         "trip_short_name": "532",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_532_532",
-        "count": 69
+        "count": 70
       },
       "213": {
         "trip_short_name": "213",
@@ -7585,7 +7621,7 @@
         "trip_short_name": "923",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_923_923",
-        "count": 152
+        "count": 154
       },
       "429": {
         "trip_short_name": "429",
@@ -7616,6 +7652,12 @@
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_110_110",
         "count": 52
+      },
+      "420": {
+        "trip_short_name": "420",
+        "fplan_vehicle_type": "BUS",
+        "vehicle_line_sort": "00_00_420_420",
+        "count": 40
       },
       "163": {
         "trip_short_name": "163",
@@ -7693,7 +7735,7 @@
         "trip_short_name": "215",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_215_215",
-        "count": 238
+        "count": 252
       },
       "OW 4": {
         "trip_short_name": "OW 4",
@@ -7833,17 +7875,11 @@
         "vehicle_line_sort": "00_00_217_217",
         "count": 98
       },
-      "31": {
-        "trip_short_name": "31",
-        "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_031_31",
-        "count": 109
-      },
       "525": {
         "trip_short_name": "525",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_525_525",
-        "count": 271
+        "count": 277
       },
       "428": {
         "trip_short_name": "428",
@@ -7910,6 +7946,12 @@
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_008_OW8",
         "count": 23
+      },
+      "31": {
+        "trip_short_name": "31",
+        "fplan_vehicle_type": "BUS",
+        "vehicle_line_sort": "00_00_031_31",
+        "count": 109
       },
       "193": {
         "trip_short_name": "193",
@@ -8043,6 +8085,12 @@
         "vehicle_line_sort": "00_05_064_N64",
         "count": 17
       },
+      "950": {
+        "trip_short_name": "950",
+        "fplan_vehicle_type": "BUS",
+        "vehicle_line_sort": "00_00_950_950",
+        "count": 28
+      },
       "N40": {
         "trip_short_name": "N40",
         "fplan_vehicle_type": "BUS",
@@ -8113,7 +8161,7 @@
         "trip_short_name": "N53",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_05_053_N53",
-        "count": 10
+        "count": 12
       },
       "50": {
         "trip_short_name": "50",
@@ -8415,12 +8463,6 @@
         "vehicle_line_sort": "00_05_041_N41",
         "count": 3
       },
-      "Nachtbus": {
-        "trip_short_name": "Nachtbus",
-        "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_05_000_Nachtbus",
-        "count": 12
-      },
       "N44": {
         "trip_short_name": "N44",
         "fplan_vehicle_type": "BUS",
@@ -8497,7 +8539,7 @@
         "trip_short_name": "132",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_132_132",
-        "count": 134
+        "count": 135
       },
       "133": {
         "trip_short_name": "133",
@@ -8569,7 +8611,7 @@
         "trip_short_name": "115",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_115_115",
-        "count": 277
+        "count": 281
       },
       "150": {
         "trip_short_name": "150",
@@ -8717,7 +8759,7 @@
       },
       "205": {
         "trip_short_name": "205",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_205_205",
         "count": 64
       },
@@ -8729,7 +8771,7 @@
       },
       "210": {
         "trip_short_name": "210",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_210_210",
         "count": 87
       },
@@ -8737,7 +8779,7 @@
         "trip_short_name": "661",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_661_661",
-        "count": 56
+        "count": 72
       },
       "621": {
         "trip_short_name": "621",
@@ -8751,17 +8793,17 @@
         "vehicle_line_sort": "00_00_224_224",
         "count": 27
       },
-      "9608": {
-        "trip_short_name": "9608",
-        "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_9608_9608",
-        "count": 4
-      },
       "225": {
         "trip_short_name": "225",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_225_225",
         "count": 170
+      },
+      "N8": {
+        "trip_short_name": "N8",
+        "fplan_vehicle_type": "BUS",
+        "vehicle_line_sort": "00_05_008_N8",
+        "count": 4
       },
       "226": {
         "trip_short_name": "226",
@@ -8771,7 +8813,7 @@
       },
       "227": {
         "trip_short_name": "227",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_227_227",
         "count": 97
       },
@@ -8783,19 +8825,19 @@
       },
       "228": {
         "trip_short_name": "228",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_228_228",
         "count": 113
       },
       "229": {
         "trip_short_name": "229",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_229_229",
         "count": 88
       },
       "230": {
         "trip_short_name": "230",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_230_230",
         "count": 53
       },
@@ -8821,7 +8863,7 @@
         "trip_short_name": "392",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_392_392",
-        "count": 63
+        "count": 64
       },
       "241": {
         "trip_short_name": "241",
@@ -9109,7 +9151,7 @@
         "trip_short_name": "382",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_382_382",
-        "count": 56
+        "count": 57
       },
       "383": {
         "trip_short_name": "383",
@@ -9133,7 +9175,7 @@
         "trip_short_name": "40",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_040_40",
-        "count": 10
+        "count": 13
       },
       "407": {
         "trip_short_name": "407",
@@ -9165,12 +9207,6 @@
         "vehicle_line_sort": "00_00_415_415",
         "count": 18
       },
-      "420": {
-        "trip_short_name": "420",
-        "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_420_420",
-        "count": 22
-      },
       "430": {
         "trip_short_name": "430",
         "fplan_vehicle_type": "BUS",
@@ -9195,10 +9231,10 @@
         "vehicle_line_sort": "00_00_350_350",
         "count": 165
       },
-      "9605": {
-        "trip_short_name": "9605",
+      "N5": {
+        "trip_short_name": "N5",
         "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_9605_9605",
+        "vehicle_line_sort": "00_05_005_N5",
         "count": 2
       },
       "503": {
@@ -9251,7 +9287,7 @@
       },
       "533": {
         "trip_short_name": "533",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "TX",
         "vehicle_line_sort": "00_00_533_533",
         "count": 68
       },
@@ -9403,7 +9439,7 @@
         "trip_short_name": "603",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_603_603",
-        "count": 2
+        "count": 3
       },
       "605": {
         "trip_short_name": "605",
@@ -9557,7 +9593,7 @@
       },
       "665": {
         "trip_short_name": "665",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_665_665",
         "count": 115
       },
@@ -9711,10 +9747,10 @@
         "vehicle_line_sort": "00_00_726_726",
         "count": 56
       },
-      "9606": {
-        "trip_short_name": "9606",
+      "N6": {
+        "trip_short_name": "N6",
         "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_9606_9606",
+        "vehicle_line_sort": "00_05_006_N6",
         "count": 5
       },
       "727": {
@@ -9741,10 +9777,10 @@
         "vehicle_line_sort": "00_00_252_252",
         "count": 38
       },
-      "9607": {
-        "trip_short_name": "9607",
+      "N7": {
+        "trip_short_name": "N7",
         "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_9607_9607",
+        "vehicle_line_sort": "00_05_007_N7",
         "count": 4
       },
       "740": {
@@ -9935,7 +9971,7 @@
       },
       "825": {
         "trip_short_name": "825",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_825_825",
         "count": 135
       },
@@ -9949,7 +9985,7 @@
         "trip_short_name": "827",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_827_827",
-        "count": 48
+        "count": 46
       },
       "828": {
         "trip_short_name": "828",
@@ -9977,20 +10013,20 @@
       },
       "834": {
         "trip_short_name": "834",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_834_834",
         "count": 58
       },
       "835": {
         "trip_short_name": "835",
-        "fplan_vehicle_type": "BUS",
+        "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_835_835",
         "count": 162
       },
-      "9606.61": {
-        "trip_short_name": "9606.61",
+      "N61": {
+        "trip_short_name": "N61",
         "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_9606_9606.61",
+        "vehicle_line_sort": "00_05_061_N61",
         "count": 2
       },
       "836": {
@@ -10185,12 +10221,6 @@
         "vehicle_line_sort": "00_00_944_944",
         "count": 50
       },
-      "950": {
-        "trip_short_name": "950",
-        "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_950_950",
-        "count": 24
-      },
       "N56": {
         "trip_short_name": "N56",
         "fplan_vehicle_type": "BUS",
@@ -10201,7 +10231,7 @@
         "trip_short_name": "N59",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_05_059_N59",
-        "count": 3
+        "count": 4
       },
       "N65": {
         "trip_short_name": "N65",
@@ -10373,7 +10403,7 @@
         "trip_short_name": "R",
         "fplan_vehicle_type": "R",
         "vehicle_line_sort": "00_01_000_R",
-        "count": 132
+        "count": 133
       }
     }
   },
@@ -10645,7 +10675,7 @@
         "trip_short_name": "1",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_001_1",
-        "count": 162
+        "count": 161
       },
       "2": {
         "trip_short_name": "2",
@@ -10829,7 +10859,7 @@
         "trip_short_name": "S",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_000_S",
-        "count": 13
+        "count": 15
       },
       "S27": {
         "trip_short_name": "S27",
@@ -10877,7 +10907,7 @@
         "trip_short_name": "SN",
         "fplan_vehicle_type": "SN",
         "vehicle_line_sort": "00_05_000_SN",
-        "count": 8
+        "count": 23
       }
     }
   },
@@ -11265,7 +11295,7 @@
         "trip_short_name": "9",
         "fplan_vehicle_type": "NFT",
         "vehicle_line_sort": "00_00_009_9",
-        "count": 747
+        "count": 844
       }
     },
     "bus": {
@@ -11287,6 +11317,12 @@
         "vehicle_line_sort": "00_00_012_12",
         "count": 894
       },
+      "15": {
+        "trip_short_name": "15",
+        "fplan_vehicle_type": "NFB",
+        "vehicle_line_sort": "00_00_015_15",
+        "count": 1679
+      },
       "16": {
         "trip_short_name": "16",
         "fplan_vehicle_type": "NFB",
@@ -11303,7 +11339,7 @@
         "trip_short_name": "19",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_019_19",
-        "count": 627
+        "count": 1120
       },
       "20": {
         "trip_short_name": "20",
@@ -11399,13 +11435,13 @@
         "trip_short_name": "M6",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_02_006_M6",
-        "count": 8
+        "count": 15
       },
       "M7": {
         "trip_short_name": "M7",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_02_007_M7",
-        "count": 13
+        "count": 15
       },
       "M8": {
         "trip_short_name": "M8",
@@ -12111,7 +12147,7 @@
         "trip_short_name": "211",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_211_211",
-        "count": 29
+        "count": 35
       },
       "230": {
         "trip_short_name": "230",
@@ -12627,13 +12663,13 @@
         "trip_short_name": "9",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_009_9",
-        "count": 94
+        "count": 100
       },
       "10": {
         "trip_short_name": "10",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_010_10",
-        "count": 94
+        "count": 98
       },
       "11": {
         "trip_short_name": "11",
@@ -13009,7 +13045,7 @@
         "trip_short_name": "25",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_025_25",
-        "count": 203
+        "count": 204
       },
       "26": {
         "trip_short_name": "26",
@@ -13065,6 +13101,18 @@
         "vehicle_line_sort": "00_00_080_80",
         "count": 902
       },
+      "78": {
+        "trip_short_name": "78",
+        "fplan_vehicle_type": "BUS",
+        "vehicle_line_sort": "00_00_078_78",
+        "count": 471
+      },
+      "89": {
+        "trip_short_name": "89",
+        "fplan_vehicle_type": "BUS",
+        "vehicle_line_sort": "00_00_089_89",
+        "count": 541
+      },
       "31": {
         "trip_short_name": "31",
         "fplan_vehicle_type": "BUS",
@@ -13119,23 +13167,11 @@
         "vehicle_line_sort": "00_00_910_910",
         "count": 247
       },
-      "78": {
-        "trip_short_name": "78",
-        "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_078_78",
-        "count": 471
-      },
       "67": {
         "trip_short_name": "67",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_067_67",
         "count": 595
-      },
-      "89": {
-        "trip_short_name": "89",
-        "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_089_89",
-        "count": 541
       },
       "62": {
         "trip_short_name": "62",
@@ -13184,6 +13220,12 @@
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_701_701",
         "count": 305
+      },
+      "64": {
+        "trip_short_name": "64",
+        "fplan_vehicle_type": "BUS",
+        "vehicle_line_sort": "00_00_064_64",
+        "count": 673
       },
       "704": {
         "trip_short_name": "704",
@@ -13281,17 +13323,17 @@
         "vehicle_line_sort": "00_00_035_35",
         "count": 365
       },
-      "64": {
-        "trip_short_name": "64",
-        "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_064_64",
-        "count": 312
-      },
       "918": {
         "trip_short_name": "918",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_918_918",
         "count": 160
+      },
+      "306": {
+        "trip_short_name": "306",
+        "fplan_vehicle_type": "BUS",
+        "vehicle_line_sort": "00_00_306_306",
+        "count": 132
       },
       "302": {
         "trip_short_name": "302",
@@ -13365,12 +13407,6 @@
         "vehicle_line_sort": "00_00_038_38",
         "count": 156
       },
-      "306": {
-        "trip_short_name": "306",
-        "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_306_306",
-        "count": 118
-      },
       "307": {
         "trip_short_name": "307",
         "fplan_vehicle_type": "KB",
@@ -13395,6 +13431,12 @@
         "vehicle_line_sort": "00_00_314_314",
         "count": 37
       },
+      "N5": {
+        "trip_short_name": "N5",
+        "fplan_vehicle_type": "NB",
+        "vehicle_line_sort": "00_05_005_N5",
+        "count": 23
+      },
       "162": {
         "trip_short_name": "162",
         "fplan_vehicle_type": "BUS",
@@ -13418,12 +13460,6 @@
         "fplan_vehicle_type": "KB",
         "vehicle_line_sort": "00_00_917_917",
         "count": 27
-      },
-      "N5": {
-        "trip_short_name": "N5",
-        "fplan_vehicle_type": "NB",
-        "vehicle_line_sort": "00_05_005_N5",
-        "count": 16
       },
       "N2": {
         "trip_short_name": "N2",
@@ -13601,7 +13637,7 @@
         "trip_short_name": "38",
         "fplan_vehicle_type": "NFB",
         "vehicle_line_sort": "00_00_038_38",
-        "count": 154
+        "count": 150
       },
       "40": {
         "trip_short_name": "40",
@@ -13827,10 +13863,10 @@
   },
   "000858": {
     "bus": {
-      "61": {
-        "trip_short_name": "61",
+      "461": {
+        "trip_short_name": "461",
         "fplan_vehicle_type": "NFB",
-        "vehicle_line_sort": "00_00_061_61",
+        "vehicle_line_sort": "00_00_461_461",
         "count": 72
       },
       "441": {
@@ -14471,7 +14507,13 @@
         "trip_short_name": "S8",
         "fplan_vehicle_type": "S",
         "vehicle_line_sort": "00_01_008_S8",
-        "count": 161
+        "count": 165
+      },
+      "EXT": {
+        "trip_short_name": "EXT",
+        "fplan_vehicle_type": "EXT",
+        "vehicle_line_sort": "00_00_000_EXT",
+        "count": 5
       },
       "S9": {
         "trip_short_name": "S9",
@@ -14501,199 +14543,205 @@
         "trip_short_name": "5",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_005_5",
-        "count": 4130
+        "count": 3694
       },
       "25": {
         "trip_short_name": "25",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_025_25",
-        "count": 3443
+        "count": 3191
       },
       "1": {
         "trip_short_name": "1",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_001_1",
-        "count": 3500
+        "count": 3236
       },
       "9": {
         "trip_short_name": "9",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_009_9",
-        "count": 3479
+        "count": 3221
       },
       "4": {
         "trip_short_name": "4",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_004_4",
-        "count": 2405
+        "count": 2136
       },
       "8": {
         "trip_short_name": "8",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_008_8",
-        "count": 4886
+        "count": 4484
       },
       "11": {
         "trip_short_name": "11",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_011_11",
-        "count": 3491
+        "count": 3227
       },
       "21": {
         "trip_short_name": "21",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_021_21",
-        "count": 3281
+        "count": 3008
       },
       "22": {
         "trip_short_name": "22",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_022_22",
-        "count": 2469
+        "count": 2261
       },
       "23": {
         "trip_short_name": "23",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_023_23",
-        "count": 2510
+        "count": 2311
       },
       "42": {
         "trip_short_name": "42",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_042_42",
-        "count": 1436
+        "count": 1366
       },
       "46": {
         "trip_short_name": "46",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_046_46",
-        "count": 906
+        "count": 816
       },
       "A": {
         "trip_short_name": "A",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_A",
-        "count": 1371
+        "count": 1299
       },
       "33": {
         "trip_short_name": "33",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_033_33",
-        "count": 1341
+        "count": 1268
       },
       "31": {
         "trip_short_name": "31",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_031_31",
-        "count": 1332
+        "count": 1257
       },
       "E": {
         "trip_short_name": "E",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_E",
-        "count": 2102
+        "count": 1979
       },
       "G": {
         "trip_short_name": "G",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_G",
-        "count": 1433
+        "count": 1368
       },
       "J": {
         "trip_short_name": "J",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_J",
-        "count": 1273
+        "count": 1183
       },
       "K": {
         "trip_short_name": "K",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_K",
-        "count": 1255
+        "count": 1166
       },
       "L": {
         "trip_short_name": "L",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_L",
-        "count": 1254
+        "count": 1147
       },
       "P": {
         "trip_short_name": "P",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_P",
-        "count": 504
+        "count": 443
       },
       "V": {
         "trip_short_name": "V",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_V",
-        "count": 1400
+        "count": 1305
       },
       "Z": {
         "trip_short_name": "Z",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_Z",
-        "count": 1057
+        "count": 935
+      },
+      "47": {
+        "trip_short_name": "47",
+        "fplan_vehicle_type": "BUS",
+        "vehicle_line_sort": "00_00_047_47",
+        "count": 1226
       },
       "D": {
         "trip_short_name": "D",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_D",
-        "count": 870
+        "count": 344
       },
       "M": {
         "trip_short_name": "M",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_M",
-        "count": 146
+        "count": 60
       },
       "41": {
         "trip_short_name": "41",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_041_41",
-        "count": 908
+        "count": 896
       },
       "44": {
         "trip_short_name": "44",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_044_44",
-        "count": 886
+        "count": 847
       },
       "45": {
         "trip_short_name": "45",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_045_45",
-        "count": 862
+        "count": 843
       },
       "53": {
         "trip_short_name": "53",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_053_53",
-        "count": 642
+        "count": 618
       },
       "B": {
         "trip_short_name": "B",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_B",
-        "count": 252
+        "count": 233
       },
       "NA": {
         "trip_short_name": "NA",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_05_000_NA",
-        "count": 20
+        "count": 24
       },
       "NK": {
         "trip_short_name": "NK",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_05_000_NK",
-        "count": 10
+        "count": 12
       },
       "NS": {
         "trip_short_name": "NS",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_05_000_NS",
-        "count": 15
+        "count": 18
       },
       "28": {
         "trip_short_name": "28",
@@ -14701,47 +14749,41 @@
         "vehicle_line_sort": "00_00_028_28",
         "count": 998
       },
-      "35": {
-        "trip_short_name": "35",
-        "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_035_35",
-        "count": 1294
-      },
-      "47": {
-        "trip_short_name": "47",
-        "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_047_47",
-        "count": 1163
-      },
-      "51": {
-        "trip_short_name": "51",
-        "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_051_51",
-        "count": 856
-      },
       "57": {
         "trip_short_name": "57",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_057_57",
         "count": 1022
       },
-      "T": {
-        "trip_short_name": "T",
+      "35": {
+        "trip_short_name": "35",
         "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_02_000_T",
-        "count": 232
+        "vehicle_line_sort": "00_00_035_35",
+        "count": 1294
+      },
+      "51": {
+        "trip_short_name": "51",
+        "fplan_vehicle_type": "BUS",
+        "vehicle_line_sort": "00_00_051_51",
+        "count": 894
       },
       "36": {
         "trip_short_name": "36",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_036_36",
-        "count": 463
+        "count": 501
       },
       "54": {
         "trip_short_name": "54",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_054_54",
-        "count": 364
+        "count": 408
+      },
+      "T": {
+        "trip_short_name": "T",
+        "fplan_vehicle_type": "BUS",
+        "vehicle_line_sort": "00_02_000_T",
+        "count": 232
       },
       "U": {
         "trip_short_name": "U",
@@ -14753,7 +14795,7 @@
         "trip_short_name": "X",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_X",
-        "count": 352
+        "count": 394
       },
       "NE": {
         "trip_short_name": "NE",
@@ -14777,157 +14819,151 @@
         "trip_short_name": "34",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_034_34",
-        "count": 814
+        "count": 483
       },
       "43": {
         "trip_short_name": "43",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_043_43",
-        "count": 1030
+        "count": 611
       },
       "C": {
         "trip_short_name": "C",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_C",
-        "count": 834
+        "count": 502
       },
       "S": {
         "trip_short_name": "S",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_S",
-        "count": 874
+        "count": 517
       },
       "O": {
         "trip_short_name": "O",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_O",
-        "count": 448
+        "count": 256
       },
       "W": {
         "trip_short_name": "W",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_W",
-        "count": 66
+        "count": 44
       },
       "NC": {
         "trip_short_name": "NC",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_05_000_NC",
-        "count": 20
+        "count": 16
       },
       "ND": {
         "trip_short_name": "ND",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_05_000_ND",
-        "count": 10
+        "count": 8
       },
       "NJ": {
         "trip_short_name": "NJ",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_05_000_NJ",
-        "count": 20
+        "count": 16
       },
       "NM": {
         "trip_short_name": "NM",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_05_000_NM",
-        "count": 10
+        "count": 8
       },
       "NO": {
         "trip_short_name": "NO",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_05_000_NO",
-        "count": 10
+        "count": 8
       },
       "NT": {
         "trip_short_name": "NT",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_05_000_NT",
-        "count": 10
+        "count": 8
       },
       "F": {
         "trip_short_name": "F",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_F",
-        "count": 656
+        "count": 274
       },
       "Y": {
         "trip_short_name": "Y",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_Y",
-        "count": 431
+        "count": 171
       },
       "2": {
         "trip_short_name": "2",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_002_2",
-        "count": 1582
+        "count": 1260
       },
       "19": {
         "trip_short_name": "19",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_019_19",
-        "count": 1597
+        "count": 1223
       },
       "6": {
         "trip_short_name": "6",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_006_6",
-        "count": 1953
+        "count": 1492
       },
       "3": {
         "trip_short_name": "3",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_003_3",
-        "count": 2934
+        "count": 2176
       },
       "7": {
         "trip_short_name": "7",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_007_7",
-        "count": 1496
+        "count": 1183
       },
       "10": {
         "trip_short_name": "10",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_010_10",
-        "count": 1737
+        "count": 1310
       },
       "61": {
         "trip_short_name": "61",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_00_061_61",
-        "count": 1276
+        "count": 874
       },
       "DA": {
         "trip_short_name": "DA",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_000_DA",
-        "count": 104
+        "count": 52
       },
       "T1": {
         "trip_short_name": "T1",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_001_T1",
-        "count": 1302
-      },
-      "NOU": {
-        "trip_short_name": "NOU",
-        "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_05_000_NOU",
-        "count": 18
+        "count": 912
       },
       "T2": {
         "trip_short_name": "T2",
         "fplan_vehicle_type": "BUS",
         "vehicle_line_sort": "00_02_002_T2",
-        "count": 1224
+        "count": 864
       },
-      "14": {
-        "trip_short_name": "14",
+      "NOU": {
+        "trip_short_name": "NOU",
         "fplan_vehicle_type": "BUS",
-        "vehicle_line_sort": "00_00_014_14",
-        "count": 49
+        "vehicle_line_sort": "00_05_000_NOU",
+        "count": 12
       }
     },
     "tram": {
@@ -14935,25 +14971,25 @@
         "trip_short_name": "15",
         "fplan_vehicle_type": "T",
         "vehicle_line_sort": "00_00_015_15",
-        "count": 2956
+        "count": 2898
       },
       "12": {
         "trip_short_name": "12",
         "fplan_vehicle_type": "T",
         "vehicle_line_sort": "00_00_012_12",
-        "count": 3761
+        "count": 3628
       },
       "14": {
         "trip_short_name": "14",
         "fplan_vehicle_type": "T",
         "vehicle_line_sort": "00_00_014_14",
-        "count": 3137
+        "count": 3074
       },
       "18": {
         "trip_short_name": "18",
         "fplan_vehicle_type": "T",
         "vehicle_line_sort": "00_00_018_18",
-        "count": 1550
+        "count": 1514
       }
     }
   },
@@ -15791,7 +15827,7 @@
         "trip_short_name": "R",
         "fplan_vehicle_type": "R",
         "vehicle_line_sort": "00_01_000_R",
-        "count": 68
+        "count": 72
       }
     }
   },
@@ -15829,13 +15865,7 @@
         "trip_short_name": "RB",
         "fplan_vehicle_type": "RB",
         "vehicle_line_sort": "00_00_000_RB",
-        "count": 76
-      },
-      "S": {
-        "trip_short_name": "S",
-        "fplan_vehicle_type": "S",
-        "vehicle_line_sort": "00_01_000_S",
-        "count": 56
+        "count": 132
       },
       "S6": {
         "trip_short_name": "S6",
