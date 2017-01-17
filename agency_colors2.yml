@@ -1936,6 +1936,9 @@ agency_data:
         colors_source:
         color_by_types:
             tram:
+                "ALL_LINES":
+                    bg: "#bfbfbf"
+                    fg: "#231f20"
                 "1":
                     bg: "#835237"
                     fg: "#ffffff"
@@ -1964,6 +1967,9 @@ agency_data:
                     bg: "#00ae9d"
                     fg: "#ffffff"
             bus:
+                "ALL_LINES":
+                    bg: "#bfbfbf"
+                    fg: "#231f20"
                 "30":
                     bg: ""
                     fg: ""
@@ -4074,6 +4080,9 @@ agency_data:
         colors_source:
         color_by_types:
             bus:
+                "ALL_LINES":
+                    bg: "#fdd407"
+                    fg: "#000000"
                 "1":
                     bg: ""
                     fg: ""
@@ -8121,6 +8130,9 @@ agency_data:
         colors_source:
         color_by_types:
             bus:
+                "ALL_LINES":
+                    bg: "#d1d2d4"
+                    fg: "#000000"
                 "1":
                     bg: "#64982f"
                     fg: "#ffffff"
@@ -9655,10 +9667,16 @@ agency_data:
         colors_source:
         color_by_types:
             fun:
+                "ALL_LINES":
+                    bg: "#91c1e5"
+                    fg: "#000000"
                 "23":
                     bg: ""
                     fg: ""
             bus:
+                "ALL_LINES":
+                    bg: "#91c1e5"
+                    fg: "#000000"
                 "31":
                     bg: "#a5a4cb"
                     fg: "#ffffff"
