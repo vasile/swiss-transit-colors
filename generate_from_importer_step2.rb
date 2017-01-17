@@ -76,12 +76,18 @@ agency_data = map_agency.values.sort_by{ |el| el['agency_code'] }
 agency_data.each do |agency_row|
     agency_id = agency_row['agency_id']
 
+    old_colors_source = ''
+    old_agency_data = OLD_COLORS_CONFIG['agency'][agency_id]
+    if old_agency_data
+        old_colors_source = old_agency_data['colors_source']    
+    end
+
     config_lines << "    # #{agency_row['agency_name']} - #{agency_row['agency_short_name']}"
     config_lines << "    \"#{agency_id}\":"
     config_lines << "        code: #{agency_row['agency_code']}"
     config_lines << "        short_name: #{agency_row['agency_short_name']}"
     config_lines << "        name: #{agency_row['agency_name']}"
-    config_lines << "        colors_source:"
+    config_lines << "        colors_source: #{old_colors_source}"
     config_lines << "        color_by_types:"   
 
     vehicle_types_data = map_agency_line[agency_id]
