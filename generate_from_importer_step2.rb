@@ -43,7 +43,7 @@ config_lines << %q{special_colors:
         bg: "#ed232a"
         fg: "#ffffff"
 
-agency:}
+agency_data:}
 
 agency_data = map_agency.values.sort_by{ |el| el['agency_code'] }
 agency_data.each do |agency_row|
