@@ -13,79 +13,6 @@ special_colors:
         fg: "#ffffff"
 
 agency_data:
-    # Autobus AG Liestal - AAGL
-    "000811":
-        code: AAG
-        short_name: AAGL
-        name: Autobus AG Liestal
-        colors_source:
-        color_by_types:
-            bus:
-                "70":
-                    bg: ""
-                    fg: ""
-                "71":
-                    bg: ""
-                    fg: ""
-                "72":
-                    bg: ""
-                    fg: ""
-                "75":
-                    bg: ""
-                    fg: ""
-                "76":
-                    bg: ""
-                    fg: ""
-                "78":
-                    bg: ""
-                    fg: ""
-                "80":
-                    bg: ""
-                    fg: ""
-                "81":
-                    bg: ""
-                    fg: ""
-                "82":
-                    bg: ""
-                    fg: ""
-                "83":
-                    bg: ""
-                    fg: ""
-                "N28":
-                    <<: *NIGHT
-                "N50":
-                    <<: *NIGHT
-                "N51":
-                    <<: *NIGHT
-                "N52":
-                    <<: *NIGHT
-                "N53":
-                    <<: *NIGHT
-
-    # Auto AG Uri - AAGU
-    "000816":
-        code: AAG
-        short_name: AAGU
-        name: Auto AG Uri
-        colors_source:
-        color_by_types:
-            bus:
-                "1":
-                    bg: ""
-                    fg: ""
-                "2":
-                    bg: ""
-                    fg: ""
-                "3":
-                    bg: ""
-                    fg: ""
-                "4":
-                    bg: ""
-                    fg: ""
-                "6":
-                    bg: ""
-                    fg: ""
-
     # Auto AG Schwyz - AAGS
     "000841":
         code: AAG
@@ -190,6 +117,79 @@ agency_data:
                 "N12":
                     <<: *NIGHT
 
+    # Autobus AG Liestal - AAGL
+    "000811":
+        code: AAG
+        short_name: AAGL
+        name: Autobus AG Liestal
+        colors_source:
+        color_by_types:
+            bus:
+                "70":
+                    bg: ""
+                    fg: ""
+                "71":
+                    bg: ""
+                    fg: ""
+                "72":
+                    bg: ""
+                    fg: ""
+                "75":
+                    bg: ""
+                    fg: ""
+                "76":
+                    bg: ""
+                    fg: ""
+                "78":
+                    bg: ""
+                    fg: ""
+                "80":
+                    bg: ""
+                    fg: ""
+                "81":
+                    bg: ""
+                    fg: ""
+                "82":
+                    bg: ""
+                    fg: ""
+                "83":
+                    bg: ""
+                    fg: ""
+                "N28":
+                    <<: *NIGHT
+                "N50":
+                    <<: *NIGHT
+                "N51":
+                    <<: *NIGHT
+                "N52":
+                    <<: *NIGHT
+                "N53":
+                    <<: *NIGHT
+
+    # Auto AG Uri - AAGU
+    "000816":
+        code: AAG
+        short_name: AAGU
+        name: Auto AG Uri
+        colors_source:
+        color_by_types:
+            bus:
+                "1":
+                    bg: ""
+                    fg: ""
+                "2":
+                    bg: ""
+                    fg: ""
+                "3":
+                    bg: ""
+                    fg: ""
+                "4":
+                    bg: ""
+                    fg: ""
+                "6":
+                    bg: ""
+                    fg: ""
+
     # Automobildienst Appenzeller Bahnen - AB Auto
     "000744":
         code: AB
@@ -199,18 +199,6 @@ agency_data:
         color_by_types:
             bus:
                 "190":
-                    bg: ""
-                    fg: ""
-
-    # Appenzeller Bahnen (tb) - AB-tb
-    "000089":
-        code: AB-
-        short_name: AB-tb
-        name: Appenzeller Bahnen (tb)
-        colors_source:
-        color_by_types:
-            bus:
-                "859":
                     bg: ""
                     fg: ""
 
@@ -246,6 +234,18 @@ agency_data:
                     bg: ""
                     fg: ""
                 "856":
+                    bg: ""
+                    fg: ""
+
+    # Appenzeller Bahnen (tb) - AB-tb
+    "000089":
+        code: AB-
+        short_name: AB-tb
+        name: Appenzeller Bahnen (tb)
+        colors_source:
+        color_by_types:
+            bus:
+                "859":
                     bg: ""
                     fg: ""
 
@@ -519,16 +519,17 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Aare Seeland mobil (bti) - ASM-bti
-    "000038":
+    # Aare Seeland mobil (ltb) - ASM-ltb
+    "000128":
         code: ASM
-        short_name: ASM-bti
-        name: Aare Seeland mobil (bti)
+        short_name: ASM-ltb
+        name: Aare Seeland mobil (ltb)
         colors_source:
         color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
+            fun:
+                "2016":
+                    bg: ""
+                    fg: ""
 
     # Aare Seeland mobil (rvo) - ASM-rvo
     "000056":
@@ -541,17 +542,27 @@ agency_data:
                 "R":
                     <<: *TRAIN_SBAHN
 
-    # Aare Seeland mobil (ltb) - ASM-ltb
-    "000128":
+    # Aare Seeland mobil (bti) - ASM-bti
+    "000038":
         code: ASM
-        short_name: ASM-ltb
-        name: Aare Seeland mobil (ltb)
+        short_name: ASM-bti
+        name: Aare Seeland mobil (bti)
         colors_source:
         color_by_types:
-            fun:
-                "2016":
-                    bg: ""
-                    fg: ""
+            train:
+                "R":
+                    <<: *TRAIN_SBAHN
+
+    # Aare Seeland mobil (snb) - ASM-snb
+    "000081":
+        code: ASM
+        short_name: ASM-snb
+        name: Aare Seeland mobil (snb)
+        colors_source:
+        color_by_types:
+            train:
+                "R":
+                    <<: *TRAIN_SBAHN
 
     # Automobildienste Aare Seeland mobil - ASM Auto
     "000870":
@@ -585,17 +596,6 @@ agency_data:
                 "73":
                     bg: ""
                     fg: ""
-
-    # Aare Seeland mobil (snb) - ASM-snb
-    "000081":
-        code: ASM
-        short_name: ASM-snb
-        name: Aare Seeland mobil (snb)
-        colors_source:
-        color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
 
     # Andermatt-Urserntal Tourismus GmbH - AUT
     "007069":
@@ -915,23 +915,23 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Sesselbahn St. Moritz Suvretta-Randolins - BEST-sms
-    "003051":
+    # Celeriner Bergbahnen - Celerina-Saluver - BEST-lcs
+    "000238":
         code: BES
-        short_name: BEST-sms
-        name: Sesselbahn St. Moritz Suvretta-Randolins
+        short_name: BEST-lcs
+        name: Celeriner Bergbahnen - Celerina-Saluver
         colors_source:
         color_by_types:
             gondola:
-                "SL":
+                "GB":
                     bg: ""
                     fg: ""
 
-    # Curtinatsch-Piz Lagalb - BEST-lcl
-    "000247":
+    # Bergbahnen Engadin St. Moritz; Bernina-Diavolezza (lbd) - BEST-lbd
+    "000218":
         code: BES
-        short_name: BEST-lcl
-        name: Curtinatsch-Piz Lagalb
+        short_name: BEST-lbd
+        name: Bergbahnen Engadin St. Moritz; Bernina-Diavolezza (lbd)
         colors_source:
         color_by_types:
             cable:
@@ -955,15 +955,15 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Bergbahnen Engadin St. Moritz; Bernina-Diavolezza (lbd) - BEST-lbd
-    "000218":
+    # Sesselbahn St. Moritz Suvretta-Randolins - BEST-sms
+    "003051":
         code: BES
-        short_name: BEST-lbd
-        name: Bergbahnen Engadin St. Moritz; Bernina-Diavolezza (lbd)
+        short_name: BEST-sms
+        name: Sesselbahn St. Moritz Suvretta-Randolins
         colors_source:
         color_by_types:
-            cable:
-                "LB":
+            gondola:
+                "SL":
                     bg: ""
                     fg: ""
 
@@ -979,15 +979,15 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Celeriner Bergbahnen - Celerina-Saluver - BEST-lcs
-    "000238":
+    # Curtinatsch-Piz Lagalb - BEST-lcl
+    "000247":
         code: BES
-        short_name: BEST-lcs
-        name: Celeriner Bergbahnen - Celerina-Saluver
+        short_name: BEST-lcl
+        name: Curtinatsch-Piz Lagalb
         colors_source:
         color_by_types:
-            gondola:
-                "GB":
+            cable:
+                "LB":
                     bg: ""
                     fg: ""
 
@@ -1119,18 +1119,6 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Bergbahnen Hoch-Ybrig AG - BHY-sssp
-    "003107":
-        code: BHY
-        short_name: BHY-sssp
-        name: Bergbahnen Hoch-Ybrig AG
-        colors_source:
-        color_by_types:
-            gondola:
-                "SL":
-                    bg: ""
-                    fg: ""
-
     # Bergbahnen Hoch-Ybrig AG - BHY-ssks
     "003106":
         code: BHY
@@ -1164,6 +1152,18 @@ agency_data:
         color_by_types:
             cable:
                 "LB":
+                    bg: ""
+                    fg: ""
+
+    # Bergbahnen Hoch-Ybrig AG - BHY-sssp
+    "003107":
+        code: BHY
+        short_name: BHY-sssp
+        name: Bergbahnen Hoch-Ybrig AG
+        colors_source:
+        color_by_types:
+            gondola:
+                "SL":
                     bg: ""
                     fg: ""
 
@@ -1260,48 +1260,6 @@ agency_data:
                 "R":
                     <<: *TRAIN_SBAHN
 
-    # BLS Bus Fahrplanbedürfnisse - BLS BusF
-    "007042":
-        code: BLS
-        short_name: BLS BusF
-        name: BLS Bus Fahrplanbedürfnisse
-        colors_source:
-        color_by_types:
-            bus:
-                "BUS":
-                    bg: ""
-                    fg: ""
-
-    # BLS AG (ths) - BLS-ths
-    "000192":
-        code: BLS
-        short_name: BLS-ths
-        name: BLS AG (ths)
-        colors_source:
-        color_by_types:
-            boat:
-                "BAT":
-                    bg: ""
-                    fg: ""
-                "BAV":
-                    bg: ""
-                    fg: ""
-
-    # BLS AG (brs) - BLS-brs
-    "000183":
-        code: BLS
-        short_name: BLS-brs
-        name: BLS AG (brs)
-        colors_source:
-        color_by_types:
-            boat:
-                "BAT":
-                    bg: ""
-                    fg: ""
-                "BAV":
-                    bg: ""
-                    fg: ""
-
     # BLS AG (bls) - BLS-bls
     "000033":
         code: BLS
@@ -1342,6 +1300,48 @@ agency_data:
                     <<: *TRAIN_SBAHN
                 "S61":
                     <<: *TRAIN_SBAHN
+
+    # BLS AG (brs) - BLS-brs
+    "000183":
+        code: BLS
+        short_name: BLS-brs
+        name: BLS AG (brs)
+        colors_source:
+        color_by_types:
+            boat:
+                "BAT":
+                    bg: ""
+                    fg: ""
+                "BAV":
+                    bg: ""
+                    fg: ""
+
+    # BLS Bus Fahrplanbedürfnisse - BLS BusF
+    "007042":
+        code: BLS
+        short_name: BLS BusF
+        name: BLS Bus Fahrplanbedürfnisse
+        colors_source:
+        color_by_types:
+            bus:
+                "BUS":
+                    bg: ""
+                    fg: ""
+
+    # BLS AG (ths) - BLS-ths
+    "000192":
+        code: BLS
+        short_name: BLS-ths
+        name: BLS AG (ths)
+        colors_source:
+        color_by_types:
+            boat:
+                "BAT":
+                    bg: ""
+                    fg: ""
+                "BAV":
+                    bg: ""
+                    fg: ""
 
     # Auto BLT - BLT Auto
     "000879":
@@ -1421,10 +1421,21 @@ agency_data:
                 "N61":
                     <<: *NIGHT
 
-    # Baselland Transport - BLT
+    # Waldenburgerbahn - BLT-wb
+    "000094":
+        code: BLT
+        short_name: BLT-wb
+        name: Waldenburgerbahn
+        colors_source:
+        color_by_types:
+            train:
+                "502":
+                    <<: *TRAIN_SBAHN
+
+    # Baselland Transport - BLT-blt
     "000037":
         code: BLT
-        short_name: BLT
+        short_name: BLT-blt
         name: Baselland Transport
         colors_source:
         color_by_types:
@@ -1753,10 +1764,10 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Bergbahnen Piz Mundaun AG - BPM-svcs
-    "003148":
+    # Bergbahnen Piz Mundaun AG - BPM-svh
+    "003152":
         code: BPM
-        short_name: BPM-svcs
+        short_name: BPM-svh
         name: Bergbahnen Piz Mundaun AG
         colors_source:
         color_by_types:
@@ -1765,10 +1776,10 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Bergbahnen Piz Mundaun AG - BPM-svh
-    "003152":
+    # Bergbahnen Piz Mundaun AG - BPM-svcs
+    "003148":
         code: BPM
-        short_name: BPM-svh
+        short_name: BPM-svcs
         name: Bergbahnen Piz Mundaun AG
         colors_source:
         color_by_types:
@@ -1833,18 +1844,6 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Bergbahnen Sörenberg AG - fikt - BSAG-fik
-    "000343":
-        code: BSA
-        short_name: BSAG-fik
-        name: Bergbahnen Sörenberg AG - fikt
-        colors_source:
-        color_by_types:
-            gondola:
-                "GB":
-                    bg: ""
-                    fg: ""
-
     # Bergbahnen Sörenberg AG - BSAG
     "000283":
         code: BSA
@@ -1854,6 +1853,18 @@ agency_data:
         color_by_types:
             cable:
                 "LB":
+                    bg: ""
+                    fg: ""
+
+    # Bergbahnen Sörenberg AG - fikt - BSAG-fik
+    "000343":
+        code: BSA
+        short_name: BSAG-fik
+        name: Bergbahnen Sörenberg AG - fikt
+        colors_source:
+        color_by_types:
+            gondola:
+                "GB":
                     bg: ""
                     fg: ""
 
@@ -1925,9 +1936,6 @@ agency_data:
         colors_source:
         color_by_types:
             tram:
-                "ALL_LINES":
-                    bg: "#bfbfbf"
-                    fg: "#231f20"
                 "1":
                     bg: "#835237"
                     fg: "#ffffff"
@@ -1956,9 +1964,6 @@ agency_data:
                     bg: "#00ae9d"
                     fg: "#ffffff"
             bus:
-                "ALL_LINES":
-                    bg: "#bfbfbf"
-                    fg: "#231f20"
                 "30":
                     bg: ""
                     fg: ""
@@ -2237,11 +2242,11 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Davos Klosters Bergbahnen (bbbj) - DKB-bbbj
-    "000207":
+    # Davos Klosters Bergbahnen (lkp) - DKB-lkp
+    "000208":
         code: DKB
-        short_name: DKB-bbbj
-        name: Davos Klosters Bergbahnen (bbbj)
+        short_name: DKB-lkp
+        name: Davos Klosters Bergbahnen (lkp)
         colors_source:
         color_by_types:
             cable:
@@ -2249,11 +2254,11 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Davos Klosters Bergbahnen (lkp) - DKB-lkp
-    "000208":
+    # Davos Klosters Bergbahnen (bbbj) - DKB-bbbj
+    "000207":
         code: DKB
-        short_name: DKB-lkp
-        name: Davos Klosters Bergbahnen (lkp)
+        short_name: DKB-bbbj
+        name: Davos Klosters Bergbahnen (bbbj)
         colors_source:
         color_by_types:
             cable:
@@ -2373,6 +2378,19 @@ agency_data:
                 "NFB":
                     <<: *NIGHT
 
+    # Ferrovie Autolinee Regionali Ticinesi - FART
+    "000049":
+        code: FAR
+        short_name: FART
+        name: Ferrovie Autolinee Regionali Ticinesi
+        colors_source:
+        color_by_types:
+            train:
+                "D":
+                    <<: *TRAIN_LONG_DISTANCE
+                "R":
+                    <<: *TRAIN_SBAHN
+
     # Intragna-Pila Costa - FART-kli
     "000278":
         code: FAR
@@ -2432,19 +2450,6 @@ agency_data:
                 "LB":
                     bg: ""
                     fg: ""
-
-    # Ferrovie Autolinee Regionali Ticinesi - FART
-    "000049":
-        code: FAR
-        short_name: FART
-        name: Ferrovie Autolinee Regionali Ticinesi
-        colors_source:
-        color_by_types:
-            train:
-                "D":
-                    <<: *TRAIN_LONG_DISTANCE
-                "R":
-                    <<: *TRAIN_SBAHN
 
     # Forchbahn - FB
     "000046":
@@ -3209,18 +3214,6 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Val Sporz-Piz Scalottas - LHB-ssps
-    "003026":
-        code: LHB
-        short_name: LHB-ssps
-        name: Val Sporz-Piz Scalottas
-        colors_source:
-        color_by_types:
-            gondola:
-                "SL":
-                    bg: ""
-                    fg: ""
-
     # Lenzerheide Bergbahnen - LHB
     "000252":
         code: LHB
@@ -3234,6 +3227,18 @@ agency_data:
                     fg: ""
             cable:
                 "LB":
+                    bg: ""
+                    fg: ""
+
+    # Val Sporz-Piz Scalottas - LHB-ssps
+    "003026":
+        code: LHB
+        short_name: LHB-ssps
+        name: Val Sporz-Piz Scalottas
+        colors_source:
+        color_by_types:
+            gondola:
+                "SL":
                     bg: ""
                     fg: ""
 
@@ -3600,18 +3605,6 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Schilthornbahn (sbm) - LSMS-sbm
-    "000141":
-        code: LSM
-        short_name: LSMS-sbm
-        name: Schilthornbahn (sbm)
-        colors_source:
-        color_by_types:
-            fun:
-                "FUN":
-                    bg: ""
-                    fg: ""
-
     # Stechelberg-Mürren-Schilthorn (lsms) - LSMS-lsm
     "000256":
         code: LSM
@@ -3621,6 +3614,18 @@ agency_data:
         color_by_types:
             cable:
                 "LB":
+                    bg: ""
+                    fg: ""
+
+    # Schilthornbahn (sbm) - LSMS-sbm
+    "000141":
+        code: LSM
+        short_name: LSMS-sbm
+        name: Schilthornbahn (sbm)
+        colors_source:
+        color_by_types:
+            fun:
+                "FUN":
                     bg: ""
                     fg: ""
 
@@ -3720,16 +3725,13 @@ agency_data:
                     fg: ""
 
     # Automobiles MBC - MBC Auto
-    "834":
+    "000764":
         code: MBC
         short_name: MBC Auto
         name: Automobiles MBC
         colors_source:
         color_by_types:
             bus:
-                "ALL_LINES":
-                    bg: "#00a54f"
-                    fg: "#ffffff"
                 "701":
                     bg: ""
                     fg: ""
@@ -3882,17 +3884,16 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Montreux-Vevey-Riviera (vcp) - MVR-vcp
-    "000155":
+    # Montreux-Vevey-Riviera (cev) - MVR-cev
+    "000042":
         code: MVR
-        short_name: MVR-vcp
-        name: Montreux-Vevey-Riviera (vcp)
+        short_name: MVR-cev
+        name: Montreux-Vevey-Riviera (cev)
         colors_source:
         color_by_types:
-            fun:
-                "FUN":
-                    bg: ""
-                    fg: ""
+            train:
+                "R":
+                    <<: *TRAIN_SBAHN
 
     # Montreux-Vevey-Riviera (mtgn) - MVR-mtgn
     "000131":
@@ -3909,22 +3910,35 @@ agency_data:
                 "R":
                     <<: *TRAIN_SBAHN
 
-    # Montreux-Vevey-Riviera (cev) - MVR-cev
-    "000042":
+    # Montreux-Vevey-Riviera (vcp) - MVR-vcp
+    "000155":
         code: MVR
-        short_name: MVR-cev
-        name: Montreux-Vevey-Riviera (cev)
+        short_name: MVR-vcp
+        name: Montreux-Vevey-Riviera (vcp)
         colors_source:
         color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
+            fun:
+                "FUN":
+                    bg: ""
+                    fg: ""
 
     # Niesenbahn - NB
     "000135":
         code: NB
         short_name: NB
         name: Niesenbahn
+        colors_source:
+        color_by_types:
+            fun:
+                "FUN":
+                    bg: ""
+                    fg: ""
+
+    # Niederhornbahn AG - NHB-bbb
+    "000149":
+        code: NHB
+        short_name: NHB-bbb
+        name: Niederhornbahn AG
         colors_source:
         color_by_types:
             fun:
@@ -3941,18 +3955,6 @@ agency_data:
         color_by_types:
             gondola:
                 "GB":
-                    bg: ""
-                    fg: ""
-
-    # Niederhornbahn AG - NHB-bbb
-    "000149":
-        code: NHB
-        short_name: NHB-bbb
-        name: Niederhornbahn AG
-        colors_source:
-        color_by_types:
-            fun:
-                "FUN":
                     bg: ""
                     fg: ""
 
@@ -3990,6 +3992,25 @@ agency_data:
             train:
                 "R":
                     <<: *TRAIN_SBAHN
+
+    # Remontées mécaniques SA - NVRM-NV
+    "003028":
+        code: NVR
+        short_name: NVRM-NV
+        name: Remontées mécaniques SA
+        colors_source:
+        color_by_types:
+            gondola:
+                "GB":
+                    bg: ""
+                    fg: ""
+                "SL":
+                    bg: ""
+                    fg: ""
+            cable:
+                "LB":
+                    bg: ""
+                    fg: ""
 
     # Ortsbus St. Moritz - OBSM
     "000716":
@@ -4045,18 +4066,6 @@ agency_data:
                 "ZUG":
                     <<: *TRAIN_LONG_DISTANCE
 
-    # Pradaschier AG Top - PAGT
-    "000342":
-        code: PAG
-        short_name: PAGT
-        name: Pradaschier AG Top
-        colors_source:
-        color_by_types:
-            gondola:
-                "SL":
-                    bg: ""
-                    fg: ""
-
     # PostAuto Schweiz - PAG
     "000801":
         code: PAG
@@ -4064,9 +4073,6 @@ agency_data:
         name: PostAuto Schweiz
         colors_source:
         color_by_types:
-            "ALL_LINES":
-                    bg: "#fdd407"
-                    fg: "#000000"
             bus:
                 "1":
                     bg: ""
@@ -5759,6 +5765,18 @@ agency_data:
                     bg: ""
                     fg: ""
 
+    # Pradaschier AG Top - PAGT
+    "000342":
+        code: PAG
+        short_name: PAGT
+        name: Pradaschier AG Top
+        colors_source:
+        color_by_types:
+            gondola:
+                "SL":
+                    bg: ""
+                    fg: ""
+
     # Pilatusbahnen - PB
     "000136":
         code: PB
@@ -5867,17 +5885,6 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Regionalalps INFO+ - RA     F
-    "003074":
-        code: RA
-        short_name: RA     F
-        name: Regionalalps INFO+
-        colors_source:
-        color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
-
     # Regionalps - RA
     "000074":
         code: RA
@@ -5889,6 +5896,17 @@ agency_data:
                 "491":
                     bg: ""
                     fg: ""
+            train:
+                "R":
+                    <<: *TRAIN_SBAHN
+
+    # Regionalalps INFO+ - RA     F
+    "003074":
+        code: RA
+        short_name: RA     F
+        name: Regionalalps INFO+
+        colors_source:
+        color_by_types:
             train:
                 "R":
                     <<: *TRAIN_SBAHN
@@ -6217,6 +6235,21 @@ agency_data:
                 "N77":
                     <<: *NIGHT
 
+    # Autoverkehr RhB - RhB Auto
+    "000865":
+        code: RhB
+        short_name: RhB Auto
+        name: Autoverkehr RhB
+        colors_source:
+        color_by_types:
+            bus:
+                "5950":
+                    bg: ""
+                    fg: ""
+                "5951":
+                    bg: ""
+                    fg: ""
+
     # Rhätische Bahn - RhB
     "000072":
         code: RhB
@@ -6246,21 +6279,6 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Autoverkehr RhB - RhB Auto
-    "000865":
-        code: RhB
-        short_name: RhB Auto
-        name: Autoverkehr RhB
-        colors_source:
-        color_by_types:
-            bus:
-                "5950":
-                    bg: ""
-                    fg: ""
-                "5951":
-                    bg: ""
-                    fg: ""
-
     # Société des Auto-transports du Pied du Jura Vaudois - SAPJV
     "000719":
         code: SAP
@@ -6285,18 +6303,6 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Sportbahnen Bergün - SBAD
-    "000336":
-        code: SBA
-        short_name: SBAD
-        name: Sportbahnen Bergün
-        colors_source:
-        color_by_types:
-            gondola:
-                "SL":
-                    bg: ""
-                    fg: ""
-
     # Sportbahnen Amden - SBA
     "003130":
         code: SBA
@@ -6309,11 +6315,23 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Swiss Federal Railways SBB - SBB
+    # Sportbahnen Bergün - SBAD
+    "000336":
+        code: SBA
+        short_name: SBAD
+        name: Sportbahnen Bergün
+        colors_source:
+        color_by_types:
+            gondola:
+                "SL":
+                    bg: ""
+                    fg: ""
+
+    # Schweizerische Bundesbahnen SBB - SBB
     "000011":
         code: SBB
         short_name: SBB
-        name: Swiss Federal Railways SBB
+        name: Schweizerische Bundesbahnen SBB
         colors_source:
         color_by_types:
             train:
@@ -6422,40 +6440,6 @@ agency_data:
                 "SN9":
                     <<: *NIGHT
 
-    # SBB GmbH (Grenzverkehr) - SBB GmbH
-    "000351":
-        code: SBB
-        short_name: SBB GmbH
-        name: SBB GmbH (Grenzverkehr)
-        colors_source:
-        color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
-                "S":
-                    <<: *TRAIN_SBAHN
-                "S5":
-                    <<: *TRAIN_SBAHN
-                "S6":
-                    <<: *TRAIN_SBAHN
-
-    # SBB GmbH - SBB
-    "L7____":
-        code: SBB
-        short_name: SBB
-        name: SBB GmbH
-        colors_source:
-        color_by_types:
-            train:
-                "RB":
-                    <<: *TRAIN_LONG_DISTANCE
-                "S":
-                    <<: *TRAIN_SBAHN
-                "S5":
-                    <<: *TRAIN_SBAHN
-                "S6":
-                    <<: *TRAIN_SBAHN
-
     # Automobildienst SBB - SBB Bus
     "000702":
         code: SBB
@@ -6493,6 +6477,40 @@ agency_data:
                     fg: ""
                 "N60":
                     <<: *NIGHT
+
+    # SBB GmbH (Grenzverkehr) - SBB GmbH
+    "000351":
+        code: SBB
+        short_name: SBB GmbH
+        name: SBB GmbH (Grenzverkehr)
+        colors_source:
+        color_by_types:
+            train:
+                "R":
+                    <<: *TRAIN_SBAHN
+                "S":
+                    <<: *TRAIN_SBAHN
+                "S5":
+                    <<: *TRAIN_SBAHN
+                "S6":
+                    <<: *TRAIN_SBAHN
+
+    # SBB GmbH - SBB
+    "L7____":
+        code: SBB
+        short_name: SBB
+        name: SBB GmbH
+        colors_source:
+        color_by_types:
+            train:
+                "RB":
+                    <<: *TRAIN_LONG_DISTANCE
+                "S":
+                    <<: *TRAIN_SBAHN
+                "S5":
+                    <<: *TRAIN_SBAHN
+                "S6":
+                    <<: *TRAIN_SBAHN
 
     # Stadtbus Chur - SBC
     "000766":
@@ -6588,6 +6606,18 @@ agency_data:
                 "NB":
                     <<: *NIGHT
 
+    # Seilbahngenossenschaft Golzern - SBGG
+    "003112":
+        code: SBG
+        short_name: SBGG
+        name: Seilbahngenossenschaft Golzern
+        colors_source:
+        color_by_types:
+            cable:
+                "LB":
+                    bg: ""
+                    fg: ""
+
     # Südbadenbus GmbH - SBG
     "000354":
         code: SBG
@@ -6600,18 +6630,6 @@ agency_data:
                     bg: ""
                     fg: ""
                 "7312":
-                    bg: ""
-                    fg: ""
-
-    # Seilbahngenossenschaft Golzern - SBGG
-    "003112":
-        code: SBG
-        short_name: SBGG
-        name: Seilbahngenossenschaft Golzern
-        colors_source:
-        color_by_types:
-            cable:
-                "LB":
                     bg: ""
                     fg: ""
 
@@ -6847,11 +6865,11 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Sesselbahn Kiental-Ramslauenen - SKRa
-    "003070":
+    # Sesselbahn Krümmenschwil-Rietbach - SKR
+    "003128":
         code: SKR
-        short_name: SKRa
-        name: Sesselbahn Kiental-Ramslauenen
+        short_name: SKR
+        name: Sesselbahn Krümmenschwil-Rietbach
         colors_source:
         color_by_types:
             gondola:
@@ -6859,11 +6877,11 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Sesselbahn Krümmenschwil-Rietbach - SKR
-    "003128":
+    # Sesselbahn Kiental-Ramslauenen - SKRa
+    "003070":
         code: SKR
-        short_name: SKR
-        name: Sesselbahn Krümmenschwil-Rietbach
+        short_name: SKRa
+        name: Sesselbahn Kiental-Ramslauenen
         colors_source:
         color_by_types:
             gondola:
@@ -6905,15 +6923,15 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Sportbahnen Melchsee-Frutt (lsm) - SMF-lsm
-    "000222":
+    # Sportbahnen Melchsee-Frutt (lsm) INFO+ - SMF-lsmF
+    "003222":
         code: SMF
-        short_name: SMF-lsm
-        name: Sportbahnen Melchsee-Frutt (lsm)
+        short_name: SMF-lsmF
+        name: Sportbahnen Melchsee-Frutt (lsm) INFO+
         colors_source:
         color_by_types:
-            bus:
-                "349":
+            gondola:
+                "GB":
                     bg: ""
                     fg: ""
 
@@ -6929,15 +6947,15 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Sportbahnen Melchsee-Frutt (lsm) INFO+ - SMF-lsmF
-    "003222":
+    # Sportbahnen Melchsee-Frutt (lsm) - SMF-lsm
+    "000222":
         code: SMF
-        short_name: SMF-lsmF
-        name: Sportbahnen Melchsee-Frutt (lsm) INFO+
+        short_name: SMF-lsm
+        name: Sportbahnen Melchsee-Frutt (lsm)
         colors_source:
         color_by_types:
-            gondola:
-                "GB":
+            bus:
+                "349":
                     bg: ""
                     fg: ""
 
@@ -6965,18 +6983,6 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Lago di Lugano - SNL
-    "000188":
-        code: SNL
-        short_name: SNL
-        name: Lago di Lugano
-        colors_source:
-        color_by_types:
-            boat:
-                "BAT":
-                    bg: ""
-                    fg: ""
-
     # Servizio d'automobili - SNL Auto
     "000737":
         code: SNL
@@ -6989,6 +6995,18 @@ agency_data:
                     bg: ""
                     fg: ""
                 "490":
+                    bg: ""
+                    fg: ""
+
+    # Lago di Lugano - SNL
+    "000188":
+        code: SNL
+        short_name: SNL
+        name: Lago di Lugano
+        colors_source:
+        color_by_types:
+            boat:
+                "BAT":
                     bg: ""
                     fg: ""
 
@@ -7409,18 +7427,6 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Sesselbahn Vals-Gadenstatt - SVGa
-    "003151":
-        code: SVG
-        short_name: SVGa
-        name: Sesselbahn Vals-Gadenstatt
-        colors_source:
-        color_by_types:
-            gondola:
-                "GB":
-                    bg: ""
-                    fg: ""
-
     # Sesselbahn Visperterminen-Giw - SVG
     "003052":
         code: SVG
@@ -7430,6 +7436,18 @@ agency_data:
         color_by_types:
             gondola:
                 "SL":
+                    bg: ""
+                    fg: ""
+
+    # Sesselbahn Vals-Gadenstatt - SVGa
+    "003151":
+        code: SVG
+        short_name: SVGa
+        name: Sesselbahn Vals-Gadenstatt
+        colors_source:
+        color_by_types:
+            gondola:
+                "GB":
                     bg: ""
                     fg: ""
 
@@ -7468,6 +7486,23 @@ agency_data:
                 "GB":
                     bg: ""
                     fg: ""
+
+    # Sihltal-Zürich-Uetliberg-Bahn - SZU
+    "000078":
+        code: SZU
+        short_name: SZU
+        name: Sihltal-Zürich-Uetliberg-Bahn
+        colors_source:
+        color_by_types:
+            train:
+                "R":
+                    <<: *TRAIN_SBAHN
+                "S4":
+                    <<: *TRAIN_SBAHN
+                "S10":
+                    <<: *TRAIN_SBAHN
+                "SN4":
+                    <<: *NIGHT
 
     # Automobildienst SZU - SZU Auto
     "000807":
@@ -7540,23 +7575,6 @@ agency_data:
                 "156":
                     bg: ""
                     fg: ""
-
-    # Sihltal-Zürich-Uetliberg-Bahn - SZU
-    "000078":
-        code: SZU
-        short_name: SZU
-        name: Sihltal-Zürich-Uetliberg-Bahn
-        colors_source:
-        color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
-                "S4":
-                    <<: *TRAIN_SBAHN
-                "S10":
-                    <<: *TRAIN_SBAHN
-                "SN4":
-                    <<: *NIGHT
 
     # Standseilbahn Schwyz-Stoos AG - StSS
     "000112":
@@ -7673,25 +7691,6 @@ agency_data:
         name: Téléphérique Dorénaz-Champex d'Alesse/Commune de Dorénaz
         colors_source:
         color_by_types:
-            cable:
-                "LB":
-                    bg: ""
-                    fg: ""
-
-    # Téléphériques de Nendaz - TDN
-    "003028":
-        code: TDN
-        short_name: TDN
-        name: Téléphériques de Nendaz
-        colors_source:
-        color_by_types:
-            gondola:
-                "GB":
-                    bg: ""
-                    fg: ""
-                "SL":
-                    bg: ""
-                    fg: ""
             cable:
                 "LB":
                     bg: ""
@@ -7944,6 +7943,17 @@ agency_data:
                     bg: ""
                     fg: ""
 
+    # Transports de Martigny et Régions (mc) - TMR-mc
+    "000061":
+        code: TMR
+        short_name: TMR-mc
+        name: Transports de Martigny et Régions (mc)
+        colors_source:
+        color_by_types:
+            train:
+                "R":
+                    <<: *TRAIN_SBAHN
+
     # Service d'automobiles TMR - TMR Auto
     "000835":
         code: TMR
@@ -7973,17 +7983,6 @@ agency_data:
                 "273":
                     bg: ""
                     fg: ""
-
-    # Transports de Martigny et Régions (mc) - TMR-mc
-    "000061":
-        code: TMR
-        short_name: TMR-mc
-        name: Transports de Martigny et Régions (mc)
-        colors_source:
-        color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
 
     # TéléMarécottes - TMSA
     "000305":
@@ -8033,17 +8032,6 @@ agency_data:
                 "R":
                     <<: *TRAIN_SBAHN
 
-    # Transports Publics du Chablais (bvb) - TPC-bvb
-    "000039":
-        code: TPC
-        short_name: TPC-bvb
-        name: Transports Publics du Chablais (bvb)
-        colors_source:
-        color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
-
     # Transports Publics du Chablais (aomc) - TPC-aomc
     "000024":
         code: TPC
@@ -8078,6 +8066,17 @@ agency_data:
                 "82":
                     bg: ""
                     fg: ""
+
+    # Transports Publics du Chablais (bvb) - TPC-bvb
+    "000039":
+        code: TPC
+        short_name: TPC-bvb
+        name: Transports Publics du Chablais (bvb)
+        colors_source:
+        color_by_types:
+            train:
+                "R":
+                    <<: *TRAIN_SBAHN
 
     # Transports Publics du Chablais (al) - TPC-al
     "000023":
@@ -8122,9 +8121,6 @@ agency_data:
         colors_source:
         color_by_types:
             bus:
-                "ALL_LINES":
-                    bg: "#d1d2d4"
-                    fg: "#000000"
                 "1":
                     bg: "#64982f"
                     fg: "#ffffff"
@@ -8334,6 +8330,18 @@ agency_data:
                 "S21":
                     <<: *TRAIN_SBAHN
 
+    # Transports publics fribourgeois - TPF-nstp
+    "003004":
+        code: TPF
+        short_name: TPF-nstp
+        name: Transports publics fribourgeois
+        colors_source:
+        color_by_types:
+            fun:
+                "FUN":
+                    bg: ""
+                    fg: ""
+
     # Transports publics fribourgeois INFO+ - TPF    F
     "003053":
         code: TPF
@@ -8350,18 +8358,6 @@ agency_data:
                     <<: *TRAIN_SBAHN
                 "S60":
                     <<: *TRAIN_SBAHN
-
-    # Transports publics fribourgeois - TPF-nstp
-    "003004":
-        code: TPF
-        short_name: TPF-nstp
-        name: Transports publics fribourgeois
-        colors_source:
-        color_by_types:
-            fun:
-                "FUN":
-                    bg: ""
-                    fg: ""
 
     # Transports Publics Genevois - TPG
     "000881":
@@ -8588,18 +8584,6 @@ agency_data:
                     bg: "#A84B97"
                     fg: "#ffffff"
 
-    # Trasporti Pubblici Luganesi INFO+ - TPL    F
-    "003955":
-        code: TPL
-        short_name: TPL    F
-        name: Trasporti Pubblici Luganesi INFO+
-        colors_source:
-        color_by_types:
-            fun:
-                "FUN":
-                    bg: ""
-                    fg: ""
-
     # Trasporti Pubblici Luganesi - TPL
     "000955":
         code: TPL
@@ -8653,6 +8637,18 @@ agency_data:
                 "S":
                     bg: "#feca0a"
                     fg: "#ffffff"
+
+    # Trasporti Pubblici Luganesi INFO+ - TPL    F
+    "003955":
+        code: TPL
+        short_name: TPL    F
+        name: Trasporti Pubblici Luganesi INFO+
+        colors_source:
+        color_by_types:
+            fun:
+                "FUN":
+                    bg: ""
+                    fg: ""
 
     # Transports Publics de la Région Nyonnaise - TPN
     "000738":
@@ -8720,11 +8716,11 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Transports Vallée de Joux-Yverdon-Ste-Croix (ystec) - TRAVYS-y
-    "000097":
+    # Transports Vallée de Joux-Yverdon-Ste-Croix (pbr) - TRAVYS-p
+    "000069":
         code: TRA
-        short_name: TRAVYS-y
-        name: Transports Vallée de Joux-Yverdon-Ste-Croix (ystec)
+        short_name: TRAVYS-p
+        name: Transports Vallée de Joux-Yverdon-Ste-Croix (pbr)
         colors_source:
         color_by_types:
             train:
@@ -8743,17 +8739,6 @@ agency_data:
                     bg: ""
                     fg: ""
 
-    # Transports Vallée de Joux-Yverdon-Ste-Croix (pbr) - TRAVYS-p
-    "000069":
-        code: TRA
-        short_name: TRAVYS-p
-        name: Transports Vallée de Joux-Yverdon-Ste-Croix (pbr)
-        colors_source:
-        color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
-
     # Transports Vallée de Joux-Yverdon-Ste-Croix (oc) - TRAVYS-o
     "000067":
         code: TRA
@@ -8765,6 +8750,17 @@ agency_data:
                 "BUS":
                     bg: ""
                     fg: ""
+            train:
+                "R":
+                    <<: *TRAIN_SBAHN
+
+    # Transports Vallée de Joux-Yverdon-Ste-Croix (ystec) - TRAVYS-y
+    "000097":
+        code: TRA
+        short_name: TRAVYS-y
+        name: Transports Vallée de Joux-Yverdon-Ste-Croix (ystec)
+        colors_source:
+        color_by_types:
             train:
                 "R":
                     <<: *TRAIN_SBAHN
@@ -8784,6 +8780,53 @@ agency_data:
                 "BUS":
                     bg: ""
                     fg: ""
+
+    # Service d'automobiles TRN(vr) - TRN/Auto
+    "000156":
+        code: TRN
+        short_name: TRN/Auto
+        name: Service d'automobiles TRN(vr)
+        colors_source:
+        color_by_types:
+            bus:
+                "422":
+                    bg: ""
+                    fg: ""
+                "423":
+                    bg: ""
+                    fg: ""
+                "450":
+                    bg: ""
+                    fg: ""
+
+    # Service d'automobiles TRN (rvt Auto) - TRN/Autr
+    "000796":
+        code: TRN
+        short_name: TRN/Autr
+        name: Service d'automobiles TRN (rvt Auto)
+        colors_source:
+        color_by_types:
+            bus:
+                "590":
+                    bg: ""
+                    fg: ""
+                "591":
+                    bg: ""
+                    fg: ""
+
+    # Transports Publics Neuchâtelois SA (cmn) - TRN-cmn
+    "000044":
+        code: TRN
+        short_name: TRN-cmn
+        name: Transports Publics Neuchâtelois SA (cmn)
+        colors_source:
+        color_by_types:
+            train:
+                "R":
+                    <<: *TRAIN_SBAHN
+            bus:
+                "NFB":
+                    <<: *NIGHT
 
     # Transports Publics Neuchâtelois SA (tc) - TRN/tc
     "000792":
@@ -8880,53 +8923,6 @@ agency_data:
                 "613":
                     bg: "#cfbe7d"
                     fg: "#ffffff"
-
-    # Service d'automobiles TRN (rvt Auto) - TRN/Autr
-    "000796":
-        code: TRN
-        short_name: TRN/Autr
-        name: Service d'automobiles TRN (rvt Auto)
-        colors_source:
-        color_by_types:
-            bus:
-                "590":
-                    bg: ""
-                    fg: ""
-                "591":
-                    bg: ""
-                    fg: ""
-
-    # Transports Publics Neuchâtelois SA (cmn) - TRN-cmn
-    "000044":
-        code: TRN
-        short_name: TRN-cmn
-        name: Transports Publics Neuchâtelois SA (cmn)
-        colors_source:
-        color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
-            bus:
-                "NFB":
-                    <<: *NIGHT
-
-    # Service d'automobiles TRN(vr) - TRN/Auto
-    "000156":
-        code: TRN
-        short_name: TRN/Auto
-        name: Service d'automobiles TRN(vr)
-        colors_source:
-        color_by_types:
-            bus:
-                "422":
-                    bg: ""
-                    fg: ""
-                "423":
-                    bg: ""
-                    fg: ""
-                "450":
-                    bg: ""
-                    fg: ""
 
     # Transports Publics Neuchâtelois SA - TRN-tn F
     "015300":
@@ -9504,6 +9500,44 @@ agency_data:
                     bg: ""
                     fg: ""
 
+    # Verkehrsbetriebe Schaffhausen - VBSH
+    "000836":
+        code: VBS
+        short_name: VBSH
+        name: Verkehrsbetriebe Schaffhausen
+        colors_source:
+        color_by_types:
+            bus:
+                "1":
+                    bg: "#006f3c"
+                    fg: "#ffffff"
+                "3":
+                    bg: "#d9531c"
+                    fg: "#ffffff"
+                "4":
+                    bg: "#231f20"
+                    fg: "#ffffff"
+                "5":
+                    bg: "#008bb0"
+                    fg: "#ffffff"
+                "6":
+                    bg: "#fec221"
+                    fg: "#000000"
+                "8":
+                    bg: "#593e99"
+                    fg: "#ffffff"
+                "Kino":
+                    bg: ""
+                    fg: ""
+                "N1":
+                    <<: *NIGHT
+                "N2":
+                    <<: *NIGHT
+                "N3":
+                    <<: *NIGHT
+                "N4":
+                    <<: *NIGHT
+
     # Verkehrsbetriebe der Stadt St.Gallen - VBSG
     "000885":
         code: VBS
@@ -9557,44 +9591,6 @@ agency_data:
                 "N1":
                     <<: *NIGHT
                 "N2":
-                    <<: *NIGHT
-
-    # Verkehrsbetriebe Schaffhausen - VBSH
-    "000836":
-        code: VBS
-        short_name: VBSH
-        name: Verkehrsbetriebe Schaffhausen
-        colors_source:
-        color_by_types:
-            bus:
-                "1":
-                    bg: "#006f3c"
-                    fg: "#ffffff"
-                "3":
-                    bg: "#d9531c"
-                    fg: "#ffffff"
-                "4":
-                    bg: "#231f20"
-                    fg: "#ffffff"
-                "5":
-                    bg: "#008bb0"
-                    fg: "#ffffff"
-                "6":
-                    bg: "#fec221"
-                    fg: "#000000"
-                "8":
-                    bg: "#593e99"
-                    fg: "#ffffff"
-                "Kino":
-                    bg: ""
-                    fg: ""
-                "N1":
-                    <<: *NIGHT
-                "N2":
-                    <<: *NIGHT
-                "N3":
-                    <<: *NIGHT
-                "N4":
                     <<: *NIGHT
 
     # Verkehrsbetriebe Zürich INFO+ - VBZ    F
@@ -9659,16 +9655,10 @@ agency_data:
         colors_source:
         color_by_types:
             fun:
-                "ALL_LINES":
-                    bg: "#91c1e5"
-                    fg: "#000000"
                 "23":
                     bg: ""
                     fg: ""
             bus:
-                "ALL_LINES":
-                    bg: "#91c1e5"
-                    fg: "#000000"
                 "31":
                     bg: "#a5a4cb"
                     fg: "#ffffff"
@@ -10176,17 +10166,6 @@ agency_data:
                 "R":
                     <<: *TRAIN_SBAHN
 
-    # Waldenburgerbahn - WB
-    "000094":
-        code: WB
-        short_name: WB
-        name: Waldenburgerbahn
-        colors_source:
-        color_by_types:
-            train:
-                "502":
-                    <<: *TRAIN_SBAHN
-
     # Bürgerbus Walperswil-Epsach-Täuffelen-Aarberg - WETA
     "007044":
         code: WET
@@ -10237,6 +10216,31 @@ agency_data:
                     bg: ""
                     fg: ""
 
+    # Zentralbahn - ZB
+    "000086":
+        code: ZB
+        short_name: ZB
+        name: Zentralbahn
+        colors_source:
+        color_by_types:
+            train:
+                "EXT":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR":
+                    <<: *TRAIN_LONG_DISTANCE
+                "R":
+                    <<: *TRAIN_SBAHN
+                "S":
+                    <<: *TRAIN_SBAHN
+                "S4":
+                    <<: *TRAIN_SBAHN
+                "S5":
+                    <<: *TRAIN_SBAHN
+                "S44":
+                    <<: *TRAIN_SBAHN
+                "S55":
+                    <<: *TRAIN_SBAHN
+
     # ZB Bus Fahrplanbedürfnisse - ZB Bus F
     "007050":
         code: ZB
@@ -10266,31 +10270,6 @@ agency_data:
                 "BUS":
                     bg: ""
                     fg: ""
-
-    # Zentralbahn - ZB
-    "000086":
-        code: ZB
-        short_name: ZB
-        name: Zentralbahn
-        colors_source:
-        color_by_types:
-            train:
-                "EXT":
-                    <<: *TRAIN_LONG_DISTANCE
-                "IR":
-                    <<: *TRAIN_LONG_DISTANCE
-                "R":
-                    <<: *TRAIN_SBAHN
-                "S":
-                    <<: *TRAIN_SBAHN
-                "S4":
-                    <<: *TRAIN_SBAHN
-                "S5":
-                    <<: *TRAIN_SBAHN
-                "S44":
-                    <<: *TRAIN_SBAHN
-                "S55":
-                    <<: *TRAIN_SBAHN
 
     # Zermatt Bergbahnen AG - ZBAG
     "000299":
