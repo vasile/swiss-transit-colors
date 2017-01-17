@@ -8132,6 +8132,9 @@ agency_data:
         colors_source: http://www.tpf.ch/documents/10180/20722/zone_10.pdf/3bbebab6-6f0b-45ab-a899-037e79de0232
         color_by_types:
             bus:
+                "ALL_LINES":
+                    bg: "#d1d2d4"
+                    fg: "#000000"
                 "1":
                     bg: "#64982f"
                     fg: "#ffffff"
