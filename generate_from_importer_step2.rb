@@ -58,6 +58,7 @@ agency_data.each do |agency_row|
     config_lines << "        color_by_types:"   
 
     vehicle_types_data = map_agency_line[agency_id]
+    next if vehicle_types_data.nil?
     vehicle_types_data.each do |vehicle_type, vehicle_type_data|
         # config_lines << "            # FPLAN: #{vehicle_type_data['fplan_types'].sort.join(',')}"
         config_lines << "            #{vehicle_type}:"
