@@ -18,7 +18,7 @@ Profiler::init('... query trips')
 
 # post, vbz, tpg, sbb
 extra_sql = " WHERE agency_id IN ('000801', '000849', '000881', '000011')"
-# extra_sql = " WHERE agency_id IN ('000801')"
+extra_sql = " WHERE agency_id IN ('000849')"
 extra_sql = ""
 
 sql = "SELECT * FROM trips #{extra_sql}"
