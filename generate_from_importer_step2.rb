@@ -7,11 +7,38 @@ require "#{APP_PATH}/inc/ext/gtfs-db-helpers/gtfs_db.rb"
 require "#{APP_PATH}/inc/ext/profiler.rb"
 require "#{APP_PATH}/inc/ext/custom-swiss-all.rb"
 
+def color_data_from_old_config(trip_data)
+    agency_id = trip_data['agency_id']
+    fplan_vehicle_type = trip_data['fplan_vehicle_type']
+    trip_short_name = trip_data['trip_short_name']
+
+    return nil if OLD_COLORS_CONFIG['agency'][agency_id].nil?
+
+    color_vehicle_types = OLD_COLORS_CONFIG['agency'][agency_id]['vehicle_types']
+    color_data = color_vehicle_types[fplan_vehicle_type][trip_short_name]
+    if color_data.nil?
+        color_vehicle_types.values.each do |lines_data|
+            lines_data.each do |color_vehicle_line, color_line_data|
+                if trip_short_name == color_vehicle_line
+                    color_data = color_line_data
+                end
+            end
+        end
+    end
+    return nil if color_data.nil?
+    return nil if color_data['bg'] == ''
+
+    return color_data
+end
+
 gtfs_importer_path = "/Users/vasile/Stuff/projects/gtfs/gtfs-importer"
 gtfs_profile = "swiss-all"
 
 config_path = "#{gtfs_importer_path}/inc/custom/#{gtfs_profile}/custom.yml"
 config = YAML.load_file(config_path)
+
+old_colors_config_path = "#{APP_PATH}/agency_colors.yml"
+OLD_COLORS_CONFIG = YAML.load_file(old_colors_config_path)
 
 db_path = "#{gtfs_importer_path}/tmp/#{gtfs_profile}/gtfs.db"
 db = GTFS_DB::db_with_path(db_path)
