@@ -114,6 +114,9 @@ agency_data:
                 "55":
                     bg: ""
                     fg: ""
+                "901":
+                    bg: ""
+                    fg: ""
                 "N12":
                     <<: *NIGHT
 
@@ -211,6 +214,8 @@ agency_data:
         color_by_types:
             train:
                 "D":
+                    <<: *TRAIN_LONG_DISTANCE
+                "EXT":
                     <<: *TRAIN_LONG_DISTANCE
                 "S21":
                     <<: *TRAIN_SBAHN
@@ -1458,6 +1463,10 @@ agency_data:
                 "N11":
                     bg: "#000000"
                     fg: "#fff100"
+            bus:
+                "11":
+                    bg: "#ee1d23"
+                    fg: "#ffffff"
 
     # Busbetrieb Lichtensteig-Wattwil-Ebnat-Kappel - BLWE
     "000810":
@@ -1735,6 +1744,9 @@ agency_data:
                     bg: ""
                     fg: ""
                 "761":
+                    bg: ""
+                    fg: ""
+                "RHEMA":
                     bg: ""
                     fg: ""
                 "N33":
@@ -2124,6 +2136,10 @@ agency_data:
             train:
                 "R":
                     <<: *TRAIN_SBAHN
+            bus:
+                "BUS":
+                    bg: ""
+                    fg: ""
 
     # Remontées Mécaniques Crans-Montana-Aminona - CMA
     "000245":
@@ -2175,6 +2191,8 @@ agency_data:
                     <<: *TRAIN_SBAHN
                 "S6":
                     <<: *TRAIN_SBAHN
+                "S11":
+                    <<: *TRAIN_SBAHN
                 "S22":
                     <<: *TRAIN_SBAHN
                 "S24":
@@ -2185,6 +2203,13 @@ agency_data:
                     <<: *TRAIN_SBAHN
                 "S60":
                     <<: *TRAIN_SBAHN
+            bus:
+                "BUS":
+                    bg: ""
+                    fg: ""
+                "SEV":
+                    bg: ""
+                    fg: ""
 
     # Dolderbahn Betriebs AG - DBZ
     "000164":
@@ -2362,6 +2387,9 @@ agency_data:
                 "BUS":
                     bg: ""
                     fg: ""
+                "KB":
+                    bg: ""
+                    fg: ""
                 "NFB":
                     <<: *NIGHT
             train:
@@ -2375,6 +2403,10 @@ agency_data:
         name: Interimsfahrplan / Horaire interimaire / Orario ad interim
         colors_source: 
         color_by_types:
+            train:
+                "ICB":
+                    bg: ""
+                    fg: ""
             bus:
                 "BUS":
                     bg: ""
@@ -3151,6 +3183,10 @@ agency_data:
                 "LB":
                     bg: ""
                     fg: ""
+            bus:
+                "KB":
+                    bg: ""
+                    fg: ""
 
     # Luftseilbahngenossenschaft Gitschenen - LGGI
     "003012":
@@ -3197,6 +3233,10 @@ agency_data:
         color_by_types:
             cable:
                 "LB":
+                    bg: ""
+                    fg: ""
+            bus:
+                "KB":
                     bg: ""
                     fg: ""
 
@@ -3674,6 +3714,10 @@ agency_data:
                 "LB":
                     bg: ""
                     fg: ""
+            bus:
+                "KB":
+                    bg: ""
+                    fg: ""
 
     # Luftseilbahn Unterterzen-Flumserberg AG - LUFAG
     "000214":
@@ -3825,6 +3869,8 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
+                "EXT":
+                    <<: *TRAIN_LONG_DISTANCE
                 "GEX":
                     <<: *TRAIN_LONG_DISTANCE
                 "R":
@@ -3842,6 +3888,8 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
+                "EXT":
+                    <<: *TRAIN_SBAHN
                 "R":
                     <<: *TRAIN_SBAHN
 
@@ -3973,6 +4021,18 @@ agency_data:
         code: NLB
         short_name: NLB
         name: Navigation Lac des Brenets
+        colors_source: 
+        color_by_types:
+            boat:
+                "BAT":
+                    bg: ""
+                    fg: ""
+
+    # Lago Maggiore - NLM
+    "000187":
+        code: NLM
+        short_name: NLM
+        name: Lago Maggiore
         colors_source: 
         color_by_types:
             boat:
@@ -6272,6 +6332,8 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
                 "GEX":
                     <<: *TRAIN_LONG_DISTANCE
+                "MAT":
+                    <<: *TRAIN_SBAHN
                 "RE":
                     <<: *TRAIN_LONG_DISTANCE
                 "R":
@@ -6286,6 +6348,8 @@ agency_data:
                 "BUS":
                     bg: ""
                     fg: ""
+                "NB":
+                    <<: *NIGHT
 
     # Société des Auto-transports du Pied du Jura Vaudois - SAPJV
     "000719":
@@ -6449,6 +6513,8 @@ agency_data:
                     <<: *NIGHT
                 "SN9":
                     <<: *NIGHT
+                "SN27":
+                    <<: *NIGHT
 
     # Automobildienst SBB - SBB Bus
     "000702":
@@ -6515,10 +6581,16 @@ agency_data:
             train:
                 "RB":
                     <<: *TRAIN_LONG_DISTANCE
+                "S":
+                    <<: *TRAIN_SBAHN
                 "S5":
                     <<: *TRAIN_SBAHN
                 "S6":
                     <<: *TRAIN_SBAHN
+            bus:
+                "SEV":
+                    bg: ""
+                    fg: ""
 
     # Stadtbus Chur - SBC
     "000766":
@@ -7266,6 +7338,15 @@ agency_data:
                 "3":
                     bg: "#ffffff"
                     fg: "#231f20"
+                "6":
+                    bg: "#0089cf"
+                    fg: "#ffffff"
+                "8":
+                    bg: "#f171ab"
+                    fg: "#ffffff"
+                "9":
+                    bg: "#fec210"
+                    fg: "#000000"
                 "10":
                     bg: "#00a54f"
                     fg: "#ffffff"
@@ -7498,6 +7579,18 @@ agency_data:
                     bg: ""
                     fg: ""
 
+    # Schiff Eglisau-Tössegg - SZR-ET
+    "003186":
+        code: SZR-ET
+        short_name: SZR
+        name: Schiff Eglisau-Tössegg
+        colors_source: 
+        color_by_types:
+            boat:
+                "BAT":
+                    bg: ""
+                    fg: ""    
+
     # Sihltal-Zürich-Uetliberg-Bahn - SZU
     "000078":
         code: SZU
@@ -7715,6 +7808,10 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
+                "EXT":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR":
+                    <<: *TRAIN_LONG_DISTANCE
                 "RE":
                     <<: *TRAIN_LONG_DISTANCE
                 "S":
@@ -8775,6 +8872,10 @@ agency_data:
             train:
                 "R":
                     <<: *TRAIN_SBAHN
+            bus:
+                "BUS":
+                    bg: ""
+                    fg: ""
 
     # Riddes-Isérables - TRI
     "000227":
@@ -9499,6 +9600,12 @@ agency_data:
                 "26":
                     bg: "#a153a1"
                     fg: "#ffffff"
+                "MattBus":
+                    bg: ""
+                    fg: ""
+                "TellB":
+                    bg: ""
+                    fg: ""
                 "NFB":
                     <<: *NIGHT
                 "N1":
@@ -9665,6 +9772,16 @@ agency_data:
                     fg: "#ffffff"
                 "17":
                     bg: "#872563"
+                    fg: "#ffffff"
+            bus:
+                "2":
+                    bg: "#c0322a"
+                    fg: "#ffffff"
+                "3":
+                    bg: "#5ca040"
+                    fg: "#ffffff"
+                "11":
+                    bg: "#5ca040"
                     fg: "#ffffff"
 
     # Verkehrsbetriebe Zürich - VBZ
@@ -9972,6 +10089,9 @@ agency_data:
         color_by_types:
             bus:
                 "494":
+                    bg: ""
+                    fg: ""
+                "553":
                     bg: ""
                     fg: ""
 
