@@ -283,6 +283,22 @@ agency_data:
                 "136":
                     bg: ""
                     fg: ""
+    
+    # Arosa Bergbahnen - ABB
+    "000219":
+        code: ABB
+        short_name: ABB
+        name: Arosa Bergbahnen
+        colors_source: 
+        color_by_types:
+            cable:
+                "LB":
+                    bg: ""
+                    fg: ""
+            gondola:
+                "GB":
+                    bg: ""
+                    fg: ""
 
     # Autoverkehr Frutigen-Adelboden - AFA
     "000813":
@@ -890,6 +906,8 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
                 "S17":
                     <<: *TRAIN_SBAHN
+                "17":
+                    <<: *TRAIN_SBAHN
             bus:
                 "N31":
                     <<: *NIGHT
@@ -1275,6 +1293,12 @@ agency_data:
             train:
                 "EXT":
                     <<: *TRAIN_LONG_DISTANCE
+                "IC":
+                    <<: *TRAIN_LONG_DISTANCE
+                "ICN":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR":
+                    <<: *TRAIN_LONG_DISTANCE
                 "RE":
                     <<: *TRAIN_LONG_DISTANCE
                 "R":
@@ -1305,6 +1329,8 @@ agency_data:
                     <<: *TRAIN_SBAHN
                 "S61":
                     <<: *TRAIN_SBAHN
+                "SN":
+                    <<: *NIGHT
 
     # BLS AG (brs) - BLS-brs
     "000183":
@@ -1436,6 +1462,8 @@ agency_data:
             train:
                 "502":
                     <<: *TRAIN_SBAHN
+                "R":
+                    <<: *TRAIN_SBAHN
 
     # Baselland Transport - BLT-blt
     "000037":
@@ -1464,6 +1492,9 @@ agency_data:
                     bg: "#000000"
                     fg: "#fff100"
             bus:
+                "10":
+                    bg: "#feca0a"
+                    fg: "#000000"
                 "11":
                     bg: "#ee1d23"
                     fg: "#ffffff"
@@ -1541,6 +1572,8 @@ agency_data:
                     bg: ""
                     fg: ""
             train:
+                "EXT":
+                    <<: *TRAIN_SBAHN
                 "R":
                     <<: *TRAIN_SBAHN
 
@@ -2042,6 +2075,9 @@ agency_data:
                 "BUS":
                     bg: ""
                     fg: ""
+                "TellBus":
+                    bg: ""
+                    fg: ""
                 "NFB":
                     <<: *NIGHT
 
@@ -2260,6 +2296,8 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
                 "GEX":
                     <<: *TRAIN_LONG_DISTANCE
+                "R":
+                    <<: *TRAIN_SBAHN
 
     # Davos Klosters Bergbahnen (dpb) - DKB-dpb
     "000109":
@@ -2312,6 +2350,18 @@ agency_data:
                 "FUN":
                     bg: ""
                     fg: ""
+    
+    # Dampfbahn-Verein Zürcher Oberland - DVZO
+    "000908":
+        code: DVZ
+        short_name: DVZO
+        name: Dampfbahn-Verein Zürcher Oberland
+        colors_source: 
+        color_by_types:
+            train:
+                "EXT":
+                    bg: ""
+                    fg: ""
 
     # Engelberg-Brunni - EB
     "000203":
@@ -2338,7 +2388,7 @@ agency_data:
                     fg: ""
 
     # Elektrobus Zermatt - EBZ-ebz
-    "007059":
+    "000708":
         code: EBZ
         short_name: EBZ-ebz
         name: Elektrobus Zermatt
@@ -2351,6 +2401,21 @@ agency_data:
                 "572":
                     bg: ""
                     fg: ""
+
+    # # Elektrobus Zermatt - EBZ-ebz
+    # "007059":
+    #     code: EBZ
+    #     short_name: EBZ-ebz
+    #     name: Elektrobus Zermatt
+    #     colors_source: 
+    #     color_by_types:
+    #         bus:
+    #             "571":
+    #                 bg: ""
+    #                 fg: ""
+    #             "572":
+    #                 bg: ""
+    #                 fg: ""
 
     # Ernst Mändli AG Nohl - EMAG
     "003185":
@@ -2408,6 +2473,18 @@ agency_data:
                     bg: ""
                     fg: ""
             bus:
+                "400":
+                    bg: ""
+                    fg: ""
+                "A":
+                    bg: ""
+                    fg: ""
+                "B":
+                    bg: ""
+                    fg: ""
+                "C":
+                    bg: ""
+                    fg: ""
                 "BUS":
                     bg: ""
                     fg: ""
@@ -2903,6 +2980,18 @@ agency_data:
         color_by_types:
             fun:
                 "FUN":
+                    bg: ""
+                    fg: ""
+
+    # Publikation nur Kursbuch/Plakat - KUB
+    "003000":
+        code: KUB
+        short_name: KUBUS
+        name: Publikation nur Kursbuch/Plakat
+        colors_source: 
+        color_by_types:
+            bus:
+                "BUS":
                     bg: ""
                     fg: ""
 
@@ -3892,6 +3981,24 @@ agency_data:
                     <<: *TRAIN_SBAHN
                 "R":
                     <<: *TRAIN_SBAHN
+
+    # Moonliner - MNL
+    "007089":
+        code: MNL
+        short_name: MNL
+        name: Moonliner
+        colors_source: 
+        color_by_types:
+            bus:
+                "M1":
+                    bg: ""
+                    fg: ""
+                "M8":
+                    bg: ""
+                    fg: ""
+                "M17":
+                    bg: ""
+                    fg: ""
 
     # Montreux-Oberland Bernois - MOB
     "000064":
@@ -5963,6 +6070,8 @@ agency_data:
                     bg: ""
                     fg: ""
             train:
+                "EXT":
+                    <<: *TRAIN_SBAHN
                 "R":
                     <<: *TRAIN_SBAHN
 
@@ -5973,6 +6082,10 @@ agency_data:
         name: Regionalalps INFO+
         colors_source: 
         color_by_types:
+            bus:
+                "BUS":
+                    bg: ""
+                    fg: ""
             train:
                 "R":
                     <<: *TRAIN_SBAHN
@@ -5997,6 +6110,8 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
+                "P2":
+                    <<: *TRAIN_SBAHN
                 "R":
                     <<: *TRAIN_SBAHN
 
@@ -6107,6 +6222,9 @@ agency_data:
                     bg: ""
                     fg: ""
                 "48":
+                    bg: ""
+                    fg: ""
+                "97":
                     bg: ""
                     fg: ""
                 "362":
@@ -6348,6 +6466,9 @@ agency_data:
                 "BUS":
                     bg: ""
                     fg: ""
+                "TX":
+                    bg: ""
+                    fg: ""
                 "NB":
                     <<: *NIGHT
 
@@ -6407,6 +6528,8 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
+                "ALL_LINES":
+                    <<: *TRAIN_LONG_DISTANCE
                 "ATZ":
                     <<: *TRAIN_LONG_DISTANCE
                 "EC":
@@ -7098,6 +7221,8 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
+                "EXT":
+                    <<: *TRAIN_LONG_DISTANCE
                 "VAE":
                     <<: *TRAIN_LONG_DISTANCE
                 "S":
@@ -7340,6 +7465,9 @@ agency_data:
                     fg: "#231f20"
                 "6":
                     bg: "#0089cf"
+                    fg: "#ffffff"
+                "7":
+                    bg: "#ee1d23"
                     fg: "#ffffff"
                 "8":
                     bg: "#f171ab"
@@ -7599,7 +7727,11 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
+                "EXT":
+                    <<: *TRAIN_SBAHN
                 "R":
+                    <<: *TRAIN_SBAHN
+                "4":
                     <<: *TRAIN_SBAHN
                 "S4":
                     <<: *TRAIN_SBAHN
@@ -7800,6 +7932,18 @@ agency_data:
                     bg: ""
                     fg: ""
 
+    # Trägerverein Historische Postautolinie - THP
+    "007088":
+        code: THP
+        short_name: THP
+        name: Trägerverein Historische Postautolinie
+        colors_source: 
+        color_by_types:
+            bus:
+                "272":
+                    bg: ""
+                    fg: ""
+
     # THURBO - THURBO
     "000065":
         code: THU
@@ -7859,6 +8003,8 @@ agency_data:
                 "SN":
                     <<: *NIGHT
                 "SN3":
+                    <<: *NIGHT
+                "SN8":
                     <<: *NIGHT
 
     # Treni Regionali Ticino Lombardia - TILO
@@ -8434,8 +8580,12 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
+                "EXT":
+                    <<: *TRAIN_LONG_DISTANCE
                 "RE":
                     <<: *TRAIN_LONG_DISTANCE
+                "S":
+                    <<: *TRAIN_SBAHN
                 "S20":
                     <<: *TRAIN_SBAHN
                 "S21":
@@ -8493,6 +8643,9 @@ agency_data:
                 "5":
                     bg: "#00A7E3"
                     fg: "#ffffff"
+                "5+":
+                    bg: "#000000"
+                    fg: "#ffffff"
                 "6":
                     bg: "#4392D6"
                     fg: "#ffffff"
@@ -8510,6 +8663,12 @@ agency_data:
                     fg: "#ffffff"
                 "11":
                     bg: "#9683EC"
+                    fg: "#ffffff"
+                "12":
+                    bg: "#F0A802"
+                    fg: "#000000"
+                "18":
+                    bg: "#A84B97"
                     fg: "#ffffff"
                 "19":
                     bg: "#F6ED00"
@@ -8589,6 +8748,9 @@ agency_data:
                 "C":
                     bg: "#FF6600"
                     fg: "#ffffff"
+                "C+":
+                    bg: "#000000"
+                    fg: "#ffffff"
                 "D":
                     bg: "#FF9999"
                     fg: "#000000"
@@ -8604,6 +8766,9 @@ agency_data:
                 "G":
                     bg: "#FF9999"
                     fg: "#000000"
+                "G+":
+                    bg: "#000000"
+                    fg: "#ffffff"
                 "J":
                     bg: "#d88726"
                     fg: "#ffffff"
@@ -8616,10 +8781,16 @@ agency_data:
                 "M":
                     bg: "#59C3EB"
                     fg: "#ffffff"
+                "N":
+                    bg: "#59C3EB"
+                    fg: "#ffffff"
                 "O":
                     bg: "#FF9999"
                     fg: "#000000"
                 "P":
+                    bg: "#25498c"
+                    fg: "#ffffff"
+                "R":
                     bg: "#25498c"
                     fg: "#ffffff"
                 "S":
@@ -8633,6 +8804,9 @@ agency_data:
                     fg: "#ffffff"
                 "V":
                     bg: "#FF6600"
+                    fg: "#ffffff"
+                "V+":
+                    bg: "#000000"
                     fg: "#ffffff"
                 "W":
                     bg: "#003399"
@@ -8832,6 +9006,8 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
+                "EXT":
+                    <<: *TRAIN_SBAHN
                 "R":
                     <<: *TRAIN_SBAHN
 
@@ -8873,6 +9049,9 @@ agency_data:
                 "R":
                     <<: *TRAIN_SBAHN
             bus:
+                "KB":
+                    bg: ""
+                    fg: ""
                 "BUS":
                     bg: ""
                     fg: ""
@@ -9606,6 +9785,9 @@ agency_data:
                 "TellB":
                     bg: ""
                     fg: ""
+                "TellBus":
+                    bg: ""
+                    fg: ""
                 "NFB":
                     <<: *NIGHT
                 "N1":
@@ -9773,6 +9955,9 @@ agency_data:
                 "17":
                     bg: "#872563"
                     fg: "#ffffff"
+                "E":
+                    bg: ""
+                    fg: ""
             bus:
                 "2":
                     bg: "#c0322a"
@@ -9780,8 +9965,14 @@ agency_data:
                 "3":
                     bg: "#5ca040"
                     fg: "#ffffff"
+                "7":
+                    bg: "#000000"
+                    fg: "#ffffff"
                 "11":
                     bg: "#5ca040"
+                    fg: "#ffffff"
+                "14":
+                    bg: "#61aadb"
                     fg: "#ffffff"
 
     # Verkehrsbetriebe Zürich - VBZ
@@ -10191,6 +10382,9 @@ agency_data:
                     bg: ""
                     fg: ""
                 "875":
+                    bg: ""
+                    fg: ""
+                "878":
                     bg: ""
                     fg: ""
                 "879":
