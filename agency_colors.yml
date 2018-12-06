@@ -9400,37 +9400,43 @@ agency_data:
         color_by_types:
             bus:
                 "1":
-                    bg: "#e60005"
+                    bg: "#dd1d1e"
                     fg: "#ffffff"
                 "2":
-                    bg: "#008fd7"
+                    bg: "#13346d"
                     fg: "#ffffff"
                 "4":
-                    bg: "#006f31"
+                    bg: "#ec661e"
                     fg: "#ffffff"
                 "5":
-                    bg: "#5eaf21"
+                    bg: "#165128"
                     fg: "#ffffff"
                 "6":
-                    bg: "#d70083"
+                    bg: "#90b831"
                     fg: "#ffffff"
                 "7":
-                    bg: "#ee7900"
+                    bg: "#e33e82"
                     fg: "#ffffff"
                 "8":
-                    bg: "#813b92"
+                    bg: "#6b3881"
+                    fg: "#ffffff"
+                "9":
+                    bg: "#0084b7"
                     fg: "#ffffff"
                 "11":
-                    bg: "#a71818"
+                    bg: "#911623"
+                    fg: "#ffffff"
+                "12":
+                    bg: "#35ae9b"
                     fg: "#ffffff"
                 "70":
-                    bg: "#97979b"
+                    bg: "#5a5959"
                     fg: "#ffffff"
                 "71":
-                    bg: "#97979b"
+                    bg: "#5a5959"
                     fg: "#ffffff"
                 "75":
-                    bg: "#97979b"
+                    bg: "#5a5959"
                     fg: "#ffffff"
 
     # Verkehrsbetriebe Biel - VB-be
