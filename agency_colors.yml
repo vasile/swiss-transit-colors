@@ -213,10 +213,8 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
-                "D":
-                    <<: *TRAIN_LONG_DISTANCE
-                "EXT":
-                    <<: *TRAIN_LONG_DISTANCE
+                "S":
+                    <<: *TRAIN_SBAHN
                 "S21":
                     <<: *TRAIN_SBAHN
                 "S22":
@@ -908,6 +906,8 @@ agency_data:
                     <<: *TRAIN_SBAHN
                 "17":
                     <<: *TRAIN_SBAHN
+                "SN":
+                    <<: *NIGHT
             bus:
                 "N31":
                     <<: *NIGHT
@@ -1460,7 +1460,7 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
-                "502":
+                "19":
                     <<: *TRAIN_SBAHN
                 "R":
                     <<: *TRAIN_SBAHN
@@ -2229,6 +2229,8 @@ agency_data:
                     <<: *TRAIN_SBAHN
                 "S11":
                     <<: *TRAIN_SBAHN
+                "S12":
+                    <<: *TRAIN_SBAHN
                 "S22":
                     <<: *TRAIN_SBAHN
                 "S24":
@@ -2295,6 +2297,8 @@ agency_data:
                 "EXT":
                     <<: *TRAIN_LONG_DISTANCE
                 "GEX":
+                    <<: *TRAIN_LONG_DISTANCE
+                "PE":
                     <<: *TRAIN_LONG_DISTANCE
                 "R":
                     <<: *TRAIN_SBAHN
@@ -2766,7 +2770,7 @@ agency_data:
             train:
                 "S15":
                     <<: *TRAIN_SBAHN
-                "SN":
+                "SN15":
                     <<: *NIGHT
 
     # Franz Weiss Sarnen (Sarnersee) - FWS
@@ -3172,9 +3176,7 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
-                "D":
-                    <<: *TRAIN_LONG_DISTANCE
-                "R":
+                "LEB":
                     <<: *TRAIN_SBAHN
 
     # Luftseilbahn Elsigbach-Elsigenalp - LEE
@@ -3852,7 +3854,7 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
-                "156":
+                "R":
                     <<: *TRAIN_SBAHN
 
     # Transports de la Région Morges-Bière-Cossonay - MBC-cg
@@ -3958,9 +3960,7 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
-                "EXT":
-                    <<: *TRAIN_LONG_DISTANCE
-                "GEX":
+                "PE":
                     <<: *TRAIN_LONG_DISTANCE
                 "R":
                     <<: *TRAIN_SBAHN
@@ -3978,7 +3978,7 @@ agency_data:
         color_by_types:
             train:
                 "EXT":
-                    <<: *TRAIN_SBAHN
+                    <<: *TRAIN_LONG_DISTANCE
                 "R":
                     <<: *TRAIN_SBAHN
 
@@ -4008,7 +4008,9 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
-                "D":
+                "IR":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RE":
                     <<: *TRAIN_LONG_DISTANCE
                 "R":
                     <<: *TRAIN_SBAHN
@@ -4158,6 +4160,17 @@ agency_data:
                 "BAT":
                     bg: ""
                     fg: ""
+
+    # Navigation Lac de Joux - NLJ
+    "807000":
+        code: NeTS-DB
+        short_name: NeTS-DB
+        name: NeTS Planung DB
+        colors_source: 
+        color_by_types:
+            train:
+                "S":
+                    <<: *TRAIN_SBAHN      
 
     # Nyon-St-Cergue-Morez - NStCM
     "000066":
@@ -6070,8 +6083,8 @@ agency_data:
                     bg: ""
                     fg: ""
             train:
-                "EXT":
-                    <<: *TRAIN_SBAHN
+                "RE":
+                    <<: *TRAIN_LONG_DISTANCE
                 "R":
                     <<: *TRAIN_SBAHN
 
@@ -6110,7 +6123,7 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
-                "P2":
+                "P":
                     <<: *TRAIN_SBAHN
                 "R":
                     <<: *TRAIN_SBAHN
@@ -6167,8 +6180,10 @@ agency_data:
             train:
                 "EXT":
                     <<: *TRAIN_LONG_DISTANCE
-                "8":
+                "RE":
                     <<: *TRAIN_LONG_DISTANCE
+                "S":
+                    <<: *TRAIN_SBAHN
                 "S7":
                     <<: *TRAIN_SBAHN
                 "S8":
@@ -6450,8 +6465,12 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
                 "GEX":
                     <<: *TRAIN_LONG_DISTANCE
+                "IR":
+                    <<: *TRAIN_LONG_DISTANCE
                 "MAT":
-                    <<: *TRAIN_SBAHN
+                    <<: *TRAIN_LONG_DISTANCE
+                "PE":
+                    <<: *TRAIN_LONG_DISTANCE
                 "RE":
                     <<: *TRAIN_LONG_DISTANCE
                 "R":
@@ -6529,7 +6548,7 @@ agency_data:
         color_by_types:
             train:
                 "ALL_LINES":
-                    <<: *TRAIN_LONG_DISTANCE
+                    <<: *TRAIN_SBAHN
                 "ATZ":
                     <<: *TRAIN_LONG_DISTANCE
                 "EC":
@@ -6540,17 +6559,69 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
                 "IC":
                     <<: *TRAIN_LONG_DISTANCE
+                "IC 1":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IC 2":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IC 3":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IC 4":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IC 5":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IC 6":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IC 8":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IC 21":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IC 51":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IC 61":
+                    <<: *TRAIN_LONG_DISTANCE
                 "ICE":
                     <<: *TRAIN_LONG_DISTANCE
                 "ICN":
                     <<: *TRAIN_LONG_DISTANCE
                 "IR":
                     <<: *TRAIN_LONG_DISTANCE
+                "IR 13":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 15":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 16":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 17":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 26":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 27":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 36":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 37":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 46":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 70":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 75":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 90":
+                    <<: *TRAIN_LONG_DISTANCE
                 "NZ":
+                    <<: *TRAIN_LONG_DISTANCE
+                "PE":
                     <<: *TRAIN_LONG_DISTANCE
                 "RE":
                     <<: *TRAIN_LONG_DISTANCE
+                "RE 10":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RE 90":
+                    <<: *TRAIN_LONG_DISTANCE
                 "RJ":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RJX":
                     <<: *TRAIN_LONG_DISTANCE
                 "TER":
                     <<: *TRAIN_LONG_DISTANCE
@@ -6622,6 +6693,8 @@ agency_data:
                     <<: *TRAIN_SBAHN
                 "S99":
                     <<: *TRAIN_SBAHN
+                "NJ":
+                    <<: *NIGHT
                 "SN":
                     <<: *NIGHT
                 "SN1":
@@ -7242,6 +7315,8 @@ agency_data:
                 "S81":
                     <<: *TRAIN_SBAHN
                 "SN":
+                    <<: *NIGHT
+                "SN13":
                     <<: *NIGHT
 
     # Sportbahnen Braunwald - SPBR
@@ -7994,11 +8069,15 @@ agency_data:
                     <<: *TRAIN_SBAHN
                 "S35":
                     <<: *TRAIN_SBAHN
+                "S36":
+                    <<: *TRAIN_SBAHN
                 "S41":
                     <<: *TRAIN_SBAHN
                 "S55":
                     <<: *TRAIN_SBAHN
                 "S81":
+                    <<: *TRAIN_SBAHN
+                "S82":
                     <<: *TRAIN_SBAHN
                 "SN":
                     <<: *NIGHT
