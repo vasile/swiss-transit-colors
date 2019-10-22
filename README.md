@@ -23,6 +23,10 @@ If you operate changes to the file and you want to visualize them, run the follo
 
 Example of output: http://vasile.github.io/swiss-transit-colors/
 
+# Contributors
+
+- [Nicolas Ettlin](https://github.com/Nicolapps) - [@nicolapps](https://twitter.com/nicolapps)
+
 # Contact
 If you have additional questions you can use [this form](https://docs.google.com/forms/d/1ZWCqfF8OvRBlMPHMc5FbL6T3zYhQ-p18B8IIwMt1sRs/) to contact me or just ping me on [Twitter](http://twitter.com/vasile23)
 
