@@ -7940,9 +7940,6 @@ agency:
         colors_source: http://fr.wikipedia.org/wiki/Transports_publics_genevois
         vehicle_types:
             BUS:
-                "32":
-                    bg: "#666666"
-                    fg: "#ffffff"
                 "43":
                     bg: "#99CCCC"
                     fg: "#000000"
@@ -7950,8 +7947,8 @@ agency:
                     bg: "#99CCCC"
                     fg: "#000000"
                 "B":
-                    bg: "#FF6600"
-                    fg: "#ffffff"
+                    bg: "#FF9999"
+                    fg: "#000000"
                 "D":
                     bg: "#FF9999"
                     fg: "#000000"
@@ -7978,11 +7975,11 @@ agency:
                 "1":
                     bg: "#5A338B"
                     fg: "#ffffff"
-                "4":
-                    bg: "#E3000B"
-                    fg: "#ffffff"
                 "5":
                     bg: "#00A7E3"
+                    fg: "#ffffff"
+                "5+":
+                    bg: "#000000"
                     fg: "#ffffff"
                 "8":
                     bg: "#993333"
@@ -7993,8 +7990,8 @@ agency:
                 "11":
                     bg: "#9683EC"
                     fg: "#ffffff"
-                "14":
-                    bg: "#4D2A9B"
+                "20":
+                    bg: "#00A24C"
                     fg: "#ffffff"
                 "21":
                     bg: "#663333"
@@ -8013,9 +8010,6 @@ agency:
                     fg: "#000000"
                 "31":
                     bg: "#009999"
-                    fg: "#ffffff"
-                "32":
-                    bg: "#666666"
                     fg: "#ffffff"
                 "33":
                     bg: "#009999"
@@ -8047,20 +8041,62 @@ agency:
                 "53":
                     bg: "#99CCCC"
                     fg: "#000000"
+                "54":
+                    bg: "#009999"
+                    fg: "#ffffff"
+                "56":
+                    bg: "#009999"
+                    fg: "#ffffff"
                 "57":
                     bg: "#99CCCC"
                     fg: "#000000"
                 "61":
                     bg: "#FF9999"
                     fg: "#000000"
+                "62":
+                    bg: "#EB6CA3"
+                    fg: "#FFFFFF"
+                "63":
+                    bg: "#FF9999"
+                    fg: "#000000"
+                "64":
+                    bg: "#EB6CA3"
+                    fg: "#FFFFFF"
+                "66":
+                    bg: "#FF9999"
+                    fg: "#000000"
+                "68":
+                    bg: "#EB6CA3"
+                    fg: "#FFFFFF"
                 "A":
                     bg: "#FF6600"
+                    fg: "#ffffff"
+                "A1":
+                    bg: "#9478D0"
+                    fg: "#ffffff"
+                "A2":
+                    bg: "#053CA4"
+                    fg: "#ffffff"
+                "A3":
+                    bg: "#61A421"
+                    fg: "#ffffff"
+                "A4":
+                    bg: "#2499DB"
+                    fg: "#ffffff"
+                "A5":
+                    bg: "#EB44A8"
+                    fg: "#ffffff"
+                "A6":
+                    bg: "#CF3840"
                     fg: "#ffffff"
                 "B":
                     bg: "#FF6600"
                     fg: "#ffffff"
                 "C":
                     bg: "#FF6600"
+                    fg: "#ffffff"
+                "C+":
+                    bg: "#000000"
                     fg: "#ffffff"
                 "D":
                     bg: "#FF9999"
@@ -8074,6 +8110,12 @@ agency:
                 "G":
                     bg: "#FF9999"
                     fg: "#000000"
+                "G+":
+                    bg: "#000000"
+                    fg: "#ffffff"
+                "J":
+                    bg: "#FF6600"
+                    fg: "#ffffff"
                 "K":
                     bg: "#FF9999"
                     fg: "#000000"
@@ -8081,26 +8123,26 @@ agency:
                     bg: "#FF6600"
                     fg: "#ffffff"
                 "M":
-                    bg: "#59C3EB"
+                    bg: "#FF9BAA"
                     fg: "#ffffff"
-                "O":
+                "N":
                     bg: "#FF9999"
                     fg: "#000000"
+                "P":
+                    bg: "#003399"
+                    fg: "#ffffff"
                 "S":
                     bg: "#003399"
                     fg: "#ffffff"
                 "U":
-                    bg: ""
-                    fg: ""
-                "V":
-                    bg: "#FF6600"
+                    bg: "#003399"
                     fg: "#ffffff"
                 "X":
                     bg: "#003399"
                     fg: "#ffffff"
-                "Y":
-                    bg: "#FF9999"
-                    fg: "#000000"
+                "XA":
+                    bg: "#666666"
+                    fg: "#ffffff"
                 "Z":
                     bg: "#FF9999"
                     fg: "#000000"
@@ -8126,8 +8168,8 @@ agency:
                     bg: "#F0A802"
                     fg: "#000000"
                 "NO":
-                    bg: ""
-                    fg: ""
+                    bg: "#B82F89"
+                    fg: "#FFFFFF"
                 "NP":
                     bg: "#009999"
                     fg: "#ffffff"
@@ -8136,6 +8178,9 @@ agency:
                     fg: "#ffffff"
                 "NT":
                     bg: "#00A7E3"
+                    fg: "#ffffff"
+                "NV":
+                    bg: "#0099FF"
                     fg: "#ffffff"
             NFO:
                 "2":
