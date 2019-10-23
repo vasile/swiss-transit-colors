@@ -7454,17 +7454,17 @@ agency:
     "000827":
         short_name: SVB Auto
         agency_name: Städtische Verkehrsbetriebe Bern
-        colors_source:
+        colors_source: https://www.bernmobil.ch/file/Fahrplan-und-Netz/Fahrplanwechsel%202018/Zoom_Bern_Dez_018.pdf
         vehicle_types:
             NFB:
                 "ALL_LINES":
                     <<: *DEFAULT
                 "3":
-                    bg: "#ffffff"
-                    fg: "#231f20"
+                    bg: "#9AADB2"
+                    fg: "#ffffff"
                 "3B":
-                    bg: "#ffffff"
-                    fg: "#231f20"
+                    bg: "#9AADB2"
+                    fg: "#ffffff"
                 "6":
                     bg: "#0089cf"
                     fg: "#ffffff"
@@ -7487,11 +7487,11 @@ agency:
                     bg: "#f171ab"
                     fg: "#ffffff"
                 "9":
-                    bg: "#fec210"
-                    fg: "#000000"
+                    bg: "#F2BC39"
+                    fg: "#ffffff"
                 "9B":
-                    bg: "#fec210"
-                    fg: "#000000"
+                    bg: "#F2BC39"
+                    fg: "#ffffff"
                 "10":
                     bg: "#00a54f"
                     fg: "#ffffff"
@@ -7502,44 +7502,58 @@ agency:
                     bg: "#f7931d"
                     fg: "#ffffff"
                 "16":
-                    bg: "#ee1d23"
+                    bg: "#57B6A0"
                     fg: "#ffffff"
                 "17":
-                    bg: "#fff101"
-                    fg: "#000000"
+                    bg: "#989A35"
+                    fg: "#ffffff"
                 "19":
-                    bg: "#00aeef"
+                    bg: "#681338"
                     fg: "#ffffff"
                 "20":
-                    bg: "#71bf44"
+                    bg: "#681338"
                     fg: "#ffffff"
                 "21":
-                    bg: "#ffffff"
-                    fg: "#000000"
-                # TODO - add bern colors for 22
+                    bg: "#E3CB38"
+                    fg: "#ffffff"
                 "22":
-                    bg: ""
-                    fg: ""
+                    bg: "#9AADB2"
+                    fg: "#ffffff"
+                "23":
+                    bg: "#9AADB2"
+                    fg: "#ffffff"
+                "25":
+                    bg: "#9AADB2"
+                    fg: "#ffffff"
                 "26":
-                    bg: "#00a54f"
+                    bg: "#E89741"
                     fg: "#ffffff"
                 "27":
-                    bg: "#ffffff"
-                    fg: "#000000"
+                    bg: "#515123"
+                    fg: "#ffffff"
                 "28":
-                    bg: "#a8a9ad"
+                    bg: "#989A35"
                     fg: "#ffffff"
                 "29":
-                    bg: "#8781bd"
+                    bg: "#D55959"
                     fg: "#ffffff"
                 "30":
-                    bg: "#b8b6d2"
+                    bg: "#9AADB2"
                     fg: "#ffffff"
                 "31":
-                    bg: "#a6ce39"
+                    bg: "#9EC646"
                     fg: "#ffffff"
                 "32":
-                    bg: "#a38354"
+                    bg: "#57B6A0"
+                    fg: "#ffffff"
+                "33":
+                    bg: "#515123"
+                    fg: "#ffffff"
+                "34":
+                    bg: "#391D15"
+                    fg: "#ffffff"
+                "36":
+                    bg: "#57B6A0"
                     fg: "#ffffff"
                 "160":
                     bg: "#4cb848"
@@ -7673,8 +7687,8 @@ agency:
                     fg: "#ffffff"
             NFT:
                 "3":
-                    bg: "#ffffff"
-                    fg: "#231f20"
+                    bg: "#9AADB2"
+                    fg: "#ffffff"
                 "6":
                     bg: "#0089cf"
                     fg: "#ffffff"
@@ -7686,7 +7700,7 @@ agency:
                     fg: "#ffffff"
                 "9":
                     bg: "#fec210"
-                    fg: "#000000"
+                    fg: "#ffffff"
     # SVG - Sesselbahn Visperterminen-Giw
     "003052":
         short_name: SVG
