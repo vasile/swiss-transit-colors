@@ -9531,86 +9531,89 @@ agency:
     "000889":
         short_name: VB
         agency_name: Verkehrsbetriebe der Stadt Biel
-        colors_source: http://www.citybielbienne.ch/fileadmin/user_upload/documents/liniennetzplan.pdf
+        colors_source: https://www.vb-tpb.ch/documents/115/2020-12-13_Liniennetz_Biel_und_Umgebung.pdf
         vehicle_types:
             BUS:
                 "1":
-                    bg: "#e60005"
+                    bg: "#f52935"
                     fg: "#ffffff"
                 "2":
-                    bg: "#008fd7"
+                    bg: "#014b8a"
+                    fg: "#ffffff"
+                "3":
+                    bg: "#f3539e"
                     fg: "#ffffff"
                 "4":
-                    bg: "#006f31"
+                    bg: "#fa813c"
                     fg: "#ffffff"
                 "5":
-                    bg: "#5eaf21"
+                    bg: "#0d683c"
                     fg: "#ffffff"
                 "6":
-                    bg: "#d70083"
-                    fg: "#ffffff"
-                "7":
-                    bg: "#ee7900"
+                    bg: "#9acb5c"
                     fg: "#ffffff"
                 "8":
-                    bg: "#813b92"
+                    bg: "#7b529f"
+                    fg: "#ffffff"
+                "9":
+                    bg: "#00a9cc"
                     fg: "#ffffff"
                 "11":
-                    bg: "#a71818"
+                    bg: "#a92c38"
                     fg: "#ffffff"
                 "70":
-                    bg: "#97979b"
-                    fg: "#ffffff"
-                "71":
-                    bg: "#97979b"
+                    bg: "#006e87"
                     fg: "#ffffff"
             NFB:
                 "1":
-                    bg: "#e60005"
+                    bg: "#f52935"
                     fg: "#ffffff"
                 "2":
-                    bg: "#008fd7"
+                    bg: "#014b8a"
+                    fg: "#ffffff"
+                "3":
+                    bg: "#f3539e"
                     fg: "#ffffff"
                 "4":
-                    bg: "#006f31"
+                    bg: "#fa813c"
                     fg: "#ffffff"
                 "5":
-                    bg: "#5eaf21"
+                    bg: "#0d683c"
                     fg: "#ffffff"
                 "6":
-                    bg: "#d70083"
-                    fg: "#ffffff"
-                "7":
-                    bg: "#ee7900"
+                    bg: "#9acb5c"
                     fg: "#ffffff"
                 "8":
-                    bg: "#813b92"
+                    bg: "#7b529f"
+                    fg: "#ffffff"
+                "9":
+                    bg: "#00a9cc"
                     fg: "#ffffff"
                 "11":
-                    bg: "#a71818"
+                    bg: "#a92c38"
                     fg: "#ffffff"
                 "70":
-                    bg: "#97979b"
-                    fg: "#ffffff"
-                "71":
-                    bg: "#97979b"
-                    fg: "#ffffff"
-                "75":
-                    bg: "#97979b"
+                    bg: "#006e87"
                     fg: "#ffffff"
             NFO:
                 "1":
-                    bg: "#e60005"
+                    bg: "#f52935"
+                    fg: "#ffffff"
+                "3":
+                    bg: "#f3539e"
                     fg: "#ffffff"
                 "4":
-                    bg: "#006f31"
+                    bg: "#fa813c"
                     fg: "#ffffff"
             TRO:
                 "1":
-                    bg: "#e60005"
+                    bg: "#f52935"
+                    fg: "#ffffff"
+                "3":
+                    bg: "#f3539e"
                     fg: "#ffffff"
                 "4":
-                    bg: "#006f31"
+                    bg: "#fa813c"
                     fg: "#ffffff"
             FUN:
                 "FUNIC ?v":
