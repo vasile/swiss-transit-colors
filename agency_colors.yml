@@ -11,6 +11,9 @@ special_colors:
     TRAIN_LONG_DISTANCE: &TRAIN_LONG_DISTANCE
         bg: "#ed232a"
         fg: "#ffffff"
+    TRAIN_RACK: &TRAIN_RACK
+        bg: "#835237"
+        fg: "#ffffff"
 
 agency_data:
     # Auto AG Schwyz - AAGS
@@ -215,17 +218,19 @@ agency_data:
             train:
                 "S":
                     <<: *TRAIN_SBAHN
-                "S21":
+                "S 20":
                     <<: *TRAIN_SBAHN
-                "S22":
+                "S 21":
                     <<: *TRAIN_SBAHN
-                "S23":
+                "S 22":
                     <<: *TRAIN_SBAHN
-                "S24":
+                "S 23":
                     <<: *TRAIN_SBAHN
-                "S25":
+                "S 24":
                     <<: *TRAIN_SBAHN
-                "S26":
+                "S 25":
+                    <<: *TRAIN_SBAHN
+                "S 26":
                     <<: *TRAIN_SBAHN
                 "SN":
                     <<: *NIGHT
@@ -581,6 +586,10 @@ agency_data:
         color_by_types:
             train:
                 "R":
+                    <<: *TRAIN_SBAHN
+                "R 2":
+                    <<: *TRAIN_SBAHN
+                "S 2":
                     <<: *TRAIN_SBAHN
 
     # Automobildienste Aare Seeland mobil - ASM Auto
@@ -1299,35 +1308,45 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
                 "IR":
                     <<: *TRAIN_LONG_DISTANCE
+                "IR 17":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 65":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 66":
+                    <<: *TRAIN_LONG_DISTANCE
+                "PE":
+                    <<: *TRAIN_LONG_DISTANCE
                 "RE":
                     <<: *TRAIN_LONG_DISTANCE
                 "R":
                     <<: *TRAIN_SBAHN
                 "S":
                     <<: *TRAIN_SBAHN
-                "S1":
+                "S 1":
                     <<: *TRAIN_SBAHN
-                "S2":
+                "S 2":
                     <<: *TRAIN_SBAHN
-                "S3":
+                "S 3":
                     <<: *TRAIN_SBAHN
-                "S4":
+                "S 4":
                     <<: *TRAIN_SBAHN
-                "S5":
+                "S 5":
                     <<: *TRAIN_SBAHN
-                "S6":
+                "S 6":
                     <<: *TRAIN_SBAHN
-                "S7":
+                "S 7":
                     <<: *TRAIN_SBAHN
-                "S31":
+                "S 31":
                     <<: *TRAIN_SBAHN
-                "S44":
+                "S 44":
                     <<: *TRAIN_SBAHN
-                "S51":
+                "S 51":
                     <<: *TRAIN_SBAHN
-                "S52":
+                "S 52":
                     <<: *TRAIN_SBAHN
-                "S61":
+                "S 61":
+                    <<: *TRAIN_SBAHN
+                "S 77":
                     <<: *TRAIN_SBAHN
                 "SN":
                     <<: *NIGHT
@@ -1584,9 +1603,9 @@ agency_data:
         name: Berner Oberland-Bahnen
         colors_source: 
         color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
+            train-rack:
+                "ALL_LINES":
+                    <<: *TRAIN_RACK
 
     # Busbetrieb Olten-Gösgen-Gäu - BOGG
     "793":
@@ -1840,9 +1859,9 @@ agency_data:
         name: Brienz Rothorn Bahn AG
         colors_source: 
         color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
+            train-rack:
+                "ALL_LINES":
+                    <<: *TRAIN_RACK
 
     # Busbetrieb Rapperswil-Eschenbach-Rüti ZH - BRER
     "772":
@@ -2203,9 +2222,45 @@ agency_data:
             train:
                 "IRE":
                     <<: *TRAIN_LONG_DISTANCE
+                "IRE 30":
+                    <<: *TRAIN_LONG_DISTANCE
                 "RB":
                     <<: *TRAIN_LONG_DISTANCE
+                "RB 11":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RB 14a":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RB 14b":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RB 26":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RB 27":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RB 30":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RB 33":
+                    <<: *TRAIN_LONG_DISTANCE                    
+                "RB 37":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RB 64":
+                    <<: *TRAIN_LONG_DISTANCE
                 "RE":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RE 2":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RE 4":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RE 7":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RE 14a":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RE 14b":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RE 19":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RE 27":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RE 90":
                     <<: *TRAIN_LONG_DISTANCE
                 "TER":
                     <<: *TRAIN_LONG_DISTANCE
@@ -2268,9 +2323,9 @@ agency_data:
         name: Dampfbahn Furka-Bergstrecke
         colors_source: 
         color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
+            train-rack:
+                "ALL_LINES":
+                    <<: *TRAIN_RACK
 
     # Interlaken-Heimwehfluh - DIH
     "159":
@@ -2511,6 +2566,10 @@ agency_data:
             train:
                 "D":
                     <<: *TRAIN_LONG_DISTANCE
+                "PE":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RE":
+                    <<: *TRAIN_LONG_DISTANCE
                 "R":
                     <<: *TRAIN_SBAHN
 
@@ -2582,11 +2641,11 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
-                "S18":
+                "S 18":
                     <<: *TRAIN_SBAHN
                 "S18S":
                     <<: *TRAIN_SBAHN
-                "SN18":
+                "SN 18":
                     <<: *NIGHT
 
     # Fähre Beckenried-Gersau - FBG
@@ -2685,7 +2744,7 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
-                "S60":
+                "S 60":
                     <<: *TRAIN_SBAHN
 
     # Cassarate-Monte Brè - FMB
@@ -2768,7 +2827,7 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
-                "S15":
+                "S 15":
                     <<: *TRAIN_SBAHN
                 "SN15":
                     <<: *NIGHT
@@ -2816,9 +2875,9 @@ agency_data:
         name: Gornergratbahn
         colors_source: 
         color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
+            train-rack:
+                "ALL_LINES":
+                    <<: *TRAIN_RACK
 
     # Grindelwald Grund-Männlichen - GGM
     "312":
@@ -2935,9 +2994,9 @@ agency_data:
         name: Jungfraubahn
         colors_source: 
         color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
+            train-rack:
+                "ALL_LINES":
+                    <<: *TRAIN_RACK
 
     # Kaisereggbahnen Schwarzsee AG - KBS
     "3005":
@@ -3854,7 +3913,7 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
-                "R":
+                "ALL_LINES":
                     <<: *TRAIN_SBAHN
 
     # Transports de la Région Morges-Bière-Cossonay - MBC-cg
@@ -3948,9 +4007,9 @@ agency_data:
         name: Ferrovia Monte Generoso
         colors_source: 
         color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
+            train-rack:
+                "ALL_LINES":
+                    <<: *TRAIN_LONG_DISTANCE
 
     # Matterhorn Gotthard Bahn (fo) - MGB-fo
     "48":
@@ -3960,9 +4019,17 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
+                "EXT":
+                    <<: *TRAIN_LONG_DISTANCE
                 "PE":
                     <<: *TRAIN_LONG_DISTANCE
                 "R":
+                    <<: *TRAIN_SBAHN
+                "R 43":
+                    <<: *TRAIN_SBAHN
+                "R 44":
+                    <<: *TRAIN_SBAHN
+                "R 45":
                     <<: *TRAIN_SBAHN
             bus:
                 "BUS":
@@ -3980,6 +4047,12 @@ agency_data:
                 "EXT":
                     <<: *TRAIN_LONG_DISTANCE
                 "R":
+                    <<: *TRAIN_SBAHN
+                "R 40":
+                    <<: *TRAIN_SBAHN
+                "R 41":
+                    <<: *TRAIN_SBAHN
+                "R 42":
                     <<: *TRAIN_SBAHN
 
     # Moonliner - MNL
@@ -4009,6 +4082,8 @@ agency_data:
         color_by_types:
             train:
                 "IR":
+                    <<: *TRAIN_LONG_DISTANCE
+                "PE":
                     <<: *TRAIN_LONG_DISTANCE
                 "RE":
                     <<: *TRAIN_LONG_DISTANCE
@@ -4073,9 +4148,9 @@ agency_data:
                 "FUN":
                     bg: ""
                     fg: ""
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
+            train-rack:
+                "ALL_LINES":
+                    <<: *TRAIN_RACK
 
     # Montreux-Vevey-Riviera (vcp) - MVR-vcp
     "155":
@@ -5970,9 +6045,9 @@ agency_data:
         name: Pilatusbahnen
         colors_source: 
         color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
+            train-rack:
+                "ALL_LINES":
+                    <<: *TRAIN_RACK
 
     # Kriens-Fräkmüntegg - PB Fpl
     "13600":
@@ -6122,11 +6197,9 @@ agency_data:
         name: Rigi-Bahnen
         colors_source: 
         color_by_types:
-            train:
-                "P":
-                    <<: *TRAIN_SBAHN
-                "R":
-                    <<: *TRAIN_SBAHN
+            train-rack:
+                "ALL_LINES":
+                    <<: *TRAIN_RACK
 
     # Regionalbus Lenzburg - RBL
     "873":
@@ -6184,11 +6257,11 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
                 "S":
                     <<: *TRAIN_SBAHN
-                "S7":
+                "S 7":
                     <<: *TRAIN_SBAHN
-                "S8":
+                "S 8":
                     <<: *TRAIN_SBAHN
-                "S9":
+                "S 9":
                     <<: *TRAIN_SBAHN
             bus:
                 "8":
@@ -6477,9 +6550,9 @@ agency_data:
                     <<: *TRAIN_SBAHN
                 "S":
                     <<: *TRAIN_SBAHN
-                "S1":
+                "S 1":
                     <<: *TRAIN_SBAHN
-                "S2":
+                "S 2":
                     <<: *TRAIN_SBAHN
             bus:
                 "BUS":
@@ -6557,6 +6630,10 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
                 "EXT":
                     <<: *TRAIN_LONG_DISTANCE
+                "EXT 10":
+                    <<: *TRAIN_LONG_DISTANCE
+                "EXT 20":
+                    <<: *TRAIN_LONG_DISTANCE
                 "IC":
                     <<: *TRAIN_LONG_DISTANCE
                 "IC 1":
@@ -6578,6 +6655,8 @@ agency_data:
                 "IC 51":
                     <<: *TRAIN_LONG_DISTANCE
                 "IC 61":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IC 81":
                     <<: *TRAIN_LONG_DISTANCE
                 "ICE":
                     <<: *TRAIN_LONG_DISTANCE
@@ -6613,15 +6692,23 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
                 "IR 75":
                     <<: *TRAIN_LONG_DISTANCE
+                "IR 81":
+                    <<: *TRAIN_LONG_DISTANCE
                 "IR 90":
                     <<: *TRAIN_LONG_DISTANCE
                 "NZ":
                     <<: *TRAIN_LONG_DISTANCE
                 "PE":
                     <<: *TRAIN_LONG_DISTANCE
+                "RB 27":
+                    <<: *TRAIN_LONG_DISTANCE
                 "RE":
                     <<: *TRAIN_LONG_DISTANCE
+                "RE 7":
+                    <<: *TRAIN_LONG_DISTANCE
                 "RE 10":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RE 80":
                     <<: *TRAIN_LONG_DISTANCE
                 "RE 90":
                     <<: *TRAIN_LONG_DISTANCE
@@ -6703,17 +6790,17 @@ agency_data:
                     <<: *NIGHT
                 "SN":
                     <<: *NIGHT
-                "SN1":
+                "SN 1":
                     <<: *NIGHT
-                "SN5":
+                "SN 5":
                     <<: *NIGHT
-                "SN6":
+                "SN 6":
                     <<: *NIGHT
-                "SN7":
+                "SN 7":
                     <<: *NIGHT
-                "SN8":
+                "SN 8":
                     <<: *NIGHT
-                "SN9":
+                "SN 9":
                     <<: *NIGHT
                 "SN27":
                     <<: *NIGHT
@@ -6768,9 +6855,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
                 "S":
                     <<: *TRAIN_SBAHN
-                "S5":
-                    <<: *TRAIN_SBAHN
-                "S6":
+                "S 6":
                     <<: *TRAIN_SBAHN
 
     # SBB GmbH - SBB
@@ -7316,17 +7401,19 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
                 "S":
                     <<: *TRAIN_SBAHN
-                "S4":
+                "S 4":
                     <<: *TRAIN_SBAHN
-                "S13":
+                "S 6":
                     <<: *TRAIN_SBAHN
-                "S27":
+                "S 13":
                     <<: *TRAIN_SBAHN
-                "S31":
+                "S 27":
+                    <<: *TRAIN_SBAHN
+                "S 31":
                     <<: *TRAIN_SBAHN
                 "S32":
                     <<: *TRAIN_SBAHN
-                "S40":
+                "S 40":
                     <<: *TRAIN_SBAHN
                 "S81":
                     <<: *TRAIN_SBAHN
@@ -7824,11 +7911,11 @@ agency_data:
                     <<: *TRAIN_SBAHN
                 "4":
                     <<: *TRAIN_SBAHN
-                "S4":
+                "S 4":
                     <<: *TRAIN_SBAHN
-                "S10":
+                "S 10":
                     <<: *TRAIN_SBAHN
-                "SN4":
+                "SN 4":
                     <<: *NIGHT
 
     # Automobildienst SZU - SZU Auto
@@ -8045,61 +8132,75 @@ agency_data:
             train:
                 "EXT":
                     <<: *TRAIN_LONG_DISTANCE
+                "IC 8":
+                    <<: *TRAIN_LONG_DISTANCE
                 "IR":
                     <<: *TRAIN_LONG_DISTANCE
                 "RE":
                     <<: *TRAIN_LONG_DISTANCE
                 "S":
                     <<: *TRAIN_SBAHN
-                "S1":
+                "S 1":
                     <<: *TRAIN_SBAHN
-                "S2":
+                "S 2":
                     <<: *TRAIN_SBAHN
-                "S3":
+                "S 3":
                     <<: *TRAIN_SBAHN
-                "S5":
+                "S 5":
                     <<: *TRAIN_SBAHN
-                "S7":
+                "S 7":
                     <<: *TRAIN_SBAHN
-                "S8":
+                "S 8":
                     <<: *TRAIN_SBAHN
-                "S9":
+                "S 9":
                     <<: *TRAIN_SBAHN
-                "S10":
+                "S 10":
                     <<: *TRAIN_SBAHN
-                "S11":
+                "S 11":
                     <<: *TRAIN_SBAHN
-                "S12":
+                "S 12":
                     <<: *TRAIN_SBAHN
-                "S14":
+                "S 14":
                     <<: *TRAIN_SBAHN
-                "S22":
+                "S 22":
                     <<: *TRAIN_SBAHN
-                "S26":
+                "S 26":
                     <<: *TRAIN_SBAHN
-                "S29":
+                "S 27":
                     <<: *TRAIN_SBAHN
-                "S30":
+                "S 29":
                     <<: *TRAIN_SBAHN
-                "S33":
+                "S 30":
                     <<: *TRAIN_SBAHN
-                "S35":
+                "S 33":
                     <<: *TRAIN_SBAHN
-                "S36":
+                "S 35":
                     <<: *TRAIN_SBAHN
-                "S41":
+                "S 36":
                     <<: *TRAIN_SBAHN
-                "S55":
+                "S 41":
                     <<: *TRAIN_SBAHN
-                "S81":
+                "S 44":
                     <<: *TRAIN_SBAHN
-                "S82":
+                "S 55":
+                    <<: *TRAIN_SBAHN
+                "S 81":
+                    <<: *TRAIN_SBAHN
+                "S 82":
                     <<: *TRAIN_SBAHN
                 "SN":
                     <<: *NIGHT
-                "SN3":
+                "SN 3":
                     <<: *NIGHT
-                "SN8":
+                "SN 5":
+                    <<: *NIGHT
+                "SN 7":
+                    <<: *NIGHT
+                "SN 8":
+                    <<: *NIGHT
+                "SN 10":
+                    <<: *NIGHT
+                "SN 41":
                     <<: *NIGHT
 
     # Treni Regionali Ticino Lombardia - TILO
@@ -8437,6 +8538,14 @@ agency_data:
             train:
                 "R":
                     <<: *TRAIN_SBAHN
+                "R 24":
+                    <<: *TRAIN_SBAHN
+                "R 25":
+                    <<: *TRAIN_SBAHN
+                "R 26":
+                    <<: *TRAIN_SBAHN
+                "R 27":
+                    <<: *TRAIN_SBAHN
 
     # Service d'automobiles TPC (bvb auto) - TPC/Autb
     "852":
@@ -8679,11 +8788,19 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
                 "RE":
                     <<: *TRAIN_LONG_DISTANCE
+                "RE 2":
+                    <<: *TRAIN_LONG_DISTANCE
+                "RE 3":
+                    <<: *TRAIN_LONG_DISTANCE
                 "S":
                     <<: *TRAIN_SBAHN
-                "S20":
+                "S 20":
                     <<: *TRAIN_SBAHN
-                "S21":
+                "S 21":
+                    <<: *TRAIN_SBAHN
+                "S 50":
+                    <<: *TRAIN_SBAHN
+                "S 51":
                     <<: *TRAIN_SBAHN
 
     # Transports publics fribourgeois - TPF-nstp
@@ -10603,9 +10720,9 @@ agency_data:
         name: Wengernalpbahn
         colors_source: 
         color_by_types:
-            train:
-                "R":
-                    <<: *TRAIN_SBAHN
+            train-rack:
+                "ALL_LINES":
+                    <<: *TRAIN_RACK
 
     # Bürgerbus Walperswil-Epsach-Täuffelen-Aarberg - WETA
     "7044":
@@ -10627,7 +10744,7 @@ agency_data:
         colors_source: 
         color_by_types:
             train:
-                "S14":
+                "S 14":
                     <<: *TRAIN_SBAHN
 
     # Walker's Söhne Urnerboden - WSU
@@ -10669,17 +10786,25 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
                 "IR":
                     <<: *TRAIN_LONG_DISTANCE
+                "PE":
+                    <<: *TRAIN_LONG_DISTANCE
                 "R":
+                    <<: *TRAIN_SBAHN
+                "R 70":
+                    <<: *TRAIN_SBAHN
+                "R 71":
                     <<: *TRAIN_SBAHN
                 "S":
                     <<: *TRAIN_SBAHN
-                "S4":
+                "S 4":
                     <<: *TRAIN_SBAHN
-                "S5":
+                "S 5":
                     <<: *TRAIN_SBAHN
-                "S44":
+                "S 41":
                     <<: *TRAIN_SBAHN
-                "S55":
+                "S 44":
+                    <<: *TRAIN_SBAHN
+                "S 55":
                     <<: *TRAIN_SBAHN
 
     # ZB Bus Fahrplanbedürfnisse - ZB Bus F
