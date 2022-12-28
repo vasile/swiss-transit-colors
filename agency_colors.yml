@@ -6597,11 +6597,17 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
                 "IR 27":
                     <<: *TRAIN_LONG_DISTANCE
+                "IR 35":
+                    <<: *TRAIN_LONG_DISTANCE
                 "IR 36":
                     <<: *TRAIN_LONG_DISTANCE
                 "IR 37":
                     <<: *TRAIN_LONG_DISTANCE
                 "IR 46":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 65":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 66":
                     <<: *TRAIN_LONG_DISTANCE
                 "IR 70":
                     <<: *TRAIN_LONG_DISTANCE
@@ -7297,6 +7303,16 @@ agency_data:
                 "EXT":
                     <<: *TRAIN_LONG_DISTANCE
                 "VAE":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 17":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 26":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 35":
+                    <<: *TRAIN_LONG_DISTANCE
+                "IR 46":
                     <<: *TRAIN_LONG_DISTANCE
                 "S":
                     <<: *TRAIN_SBAHN
