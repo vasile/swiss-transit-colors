@@ -14,7 +14,7 @@ special_colors:
 
 agency_data:
     # Auto AG Schwyz - AAGS
-    "000841":
+    "841":
         code: AAG
         short_name: AAGS
         name: Auto AG Schwyz
@@ -71,7 +71,7 @@ agency_data:
                     fg: ""
 
     # Auto AG Rothenburg - AAGR
-    "000812":
+    "812":
         code: AAG
         short_name: AAGR
         name: Auto AG Rothenburg
@@ -121,7 +121,7 @@ agency_data:
                     <<: *NIGHT
 
     # Autobus AG Liestal - AAGL
-    "000811":
+    "811":
         code: AAG
         short_name: AAGL
         name: Autobus AG Liestal
@@ -170,7 +170,7 @@ agency_data:
                     <<: *NIGHT
 
     # Auto AG Uri - AAGU
-    "000816":
+    "816":
         code: AAG
         short_name: AAGU
         name: Auto AG Uri
@@ -194,7 +194,7 @@ agency_data:
                     fg: ""
 
     # Automobildienst Appenzeller Bahnen - AB Auto
-    "000744":
+    "744":
         code: AB
         short_name: AB Auto
         name: Automobildienst Appenzeller Bahnen
@@ -206,7 +206,7 @@ agency_data:
                     fg: ""
 
     # Appenzeller Bahnen (ab) - AB-ab
-    "000022":
+    "22":
         code: AB-
         short_name: AB-ab
         name: Appenzeller Bahnen (ab)
@@ -241,7 +241,7 @@ agency_data:
                     fg: ""
 
     # Appenzeller Bahnen (tb) - AB-tb
-    "000089":
+    "89":
         code: AB-
         short_name: AB-tb
         name: Appenzeller Bahnen (tb)
@@ -253,7 +253,7 @@ agency_data:
                     fg: ""
 
     # Autolinee Bleniesi - ABl
-    "000862":
+    "862":
         code: ABl
         short_name: ABl
         name: Autolinee Bleniesi
@@ -283,7 +283,7 @@ agency_data:
                     fg: ""
     
     # Arosa Bergbahnen - ABB
-    "000219":
+    "219":
         code: ABB
         short_name: ABB
         name: Arosa Bergbahnen
@@ -299,7 +299,7 @@ agency_data:
                     fg: ""
 
     # Autoverkehr Frutigen-Adelboden - AFA
-    "000813":
+    "813":
         code: AFA
         short_name: AFA
         name: Autoverkehr Frutigen-Adelboden
@@ -344,7 +344,7 @@ agency_data:
                     fg: ""
 
     # Andermatt Gotthard Sportbahnen - AGS
-    "000251":
+    "251":
         code: AGS
         short_name: AGS
         name: Andermatt Gotthard Sportbahnen
@@ -356,7 +356,7 @@ agency_data:
                     fg: ""
 
     # Aletsch-Express Riederalp-Bettmeralp - ALEX
-    "003002":
+    "3002":
         code: ALE
         short_name: ALEX
         name: Aletsch-Express Riederalp-Bettmeralp
@@ -368,7 +368,7 @@ agency_data:
                     fg: ""
 
     # Aelplibahn Malans Genossenschaft - AMG
-    "003140":
+    "3140":
         code: AMG
         short_name: AMG
         name: Aelplibahn Malans Genossenschaft
@@ -380,7 +380,7 @@ agency_data:
                     fg: ""
 
     # Autolinea Mendrisiense SA - AMSA
-    "000736":
+    "736":
         code: AMS
         short_name: AMSA
         name: Autolinea Mendrisiense SA
@@ -410,7 +410,7 @@ agency_data:
                     fg: ""
 
     # Autokurse Oberthurgau - AOT
-    "000843":
+    "843":
         code: AOT
         short_name: AOT
         name: Autokurse Oberthurgau
@@ -431,7 +431,7 @@ agency_data:
                     fg: ""
 
     # Automobil Rottal AG - ARAG
-    "000819":
+    "819":
         code: ARA
         short_name: ARAG
         name: Automobil Rottal AG
@@ -463,7 +463,7 @@ agency_data:
                     <<: *NIGHT
 
     # Aletsch Riederalp Bahnen AG - ARBAG
-    "000209":
+    "209":
         code: ARB
         short_name: ARBAG
         name: Aletsch Riederalp Bahnen AG
@@ -482,7 +482,7 @@ agency_data:
                     fg: ""
 
     # Autolinee Regionali Luganesi - ARL
-    "000858":
+    "858":
         code: ARL
         short_name: ARL
         name: Autolinee Regionali Luganesi
@@ -500,7 +500,7 @@ agency_data:
                     fg: ""
 
     # Autobetrieb Sernftal - AS
-    "000856":
+    "856":
         code: AS
         short_name: AS
         name: Autobetrieb Sernftal
@@ -524,7 +524,7 @@ agency_data:
                     fg: ""
 
     # Autotransports Sion-Grône-Sierre - ASGS
-    "000888":
+    "888":
         code: ASG
         short_name: ASGS
         name: Autotransports Sion-Grône-Sierre
@@ -539,7 +539,7 @@ agency_data:
                     fg: ""
 
     # Aare Seeland mobil (ltb) - ASM-ltb
-    "000128":
+    "128":
         code: ASM
         short_name: ASM-ltb
         name: Aare Seeland mobil (ltb)
@@ -551,7 +551,7 @@ agency_data:
                     fg: ""
 
     # Aare Seeland mobil (rvo) - ASM-rvo
-    "000056":
+    "56":
         code: ASM
         short_name: ASM-rvo
         name: Aare Seeland mobil (rvo)
@@ -562,7 +562,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Aare Seeland mobil (bti) - ASM-bti
-    "000038":
+    "38":
         code: ASM
         short_name: ASM-bti
         name: Aare Seeland mobil (bti)
@@ -573,7 +573,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Aare Seeland mobil (snb) - ASM-snb
-    "000081":
+    "81":
         code: ASM
         short_name: ASM-snb
         name: Aare Seeland mobil (snb)
@@ -584,7 +584,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Automobildienste Aare Seeland mobil - ASM Auto
-    "000870":
+    "870":
         code: ASM
         short_name: ASM Auto
         name: Automobildienste Aare Seeland mobil
@@ -617,7 +617,7 @@ agency_data:
                     fg: ""
 
     # Andermatt-Urserntal Tourismus GmbH - AUT
-    "007069":
+    "7069":
         code: AUT
         short_name: AUT
         name: Andermatt-Urserntal Tourismus GmbH
@@ -629,7 +629,7 @@ agency_data:
                     fg: ""
 
     # Aroser Verkehrsbetriebe - AVB
-    "007031":
+    "7031":
         code: AVB
         short_name: AVB
         name: Aroser Verkehrsbetriebe
@@ -644,7 +644,7 @@ agency_data:
                     fg: ""
 
     # Autotransports de la Vallée de Joux - AVJ
-    "000731":
+    "731":
         code: AVJ
         short_name: AVJ
         name: Autotransports de la Vallée de Joux
@@ -656,7 +656,7 @@ agency_data:
                     fg: ""
 
     # Autobetrieb Weesen-Amden - AWA
-    "000832":
+    "832":
         code: AWA
         short_name: AWA
         name: Autobetrieb Weesen-Amden
@@ -668,7 +668,7 @@ agency_data:
                     fg: ""
 
     # Schiffsbetrieb Aegerisee - AeS
-    "000179":
+    "179":
         code: AeS
         short_name: AeS
         name: Schiffsbetrieb Aegerisee
@@ -680,7 +680,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Adelboden - BA
-    "003073":
+    "3073":
         code: BA
         short_name: BA
         name: Bergbahnen Adelboden
@@ -692,7 +692,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Adelboden AG - BA-bgh
-    "007019":
+    "7019":
         code: BA-
         short_name: BA-bgh
         name: Bergbahnen Adelboden AG
@@ -704,7 +704,7 @@ agency_data:
                     fg: ""
 
     # Bettmeralp Bahnen - BAB
-    "000262":
+    "262":
         code: BAB
         short_name: BAB
         name: Bettmeralp Bahnen
@@ -723,7 +723,7 @@ agency_data:
                     fg: ""
 
     # Bus alpin Lombachalp - BALA
-    "007080":
+    "7080":
         code: BAL
         short_name: BALA
         name: Bus alpin Lombachalp
@@ -735,7 +735,7 @@ agency_data:
                     fg: ""
 
     # Bürgenstockbahn - BB
-    "000107":
+    "107":
         code: BB
         short_name: BB
         name: Bürgenstockbahn
@@ -747,7 +747,7 @@ agency_data:
                     fg: ""
 
     # Busbetrieb Aarau - BBA
-    "000840":
+    "840":
         code: BBA
         short_name: BBA
         name: Busbetrieb Aarau
@@ -783,7 +783,7 @@ agency_data:
                     <<: *NIGHT
 
     # Bergbahnen Disentis - BBD
-    "000329":
+    "329":
         code: BBD
         short_name: BBD
         name: Bergbahnen Disentis
@@ -795,7 +795,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Beckenried-Emmetten - BBE
-    "000205":
+    "205":
         code: BBE
         short_name: BBE
         name: Bergbahnen Beckenried-Emmetten
@@ -811,7 +811,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Malbun AG - BBMAG-sm
-    "003133":
+    "3133":
         code: BBM
         short_name: BBMAG-sm
         name: Bergbahnen Malbun AG
@@ -823,7 +823,7 @@ agency_data:
                     fg: ""
 
     # Gemeinde St. Gallenkappel - BBO
-    "007017":
+    "7017":
         code: BBO
         short_name: BBO
         name: Gemeinde St. Gallenkappel
@@ -835,7 +835,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Wildhaus AG - BBWAG
-    "000257":
+    "257":
         code: BBW
         short_name: BBWAG
         name: Bergbahnen Wildhaus AG
@@ -847,7 +847,7 @@ agency_data:
                     fg: ""
 
     # Société coopérative du Chemin de fer - Musée Blonay-Chamby - BC-cmBC
-    "000371":
+    "371":
         code: BC-
         short_name: BC-cmBC
         name: Société coopérative du Chemin de fer - Musée Blonay-Chamby
@@ -860,7 +860,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Chur-Dreibündenstein - BCD
-    "000236":
+    "236":
         code: BCD
         short_name: BCD
         name: Chur-Dreibündenstein
@@ -876,7 +876,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Destination Gstaad AG - BDGAG
-    "000225":
+    "225":
         code: BDG
         short_name: BDGAG
         name: Bergbahnen Destination Gstaad AG
@@ -891,7 +891,7 @@ agency_data:
                     fg: ""
 
     # BDWM Transport (bd) - BDWM-bd
-    "000031":
+    "31":
         code: BDW
         short_name: BDWM-bd
         name: BDWM Transport (bd)
@@ -913,7 +913,7 @@ agency_data:
                     <<: *NIGHT
 
     # BDWM Transport (wm Auto) - BDWM/Aut
-    "000899":
+    "899":
         code: BDW
         short_name: BDWM/Aut
         name: BDWM Transport (wm Auto)
@@ -927,7 +927,7 @@ agency_data:
                     <<: *NIGHT
 
     # Bergbahnen Engstligenalp AG - BEAG
-    "000282":
+    "282":
         code: BEA
         short_name: BEAG
         name: Bergbahnen Engstligenalp AG
@@ -939,7 +939,7 @@ agency_data:
                     fg: ""
 
     # Celeriner Bergbahnen - Celerina-Saluver - BEST-lcs
-    "000238":
+    "238":
         code: BES
         short_name: BEST-lcs
         name: Celeriner Bergbahnen - Celerina-Saluver
@@ -951,7 +951,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Engadin St. Moritz; Bernina-Diavolezza (lbd) - BEST-lbd
-    "000218":
+    "218":
         code: BES
         short_name: BEST-lbd
         name: Bergbahnen Engadin St. Moritz; Bernina-Diavolezza (lbd)
@@ -963,7 +963,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Engadin St.Moritz AG - BEST-smb
-    "000147":
+    "147":
         code: BES
         short_name: BEST-smb
         name: Bergbahnen Engadin St.Moritz AG
@@ -979,7 +979,7 @@ agency_data:
                     fg: ""
 
     # Sesselbahn St. Moritz Suvretta-Randolins - BEST-sms
-    "003051":
+    "3051":
         code: BES
         short_name: BEST-sms
         name: Sesselbahn St. Moritz Suvretta-Randolins
@@ -991,7 +991,7 @@ agency_data:
                     fg: ""
 
     # Celeriner Bergbahnen - Punt Muragl-Muottas Muragl - BEST-mmb
-    "000133":
+    "133":
         code: BES
         short_name: BEST-mmb
         name: Celeriner Bergbahnen - Punt Muragl-Muottas Muragl
@@ -1003,7 +1003,7 @@ agency_data:
                     fg: ""
 
     # Curtinatsch-Piz Lagalb - BEST-lcl
-    "000247":
+    "247":
         code: BES
         short_name: BEST-lcl
         name: Curtinatsch-Piz Lagalb
@@ -1015,7 +1015,7 @@ agency_data:
                     fg: ""
 
     # Engelberg-Trübsee-Titlis - BET
-    "000114":
+    "114":
         code: BET
         short_name: BET
         name: Engelberg-Trübsee-Titlis
@@ -1038,7 +1038,7 @@ agency_data:
                     fg: ""
 
     # Busbetrieb Gemeinde Bergün - BGB
-    "007078":
+    "7078":
         code: BGB
         short_name: BGB
         name: Busbetrieb Gemeinde Bergün
@@ -1056,7 +1056,7 @@ agency_data:
                     fg: ""
 
     # Grindelwald-First - BGF
-    "000201":
+    "201":
         code: BGF
         short_name: BGF
         name: Grindelwald-First
@@ -1068,7 +1068,7 @@ agency_data:
                     fg: ""
 
     # Glaris-Rinerhorn - BGR
-    "000293":
+    "293":
         code: BGR
         short_name: BGR
         name: Glaris-Rinerhorn
@@ -1080,7 +1080,7 @@ agency_data:
                     fg: ""
 
     # Busbetrieb Grenchen und Umgebung - BGU
-    "000894":
+    "894":
         code: BGU
         short_name: BGU
         name: Busbetrieb Grenchen und Umgebung
@@ -1131,7 +1131,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Hohsaas AG - BHAG
-    "000315":
+    "315":
         code: BHA
         short_name: BHAG
         name: Bergbahnen Hohsaas AG
@@ -1143,7 +1143,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Hoch-Ybrig AG - BHY-ssks
-    "003106":
+    "3106":
         code: BHY
         short_name: BHY-ssks
         name: Bergbahnen Hoch-Ybrig AG
@@ -1155,7 +1155,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Hoch-Ybrig AG - BHY-sost
-    "000334":
+    "334":
         code: BHY
         short_name: BHY-sost
         name: Bergbahnen Hoch-Ybrig AG
@@ -1167,7 +1167,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Hoch-Ybrig AG - BHY-lws
-    "000303":
+    "303":
         code: BHY
         short_name: BHY-lws
         name: Bergbahnen Hoch-Ybrig AG
@@ -1179,7 +1179,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Hoch-Ybrig AG - BHY-sssp
-    "003107":
+    "3107":
         code: BHY
         short_name: BHY-sssp
         name: Bergbahnen Hoch-Ybrig AG
@@ -1191,7 +1191,7 @@ agency_data:
                     fg: ""
 
     # Busbetrieb Kandersteg - Gasterntal - BKG
-    "007025":
+    "7025":
         code: BKG
         short_name: BKG
         name: Busbetrieb Kandersteg - Gasterntal
@@ -1203,7 +1203,7 @@ agency_data:
                     fg: ""
 
     # Busland AG - BLAG
-    "000871":
+    "871":
         code: BLA
         short_name: BLAG
         name: Busland AG
@@ -1269,7 +1269,7 @@ agency_data:
                     fg: ""
 
     # Lauterbrunnen-Mürren - BLM
-    "000032":
+    "32":
         code: BLM
         short_name: BLM
         name: Lauterbrunnen-Mürren
@@ -1284,7 +1284,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # BLS AG (bls) - BLS-bls
-    "000033":
+    "33":
         code: BLS
         short_name: BLS-bls
         name: BLS AG (bls)
@@ -1333,7 +1333,7 @@ agency_data:
                     <<: *NIGHT
 
     # BLS AG (brs) - BLS-brs
-    "000183":
+    "183":
         code: BLS
         short_name: BLS-brs
         name: BLS AG (brs)
@@ -1348,7 +1348,7 @@ agency_data:
                     fg: ""
 
     # BLS Bus Fahrplanbedürfnisse - BLS BusF
-    "007042":
+    "7042":
         code: BLS
         short_name: BLS BusF
         name: BLS Bus Fahrplanbedürfnisse
@@ -1360,7 +1360,7 @@ agency_data:
                     fg: ""
 
     # BLS AG (ths) - BLS-ths
-    "000192":
+    "192":
         code: BLS
         short_name: BLS-ths
         name: BLS AG (ths)
@@ -1375,7 +1375,7 @@ agency_data:
                     fg: ""
 
     # Auto BLT - BLT Auto
-    "000879":
+    "879":
         code: BLT
         short_name: BLT Auto
         name: Auto BLT
@@ -1453,7 +1453,7 @@ agency_data:
                     <<: *NIGHT
 
     # Waldenburgerbahn - BLT-wb
-    "000094":
+    "94":
         code: BLT
         short_name: BLT-wb
         name: Waldenburgerbahn
@@ -1466,7 +1466,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Baselland Transport - BLT-blt
-    "000037":
+    "37":
         code: BLT
         short_name: BLT-blt
         name: Baselland Transport
@@ -1500,7 +1500,7 @@ agency_data:
                     fg: "#ffffff"
 
     # Busbetrieb Lichtensteig-Wattwil-Ebnat-Kappel - BLWE
-    "000810":
+    "810":
         code: BLW
         short_name: BLWE
         name: Busbetrieb Lichtensteig-Wattwil-Ebnat-Kappel
@@ -1512,7 +1512,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Meiringen-Hasliberg - BMH
-    "000307":
+    "307":
         code: BMH
         short_name: BMH
         name: Bergbahnen Meiringen-Hasliberg
@@ -1528,7 +1528,7 @@ agency_data:
                     fg: ""
 
     # Bus Nyon-Prangins - BNP
-    "000741":
+    "741":
         code: BNP
         short_name: BNP
         name: Bus Nyon-Prangins
@@ -1549,7 +1549,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Obersaxen AG - BO-swas
-    "003146":
+    "3146":
         code: BO-
         short_name: BO-swas
         name: Bergbahnen Obersaxen AG
@@ -1561,7 +1561,7 @@ agency_data:
                     fg: ""
 
     # Berner Oberland-Bahnen - BOB
-    "000035":
+    "35":
         code: BOB
         short_name: BOB
         name: Berner Oberland-Bahnen
@@ -1578,7 +1578,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Berner Oberland-Bahnen - BOB-spb
-    "000140":
+    "140":
         code: BOB
         short_name: BOB-spb
         name: Berner Oberland-Bahnen
@@ -1589,7 +1589,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Busbetrieb Olten-Gösgen-Gäu - BOGG
-    "000793":
+    "793":
         code: BOG
         short_name: BOGG
         name: Busbetrieb Olten-Gösgen-Gäu
@@ -1643,7 +1643,7 @@ agency_data:
                     <<: *NIGHT
 
     # Busbetrieb Oberems-Gruben - BOG
-    "007067":
+    "7067":
         code: BOG
         short_name: BOG
         name: Busbetrieb Oberems-Gruben
@@ -1655,7 +1655,7 @@ agency_data:
                     fg: ""
 
     # Bus Ostschweiz (Rheintal) - BOS/rtb
-    "000138":
+    "138":
         code: BOS
         short_name: BOS/rtb
         name: Bus Ostschweiz (Rheintal)
@@ -1786,7 +1786,7 @@ agency_data:
                     <<: *NIGHT
 
     # Bus Personico-Bodio - BPB
-    "007057":
+    "7057":
         code: BPB
         short_name: BPB
         name: Bus Personico-Bodio
@@ -1798,7 +1798,7 @@ agency_data:
                     fg: ""
 
     # Basler Personenschifffahrts-Gesellschaft - BPG
-    "000191":
+    "191":
         code: BPG
         short_name: BPG
         name: Basler Personenschifffahrts-Gesellschaft
@@ -1810,7 +1810,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Piz Mundaun AG - BPM-svh
-    "003152":
+    "3152":
         code: BPM
         short_name: BPM-svh
         name: Bergbahnen Piz Mundaun AG
@@ -1822,7 +1822,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Piz Mundaun AG - BPM-svcs
-    "003148":
+    "3148":
         code: BPM
         short_name: BPM-svcs
         name: Bergbahnen Piz Mundaun AG
@@ -1834,7 +1834,7 @@ agency_data:
                     fg: ""
 
     # Brienz Rothorn Bahn AG - BRB
-    "000104":
+    "104":
         code: BRB
         short_name: BRB
         name: Brienz Rothorn Bahn AG
@@ -1845,7 +1845,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Busbetrieb Rapperswil-Eschenbach-Rüti ZH - BRER
-    "000772":
+    "772":
         code: BRE
         short_name: BRER
         name: Busbetrieb Rapperswil-Eschenbach-Rüti ZH
@@ -1860,7 +1860,7 @@ agency_data:
                     fg: ""
 
     # Braunwald-Standseilbahn - BRSB
-    "000105":
+    "105":
         code: BRS
         short_name: BRSB
         name: Braunwald-Standseilbahn
@@ -1872,7 +1872,7 @@ agency_data:
                     fg: ""
 
     # Bus Sierrois - BS
-    "000714":
+    "714":
         code: BS
         short_name: BS
         name: Bus Sierrois
@@ -1890,7 +1890,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Sörenberg AG - BSAG
-    "000283":
+    "283":
         code: BSA
         short_name: BSAG
         name: Bergbahnen Sörenberg AG
@@ -1902,7 +1902,7 @@ agency_data:
                     fg: ""
 
     # Bergbahnen Sörenberg AG - fikt - BSAG-fik
-    "000343":
+    "343":
         code: BSA
         short_name: BSAG-fik
         name: Bergbahnen Sörenberg AG - fikt
@@ -1914,7 +1914,7 @@ agency_data:
                     fg: ""
 
     # Bodensee-Schiffsbetriebe Romanshorn-Friedrichshafen - BSB Fähr
-    "000360":
+    "360":
         code: BSB
         short_name: BSB Fähr
         name: Bodensee-Schiffsbetriebe Romanshorn-Friedrichshafen
@@ -1926,7 +1926,7 @@ agency_data:
                     fg: ""
 
     # Bielersee - BSG
-    "000182":
+    "182":
         code: BSG
         short_name: BSG
         name: Bielersee
@@ -1938,7 +1938,7 @@ agency_data:
                     fg: ""
 
     # Busbetrieb Solothurn und Umgebung - BSU
-    "000883":
+    "883":
         code: BSU
         short_name: BSU
         name: Busbetrieb Solothurn und Umgebung
@@ -1974,7 +1974,7 @@ agency_data:
                     fg: "#ffffff"
 
     # Basler Verkehrsbetriebe - BVB
-    "000823":
+    "823":
         code: BVB
         short_name: BVB
         name: Basler Verkehrsbetriebe
@@ -2062,7 +2062,7 @@ agency_data:
                     <<: *NIGHT
 
     # Bahnersatz Jahresfahrplan - Bahnersa
-    "007037":
+    "7037":
         code: Bah
         short_name: Bahnersa
         name: Bahnersatz Jahresfahrplan
@@ -2082,7 +2082,7 @@ agency_data:
                     <<: *NIGHT
 
     # Bürgerbus Hellsau-Höchstetten-Willadingen-Koppigen - BüBu
-    "007053":
+    "7053":
         code: BüB
         short_name: BüBu
         name: Bürgerbus Hellsau-Höchstetten-Willadingen-Koppigen
@@ -2094,7 +2094,7 @@ agency_data:
                     fg: ""
 
     # Chalais-Briey-Vercorin - CBV
-    "000212":
+    "212":
         code: CBV
         short_name: CBV
         name: Chalais-Briey-Vercorin
@@ -2106,7 +2106,7 @@ agency_data:
                     fg: ""
 
     # CGN SA - CGN
-    "000184":
+    "184":
         code: CGN
         short_name: CGN
         name: CGN SA
@@ -2121,7 +2121,7 @@ agency_data:
                     fg: ""
 
     # Cardada Impianti Turistici - CIT
-    "000286":
+    "286":
         code: CIT
         short_name: CIT
         name: Cardada Impianti Turistici
@@ -2133,7 +2133,7 @@ agency_data:
                     fg: ""
 
     # Automobiles CJ - CJ Auto
-    "000833":
+    "833":
         code: CJ
         short_name: CJ Auto
         name: Automobiles CJ
@@ -2163,7 +2163,7 @@ agency_data:
                     <<: *NIGHT
 
     # Chemins de fer du Jura - CJ
-    "000043":
+    "43":
         code: CJ
         short_name: CJ
         name: Chemins de fer du Jura
@@ -2178,7 +2178,7 @@ agency_data:
                     fg: ""
 
     # Remontées Mécaniques Crans-Montana-Aminona - CMA
-    "000245":
+    "245":
         code: CMA
         short_name: CMA
         name: Remontées Mécaniques Crans-Montana-Aminona
@@ -2194,7 +2194,7 @@ agency_data:
                     fg: ""
 
     # DB Regio AG Baden-Württemberg - DB Regio
-    "06____":
+    "6____":
         code: DB
         short_name: DB Regio
         name: DB Regio AG Baden-Württemberg
@@ -2250,7 +2250,7 @@ agency_data:
                     fg: ""
 
     # Dolderbahn Betriebs AG - DBZ
-    "000164":
+    "164":
         code: DBZ
         short_name: DBZ
         name: Dolderbahn Betriebs AG
@@ -2262,7 +2262,7 @@ agency_data:
                     fg: ""
 
     # Dampfbahn Furka-Bergstrecke - DFB
-    "000160":
+    "160":
         code: DFB
         short_name: DFB
         name: Dampfbahn Furka-Bergstrecke
@@ -2273,7 +2273,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Interlaken-Heimwehfluh - DIH
-    "000159":
+    "159":
         code: DIH
         short_name: DIH
         name: Interlaken-Heimwehfluh
@@ -2285,7 +2285,7 @@ agency_data:
                     fg: ""
 
     # Diverse INFO - DIVINFO
-    "009999":
+    "9999":
         code: DIV
         short_name: DIVINFO
         name: Diverse INFO
@@ -2304,7 +2304,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Davos Klosters Bergbahnen (dpb) - DKB-dpb
-    "000109":
+    "109":
         code: DKB
         short_name: DKB-dpb
         name: Davos Klosters Bergbahnen (dpb)
@@ -2320,7 +2320,7 @@ agency_data:
                     fg: ""
 
     # Davos Klosters Bergbahnen (lkp) - DKB-lkp
-    "000208":
+    "208":
         code: DKB
         short_name: DKB-lkp
         name: Davos Klosters Bergbahnen (lkp)
@@ -2332,7 +2332,7 @@ agency_data:
                     fg: ""
 
     # Davos Klosters Bergbahnen (bbbj) - DKB-bbbj
-    "000207":
+    "207":
         code: DKB
         short_name: DKB-bbbj
         name: Davos Klosters Bergbahnen (bbbj)
@@ -2344,7 +2344,7 @@ agency_data:
                     fg: ""
 
     # Drahtseilbahn Marzili-Bundesterrasse (Bern) - DMB
-    "000119":
+    "119":
         code: DMB
         short_name: DMB
         name: Drahtseilbahn Marzili-Bundesterrasse (Bern)
@@ -2356,7 +2356,7 @@ agency_data:
                     fg: ""
     
     # Dampfbahn-Verein Zürcher Oberland - DVZO
-    "000908":
+    "908":
         code: DVZ
         short_name: DVZO
         name: Dampfbahn-Verein Zürcher Oberland
@@ -2368,7 +2368,7 @@ agency_data:
                     fg: ""
 
     # Engelberg-Brunni - EB
-    "000203":
+    "203":
         code: EB
         short_name: EB
         name: Engelberg-Brunni
@@ -2380,7 +2380,7 @@ agency_data:
                     fg: ""
 
     # Elektrizitätswerk Bezirk Schwyz - EBS
-    "003162":
+    "3162":
         code: EBS
         short_name: EBS
         name: Elektrizitätswerk Bezirk Schwyz
@@ -2392,7 +2392,7 @@ agency_data:
                     fg: ""
 
     # Elektrobus Zermatt - EBZ-ebz
-    "000708":
+    "708":
         code: EBZ
         short_name: EBZ-ebz
         name: Elektrobus Zermatt
@@ -2422,7 +2422,7 @@ agency_data:
     #                 fg: ""
 
     # Ernst Mändli AG Nohl - EMAG
-    "003185":
+    "3185":
         code: EMA
         short_name: EMAG
         name: Ernst Mändli AG Nohl
@@ -2434,7 +2434,7 @@ agency_data:
                     fg: ""
 
     # EWZ Bergeller Kraftwerke - EWZ-pa
-    "003160":
+    "3160":
         code: EWZ
         short_name: EWZ-pa
         name: EWZ Bergeller Kraftwerke
@@ -2446,7 +2446,7 @@ agency_data:
                     fg: ""
 
     # Events / Manifestations / Eventi - Extrabus
-    "007001":
+    "7001":
         code: Ext
         short_name: Extrabus
         name: Events / Manifestations / Eventi
@@ -2466,7 +2466,7 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
 
     # Interimsfahrplan / Horaire interimaire / Orario ad interim - Extrabus
-    "007000":
+    "7000":
         code: Ext
         short_name: Extrabus
         name: Interimsfahrplan / Horaire interimaire / Orario ad interim
@@ -2502,7 +2502,7 @@ agency_data:
                     <<: *NIGHT
 
     # Ferrovie Autolinee Regionali Ticinesi - FART
-    "000049":
+    "49":
         code: FAR
         short_name: FART
         name: Ferrovie Autolinee Regionali Ticinesi
@@ -2515,7 +2515,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Intragna-Pila Costa - FART-kli
-    "000278":
+    "278":
         code: FAR
         short_name: FART-kli
         name: Intragna-Pila Costa
@@ -2527,7 +2527,7 @@ agency_data:
                     fg: ""
 
     # Autolinee FART - FART Aut
-    "000817":
+    "817":
         code: FAR
         short_name: FART Aut
         name: Autolinee FART
@@ -2563,7 +2563,7 @@ agency_data:
                     fg: "#000000"
 
     # Verdasio-Rasa - FART-klv
-    "000279":
+    "279":
         code: FAR
         short_name: FART-klv
         name: Verdasio-Rasa
@@ -2575,7 +2575,7 @@ agency_data:
                     fg: ""
 
     # Forchbahn - FB
-    "000046":
+    "46":
         code: FB
         short_name: FB
         name: Forchbahn
@@ -2590,7 +2590,7 @@ agency_data:
                     <<: *NIGHT
 
     # Fähre Beckenried-Gersau - FBG
-    "003190":
+    "3190":
         code: FBG
         short_name: FBG
         name: Fähre Beckenried-Gersau
@@ -2602,7 +2602,7 @@ agency_data:
                     fg: ""
 
     # Brusino-Arsizio-Serpiano - FBS
-    "000296":
+    "296":
         code: FBS
         short_name: FBS
         name: Brusino-Arsizio-Serpiano
@@ -2614,7 +2614,7 @@ agency_data:
                     fg: ""
 
     # Funicar Kursbetriebe AG Biel - FCK
-    "007055":
+    "7055":
         code: FCK
         short_name: FCK
         name: Funicar Kursbetriebe AG Biel
@@ -2626,7 +2626,7 @@ agency_data:
                     fg: ""
 
     # Fiesch-Eggishorn - FE
-    "000269":
+    "269":
         code: FE
         short_name: FE
         name: Fiesch-Eggishorn
@@ -2638,7 +2638,7 @@ agency_data:
                     fg: ""
 
     # Fähre Horgen-Meilen - FHM
-    "000196":
+    "196":
         code: FHM
         short_name: FHM
         name: Fähre Horgen-Meilen
@@ -2650,7 +2650,7 @@ agency_data:
                     fg: ""
 
     # Funiculaire St-Luc-Chandolin - FLC
-    "000258":
+    "258":
         code: FLC
         short_name: FLC
         name: Funiculaire St-Luc-Chandolin
@@ -2666,7 +2666,7 @@ agency_data:
                     fg: ""
 
     # Locarno-Madonna del Sasso - FLMS
-    "000163":
+    "163":
         code: FLM
         short_name: FLMS
         name: Locarno-Madonna del Sasso
@@ -2678,7 +2678,7 @@ agency_data:
                     fg: ""
 
     # Lugano-Ponte Tresa - FLP
-    "000047":
+    "47":
         code: FLP
         short_name: FLP
         name: Lugano-Ponte Tresa
@@ -2689,7 +2689,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Cassarate-Monte Brè - FMB
-    "000116":
+    "116":
         code: FMB
         short_name: FMB
         name: Cassarate-Monte Brè
@@ -2701,7 +2701,7 @@ agency_data:
                     fg: ""
 
     # Funiva Miglieglia-Monte Lema - FML
-    "003125":
+    "3125":
         code: FML
         short_name: FML
         name: Funiva Miglieglia-Monte Lema
@@ -2713,7 +2713,7 @@ agency_data:
                     fg: ""
 
     # Piotta-Ritom - FPR
-    "000117":
+    "117":
         code: FPR
         short_name: FPR
         name: Piotta-Ritom
@@ -2725,7 +2725,7 @@ agency_data:
                     fg: ""
 
     # Iselle transito-Domodossola - FS Domo
-    "000422":
+    "422":
         code: FS
         short_name: FS Domo
         name: Iselle transito-Domodossola
@@ -2737,7 +2737,7 @@ agency_data:
                     fg: ""
 
     # Funiva San Carlo-Robiei - FSCR
-    "003123":
+    "3123":
         code: FSC
         short_name: FSCR
         name: Funiva San Carlo-Robiei
@@ -2749,7 +2749,7 @@ agency_data:
                     fg: ""
 
     # Funiculaire Neuchâtel-Université - Neuchâtel-Gare - FUN
-    "000166":
+    "166":
         code: FUN
         short_name: FUN
         name: Funiculaire Neuchâtel-Université - Neuchâtel-Gare
@@ -2761,7 +2761,7 @@ agency_data:
                     fg: ""
 
     # Frauenfeld-Wil - FW
-    "000051":
+    "51":
         code: FW
         short_name: FW
         name: Frauenfeld-Wil
@@ -2774,7 +2774,7 @@ agency_data:
                     <<: *NIGHT
 
     # Franz Weiss Sarnen (Sarnersee) - FWS
-    "003194":
+    "3194":
         code: FWS
         short_name: FWS
         name: Franz Weiss Sarnen (Sarnersee)
@@ -2786,7 +2786,7 @@ agency_data:
                     fg: ""
 
     # Gstaad 3000 AG - G3AG
-    "000261":
+    "261":
         code: G3A
         short_name: G3AG
         name: Gstaad 3000 AG
@@ -2798,7 +2798,7 @@ agency_data:
                     fg: ""
 
     # Gurtenbahn - GB
-    "000122":
+    "122":
         code: GB
         short_name: GB
         name: Gurtenbahn
@@ -2810,7 +2810,7 @@ agency_data:
                     fg: ""
 
     # Gornergratbahn - GGB
-    "000121":
+    "121":
         code: GGB
         short_name: GGB
         name: Gornergratbahn
@@ -2821,7 +2821,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Grindelwald Grund-Männlichen - GGM
-    "000312":
+    "312":
         code: GGM
         short_name: GGM
         name: Grindelwald Grund-Männlichen
@@ -2833,7 +2833,7 @@ agency_data:
                     fg: ""
 
     # Bürgerbus Gondiswil-Huttwil-Ufhusen - GHU
-    "007045":
+    "7045":
         code: GHU
         short_name: GHU
         name: Bürgerbus Gondiswil-Huttwil-Ufhusen
@@ -2845,7 +2845,7 @@ agency_data:
                     fg: ""
 
     # Gondelbahn Kandersteg-Oeschinensee - GKO
-    "000323":
+    "323":
         code: GKO
         short_name: GKO
         name: Gondelbahn Kandersteg-Oeschinensee
@@ -2857,7 +2857,7 @@ agency_data:
                     fg: ""
 
     # Genossenschaft Luftseilbahn Sulwald - GLIS
-    "003085":
+    "3085":
         code: GLI
         short_name: GLIS
         name: Genossenschaft Luftseilbahn Sulwald
@@ -2869,7 +2869,7 @@ agency_data:
                     fg: ""
 
     # Genossenschaft Luftseilbahn Morgenholz - GLNM
-    "003136":
+    "3136":
         code: GLN
         short_name: GLNM
         name: Genossenschaft Luftseilbahn Morgenholz
@@ -2881,7 +2881,7 @@ agency_data:
                     fg: ""
 
     # Gemeinde Sur - GSUR
-    "007052":
+    "7052":
         code: GSU
         short_name: GSUR
         name: Gemeinde Sur
@@ -2893,7 +2893,7 @@ agency_data:
                     fg: ""
 
     # Harderbahn - HB
-    "000123":
+    "123":
         code: HB
         short_name: HB
         name: Harderbahn
@@ -2905,7 +2905,7 @@ agency_data:
                     fg: ""
 
     # Hoher Kasten Drehrestaurant und Seilbahn AG - HKDS
-    "000253":
+    "253":
         code: HKD
         short_name: HKDS
         name: Hoher Kasten Drehrestaurant und Seilbahn AG
@@ -2917,7 +2917,7 @@ agency_data:
                     fg: ""
 
     # Impianti turistici Rivera-Monte Tamaro - ITRT
-    "000348":
+    "348":
         code: ITR
         short_name: ITRT
         name: Impianti turistici Rivera-Monte Tamaro
@@ -2929,7 +2929,7 @@ agency_data:
                     fg: ""
 
     # Jungfraubahn - JB
-    "000124":
+    "124":
         code: JB
         short_name: JB
         name: Jungfraubahn
@@ -2940,7 +2940,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Kaisereggbahnen Schwarzsee AG - KBS
-    "003005":
+    "3005":
         code: KBS
         short_name: KBS
         name: Kaisereggbahnen Schwarzsee AG
@@ -2952,7 +2952,7 @@ agency_data:
                     fg: ""
 
     # Biel Kinzig AG - KLSB
-    "003110":
+    "3110":
         code: KLS
         short_name: KLSB
         name: Biel Kinzig AG
@@ -2964,7 +2964,7 @@ agency_data:
                     fg: ""
 
     # Klosters-Madrisa Bergbahn - KMB-bkm
-    "000309":
+    "309":
         code: KMB
         short_name: KMB-bkm
         name: Klosters-Madrisa Bergbahn
@@ -2976,7 +2976,7 @@ agency_data:
                     fg: ""
 
     # Kriens-Sonnenberg-Bahn - KSB
-    "003090":
+    "3090":
         code: KSB
         short_name: KSB
         name: Kriens-Sonnenberg-Bahn
@@ -2988,7 +2988,7 @@ agency_data:
                     fg: ""
 
     # Publikation nur Kursbuch/Plakat - KUB
-    "003000":
+    "3000":
         code: KUB
         short_name: KUBUS
         name: Publikation nur Kursbuch/Plakat
@@ -3000,7 +3000,7 @@ agency_data:
                     fg: ""
 
     # Meiringen-Innertkirchen-Bahn - KWO-mib
-    "000132":
+    "132":
         code: KWO
         short_name: KWO-mib
         name: Meiringen-Innertkirchen-Bahn
@@ -3011,7 +3011,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Kraftwerk Sanetsch AG - KWS
-    "003121":
+    "3121":
         code: KWS
         short_name: KWS
         name: Kraftwerk Sanetsch AG
@@ -3023,7 +3023,7 @@ agency_data:
                     fg: ""
 
     # Kröschenbrunnen Bus - Kröbu
-    "007051":
+    "7051":
         code: Krö
         short_name: Kröbu
         name: Kröschenbrunnen Bus
@@ -3035,7 +3035,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Amsteg-Arni - LAA
-    "003188":
+    "3188":
         code: LAA
         short_name: LAA
         name: Luftseilbahn Amsteg-Arni
@@ -3047,7 +3047,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Attinghausen-Brüsti AG - LABAG
-    "003108":
+    "3108":
         code: LAB
         short_name: LABAG
         name: Luftseilbahn Attinghausen-Brüsti AG
@@ -3059,7 +3059,7 @@ agency_data:
                     fg: ""
 
     # Lauchernalp Bergbahnen AG - LABB
-    "000306":
+    "306":
         code: LAB
         short_name: LABB
         name: Lauchernalp Bergbahnen AG
@@ -3078,7 +3078,7 @@ agency_data:
                     fg: ""
 
     # Lenk Bergbahnen - LB
-    "000298":
+    "298":
         code: LB
         short_name: LB
         name: Lenk Bergbahnen
@@ -3090,7 +3090,7 @@ agency_data:
                     fg: ""
 
     # Blatten-Belalp - LBB
-    "000274":
+    "274":
         code: LBB
         short_name: LBB
         name: Blatten-Belalp
@@ -3109,7 +3109,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahngenossenschaft Brügg-Eierschwand-Ruogig - LBER
-    "003036":
+    "3036":
         code: LBE
         short_name: LBER
         name: Luftseilbahngenossenschaft Brügg-Eierschwand-Ruogig
@@ -3121,7 +3121,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Brunni-Holzegg - LBH
-    "003105":
+    "3105":
         code: LBH
         short_name: LBH
         name: Luftseilbahn Brunni-Holzegg
@@ -3133,7 +3133,7 @@ agency_data:
                     fg: ""
 
     # Corviglia-Piz Nair - LCPN
-    "000206":
+    "206":
         code: LCP
         short_name: LCPN
         name: Corviglia-Piz Nair
@@ -3145,7 +3145,7 @@ agency_data:
                     fg: ""
 
     # Dallenwil-Niederrickenbach - LDN
-    "000250":
+    "250":
         code: LDN
         short_name: LDN
         name: Dallenwil-Niederrickenbach
@@ -3157,7 +3157,7 @@ agency_data:
                     fg: ""
 
     # Dallenwil-Wirzweli - LDW
-    "000254":
+    "254":
         code: LDW
         short_name: LDW
         name: Dallenwil-Wirzweli
@@ -3169,7 +3169,7 @@ agency_data:
                     fg: ""
 
     # Lausanne-Echallens-Bercher - LEB
-    "000055":
+    "55":
         code: LEB
         short_name: LEB
         name: Lausanne-Echallens-Bercher
@@ -3180,7 +3180,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Luftseilbahn Elsigbach-Elsigenalp - LEE
-    "003072":
+    "3072":
         code: LEE
         short_name: LEE
         name: Luftseilbahn Elsigbach-Elsigenalp
@@ -3192,7 +3192,7 @@ agency_data:
                     fg: ""
 
     # Autobusbetrieb LEE - LEE Bus
-    "007038":
+    "7038":
         code: LEE
         short_name: LEE Bus
         name: Autobusbetrieb LEE
@@ -3204,7 +3204,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Engelberg-Fürenalp - LEF
-    "003092":
+    "3092":
         code: LEF
         short_name: LEF
         name: Luftseilbahn Engelberg-Fürenalp
@@ -3216,7 +3216,7 @@ agency_data:
                     fg: ""
 
     # Erlenbach-Stockhorn - LESt
-    "000264":
+    "264":
         code: LES
         short_name: LESt
         name: Erlenbach-Stockhorn
@@ -3228,7 +3228,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Fellboden-Bannalpsee - LFB
-    "003094":
+    "3094":
         code: LFB
         short_name: LFB
         name: Luftseilbahn Fellboden-Bannalpsee
@@ -3240,7 +3240,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Fell-Chrüzhütte - LFCh
-    "003093":
+    "3093":
         code: LFC
         short_name: LFCh
         name: Luftseilbahn Fell-Chrüzhütte
@@ -3252,7 +3252,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Flüelen-Eggbergen - LFE
-    "003109":
+    "3109":
         code: LFE
         short_name: LFE
         name: Luftseilbahn Flüelen-Eggbergen
@@ -3264,7 +3264,7 @@ agency_data:
                     fg: ""
 
     # Fürgangen-Bellwald - LFüB
-    "000263":
+    "263":
         code: LFü
         short_name: LFüB
         name: Fürgangen-Bellwald
@@ -3280,7 +3280,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahngenossenschaft Gitschenen - LGGI
-    "003012":
+    "3012":
         code: LGG
         short_name: LGGI
         name: Luftseilbahngenossenschaft Gitschenen
@@ -3292,7 +3292,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Grächen-Hannigalp - LGH
-    "000220":
+    "220":
         code: LGH
         short_name: LGH
         name: Luftseilbahn Grächen-Hannigalp
@@ -3304,7 +3304,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahngenossenschaft Arnisee - LGIA
-    "003115":
+    "3115":
         code: LGI
         short_name: LGIA
         name: Luftseilbahngenossenschaft Arnisee
@@ -3316,7 +3316,7 @@ agency_data:
                     fg: ""
 
     # Gampel-Jeizinen - LGJ
-    "000244":
+    "244":
         code: LGJ
         short_name: LGJ
         name: Gampel-Jeizinen
@@ -3332,7 +3332,7 @@ agency_data:
                     fg: ""
 
     # Grindelwald-Pfingstegg - LGP
-    "000272":
+    "272":
         code: LGP
         short_name: LGP
         name: Grindelwald-Pfingstegg
@@ -3344,7 +3344,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Oberschan-Hotel Alvier - LHA
-    "003132":
+    "3132":
         code: LHA
         short_name: LHA
         name: Luftseilbahn Oberschan-Hotel Alvier
@@ -3356,7 +3356,7 @@ agency_data:
                     fg: ""
 
     # Lenzerheide Bergbahnen - LHB
-    "000252":
+    "252":
         code: LHB
         short_name: LHB
         name: Lenzerheide Bergbahnen
@@ -3372,7 +3372,7 @@ agency_data:
                     fg: ""
 
     # Val Sporz-Piz Scalottas - LHB-ssps
-    "003026":
+    "3026":
         code: LHB
         short_name: LHB-ssps
         name: Val Sporz-Piz Scalottas
@@ -3384,7 +3384,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Illgau - Vorder Oberberg - LIV
-    "003165":
+    "3165":
         code: LIV
         short_name: LIV
         name: Luftseilbahn Illgau - Vorder Oberberg
@@ -3396,7 +3396,7 @@ agency_data:
                     fg: ""
 
     # Jakobsbad-Kronberg - LJK
-    "000255":
+    "255":
         code: LJK
         short_name: LJK
         name: Jakobsbad-Kronberg
@@ -3408,7 +3408,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Kalpetran-Embd - LKE
-    "000310":
+    "310":
         code: LKE
         short_name: LKE
         name: Luftseilbahn Kalpetran-Embd
@@ -3420,7 +3420,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Kies-Mettmen - LKM
-    "003137":
+    "3137":
         code: LKM
         short_name: LKM
         name: Luftseilbahn Kies-Mettmen
@@ -3432,7 +3432,7 @@ agency_data:
                     fg: ""
 
     # Kräbel-Rigi Scheidegg - LKR
-    "000248":
+    "248":
         code: LKR
         short_name: LKR
         name: Kräbel-Rigi Scheidegg
@@ -3444,7 +3444,7 @@ agency_data:
                     fg: ""
 
     # Kandersteg-Stock - LKS
-    "000228":
+    "228":
         code: LKS
         short_name: LKS
         name: Kandersteg-Stock
@@ -3456,7 +3456,7 @@ agency_data:
                     fg: ""
 
     # Küssnacht am Rigi-Seebodenalp - LKüS
-    "000281":
+    "281":
         code: LKü
         short_name: LKüS
         name: Küssnacht am Rigi-Seebodenalp
@@ -3468,7 +3468,7 @@ agency_data:
                     fg: ""
 
     # Torrent-Bahnen Leukerbad-Albinen AG - LLAT
-    "000297":
+    "297":
         code: LLA
         short_name: LLAT
         name: Torrent-Bahnen Leukerbad-Albinen AG
@@ -3484,7 +3484,7 @@ agency_data:
                     fg: ""
 
     # Auto Leuk-Leukerbad - LLB
-    "000855":
+    "855":
         code: LLB
         short_name: LLB
         name: Auto Leuk-Leukerbad
@@ -3520,7 +3520,7 @@ agency_data:
                     fg: ""
 
     # Leukerbad-Gemmipass - LLG
-    "000229":
+    "229":
         code: LLG
         short_name: LLG
         name: Leukerbad-Gemmipass
@@ -3532,7 +3532,7 @@ agency_data:
                     fg: ""
 
     # Marbach-Marbachegg - LMM
-    "000273":
+    "273":
         code: LMM
         short_name: LMM
         name: Marbach-Marbachegg
@@ -3544,7 +3544,7 @@ agency_data:
                     fg: ""
 
     # Morschach-Stoos - LMS
-    "000319":
+    "319":
         code: LMS
         short_name: LMS
         name: Morschach-Stoos
@@ -3556,7 +3556,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Matt-Weissenberg - LMW
-    "003138":
+    "3138":
         code: LMW
         short_name: LMW
         name: Luftseilbahn Matt-Weissenberg
@@ -3568,7 +3568,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Niederbauen - LNE
-    "003099":
+    "3099":
         code: LNE
         short_name: LNE
         name: Luftseilbahn Niederbauen
@@ -3580,7 +3580,7 @@ agency_data:
                     fg: ""
 
     # Lacs de Neuchâtel et Morat - LNM
-    "000189":
+    "189":
         code: LNM
         short_name: LNM
         name: Lacs de Neuchâtel et Morat
@@ -3592,7 +3592,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Obergschwend-Rigi-Burggeist AG - LORB
-    "000226":
+    "226":
         code: LOR
         short_name: LORB
         name: Luftseilbahn Obergschwend-Rigi-Burggeist AG
@@ -3604,7 +3604,7 @@ agency_data:
                     fg: ""
 
     # Raron-Eischoll - LRE
-    "000332":
+    "332":
         code: LRE
         short_name: LRE
         name: Raron-Eischoll
@@ -3616,7 +3616,7 @@ agency_data:
                     fg: ""
 
     # Rhäzüns-Feldis/Veulden - LRF
-    "000232":
+    "232":
         code: LRF
         short_name: LRF
         name: Rhäzüns-Feldis/Veulden
@@ -3628,7 +3628,7 @@ agency_data:
                     fg: ""
 
     # Rosswald Bahnen AG - LRR
-    "000276":
+    "276":
         code: LRR
         short_name: LRR
         name: Rosswald Bahnen AG
@@ -3640,7 +3640,7 @@ agency_data:
                     fg: ""
 
     # Raron-Unterbäch - LRU
-    "000211":
+    "211":
         code: LRU
         short_name: LRU
         name: Raron-Unterbäch
@@ -3652,7 +3652,7 @@ agency_data:
                     fg: ""
 
     # Reigoldswil-Wasserfallen - LRW
-    "000237":
+    "237":
         code: LRW
         short_name: LRW
         name: Reigoldswil-Wasserfallen
@@ -3664,7 +3664,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahnen Samnaun - LS
-    "003161":
+    "3161":
         code: LS
         short_name: LS
         name: Luftseilbahnen Samnaun
@@ -3676,7 +3676,7 @@ agency_data:
                     fg: ""
 
     # Surlej-Silvaplana-Corvatsch - LSC
-    "000249":
+    "249":
         code: LSC
         short_name: LSC
         name: Surlej-Silvaplana-Corvatsch
@@ -3688,7 +3688,7 @@ agency_data:
                     fg: ""
 
     # Saastal Bergbahnen AG - LSF
-    "000234":
+    "234":
         code: LSF
         short_name: LSF
         name: Saastal Bergbahnen AG
@@ -3711,7 +3711,7 @@ agency_data:
                     fg: ""
 
     # Stalden-Gspon - LSG
-    "000280":
+    "280":
         code: LSG
         short_name: LSG
         name: Stalden-Gspon
@@ -3723,7 +3723,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Schattdorf-Haldi - LSH
-    "000270":
+    "270":
         code: LSH
         short_name: LSH
         name: Luftseilbahn Schattdorf-Haldi
@@ -3735,7 +3735,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Kandersteg-Allmenalp - LSKA
-    "000346":
+    "346":
         code: LSK
         short_name: LSKA
         name: Luftseilbahn Kandersteg-Allmenalp
@@ -3747,7 +3747,7 @@ agency_data:
                     fg: ""
 
     # Stechelberg-Mürren-Schilthorn (lsms) - LSMS-lsm
-    "000256":
+    "256":
         code: LSM
         short_name: LSMS-lsm
         name: Stechelberg-Mürren-Schilthorn (lsms)
@@ -3759,7 +3759,7 @@ agency_data:
                     fg: ""
 
     # Schilthornbahn (sbm) - LSMS-sbm
-    "000141":
+    "141":
         code: LSM
         short_name: LSMS-sbm
         name: Schilthornbahn (sbm)
@@ -3771,7 +3771,7 @@ agency_data:
                     fg: ""
 
     # Schwägalp-Säntis - LSS
-    "000213":
+    "213":
         code: LSS
         short_name: LSS
         name: Schwägalp-Säntis
@@ -3783,7 +3783,7 @@ agency_data:
                     fg: ""
 
     # LTN Lungern-Turren-Bahn AG - LTBAG
-    "000349":
+    "349":
         code: LTB
         short_name: LTBAG
         name: LTN Lungern-Turren-Bahn AG
@@ -3795,7 +3795,7 @@ agency_data:
                     fg: ""
 
     # Turtmann-Unterems-Oberems - LTUO
-    "000290":
+    "290":
         code: LTU
         short_name: LTUO
         name: Turtmann-Unterems-Oberems
@@ -3811,7 +3811,7 @@ agency_data:
                     fg: ""
 
     # Luftseilbahn Unterterzen-Flumserberg AG - LUFAG
-    "000214":
+    "214":
         code: LUF
         short_name: LUFAG
         name: Luftseilbahn Unterterzen-Flumserberg AG
@@ -3823,7 +3823,7 @@ agency_data:
                     fg: ""
 
     # Wasserauen-Ebenalp - LWE
-    "000215":
+    "215":
         code: LWE
         short_name: LWE
         name: Wasserauen-Ebenalp
@@ -3835,7 +3835,7 @@ agency_data:
                     fg: ""
 
     # Wengen-Männlichen - LWM
-    "000216":
+    "216":
         code: LWM
         short_name: LWM
         name: Wengen-Männlichen
@@ -3847,7 +3847,7 @@ agency_data:
                     fg: ""
 
     # Transports de la région Morges-Bière-Cossonay - MBC
-    "000029":
+    "29":
         code: MBC
         short_name: MBC
         name: Transports de la région Morges-Bière-Cossonay
@@ -3858,7 +3858,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Transports de la Région Morges-Bière-Cossonay - MBC-cg
-    "000344":
+    "344":
         code: MBC
         short_name: MBC-cg
         name: Transports de la Région Morges-Bière-Cossonay
@@ -3870,7 +3870,7 @@ agency_data:
                     fg: ""
 
     # Automobiles MBC - MBC Auto
-    "000764":
+    "764":
         code: MBC
         short_name: MBC Auto
         name: Automobiles MBC
@@ -3927,7 +3927,7 @@ agency_data:
                     fg: ""
 
     # Maschgenkammbahnen Flumserberg - MBF
-    "000265":
+    "265":
         code: MBF
         short_name: MBF
         name: Maschgenkammbahnen Flumserberg
@@ -3942,7 +3942,7 @@ agency_data:
                     fg: ""
 
     # Ferrovia Monte Generoso - MG
-    "000129":
+    "129":
         code: MG
         short_name: MG
         name: Ferrovia Monte Generoso
@@ -3953,7 +3953,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Matterhorn Gotthard Bahn (fo) - MGB-fo
-    "000048":
+    "48":
         code: MGB
         short_name: MGB-fo
         name: Matterhorn Gotthard Bahn (fo)
@@ -3970,7 +3970,7 @@ agency_data:
                     fg: ""
 
     # Matterhorn Gotthard Bahn (bvz) - MGB-bvz
-    "000093":
+    "93":
         code: MGB
         short_name: MGB-bvz
         name: Matterhorn Gotthard Bahn (bvz)
@@ -3983,7 +3983,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Moonliner - MNL
-    "007089":
+    "7089":
         code: MNL
         short_name: MNL
         name: Moonliner
@@ -4001,7 +4001,7 @@ agency_data:
                     fg: ""
 
     # Montreux-Oberland Bernois - MOB
-    "000064":
+    "64":
         code: MOB
         short_name: MOB
         name: Montreux-Oberland Bernois
@@ -4016,7 +4016,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Lugano-Monte San Salvatore - MS
-    "000134":
+    "134":
         code: MS
         short_name: MS
         name: Lugano-Monte San Salvatore
@@ -4028,7 +4028,7 @@ agency_data:
                     fg: ""
 
     # Mühleggbahn AG St. Gallen - MSG
-    "003082":
+    "3082":
         code: MSG
         short_name: MSG
         name: Mühleggbahn AG St. Gallen
@@ -4040,7 +4040,7 @@ agency_data:
                     fg: ""
 
     # Montreux-Vevey-Riviera (las) - MVR-las
-    "000125":
+    "125":
         code: MVR
         short_name: MVR-las
         name: Montreux-Vevey-Riviera (las)
@@ -4052,7 +4052,7 @@ agency_data:
                     fg: ""
 
     # Montreux-Vevey-Riviera (cev) - MVR-cev
-    "000042":
+    "42":
         code: MVR
         short_name: MVR-cev
         name: Montreux-Vevey-Riviera (cev)
@@ -4063,7 +4063,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Montreux-Vevey-Riviera (mtgn) - MVR-mtgn
-    "000131":
+    "131":
         code: MVR
         short_name: MVR-mtgn
         name: Montreux-Vevey-Riviera (mtgn)
@@ -4078,7 +4078,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Montreux-Vevey-Riviera (vcp) - MVR-vcp
-    "000155":
+    "155":
         code: MVR
         short_name: MVR-vcp
         name: Montreux-Vevey-Riviera (vcp)
@@ -4090,7 +4090,7 @@ agency_data:
                     fg: ""
 
     # Niesenbahn - NB
-    "000135":
+    "135":
         code: NB
         short_name: NB
         name: Niesenbahn
@@ -4102,7 +4102,7 @@ agency_data:
                     fg: ""
 
     # Niederhornbahn AG - NHB-bbb
-    "000149":
+    "149":
         code: NHB
         short_name: NHB-bbb
         name: Niederhornbahn AG
@@ -4114,7 +4114,7 @@ agency_data:
                     fg: ""
 
     # Niederhornbahn AG - NHB-nhb
-    "000239":
+    "239":
         code: NHB
         short_name: NHB-nhb
         name: Niederhornbahn AG
@@ -4126,7 +4126,7 @@ agency_data:
                     fg: ""
 
     # Navigation Lac des Brenets - NLB
-    "000198":
+    "198":
         code: NLB
         short_name: NLB
         name: Navigation Lac des Brenets
@@ -4138,7 +4138,7 @@ agency_data:
                     fg: ""
 
     # Lago Maggiore - NLM
-    "000187":
+    "187":
         code: NLM
         short_name: NLM
         name: Lago Maggiore
@@ -4150,7 +4150,7 @@ agency_data:
                     fg: ""
 
     # Navigation Lac de Joux - NLJ
-    "003181":
+    "3181":
         code: NLJ
         short_name: NLJ
         name: Navigation Lac de Joux
@@ -4173,7 +4173,7 @@ agency_data:
                     <<: *TRAIN_SBAHN      
 
     # Nyon-St-Cergue-Morez - NStCM
-    "000066":
+    "66":
         code: NSt
         short_name: NStCM
         name: Nyon-St-Cergue-Morez
@@ -4184,7 +4184,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Remontées mécaniques SA - NVRM-NV
-    "003028":
+    "3028":
         code: NVR
         short_name: NVRM-NV
         name: Remontées mécaniques SA
@@ -4203,7 +4203,7 @@ agency_data:
                     fg: ""
 
     # Ortsbus St. Moritz - OBSM
-    "000716":
+    "716":
         code: OBS
         short_name: OBSM
         name: Ortsbus St. Moritz
@@ -4218,7 +4218,7 @@ agency_data:
                     fg: "#ffffff"
 
     # Office du tourisme de Leysin - OTL
-    "007062":
+    "7062":
         code: OTL
         short_name: OTL
         name: Office du tourisme de Leysin
@@ -4230,7 +4230,7 @@ agency_data:
                     fg: ""
 
     # Bürgerbus Kleindietwil-Oeschenbach-Walterswil - OUW
-    "007046":
+    "7046":
         code: OUW
         short_name: OUW
         name: Bürgerbus Kleindietwil-Oeschenbach-Walterswil
@@ -4242,7 +4242,7 @@ agency_data:
                     fg: ""
 
     # Parc d'Attractions du Châtelard - PAC
-    "000115":
+    "115":
         code: PAC
         short_name: PAC
         name: Parc d'Attractions du Châtelard
@@ -4257,7 +4257,7 @@ agency_data:
                     <<: *TRAIN_LONG_DISTANCE
 
     # PostAuto Schweiz - PAG
-    "000801":
+    "801":
         code: PAG
         short_name: PAG
         name: PostAuto Schweiz
@@ -5952,7 +5952,7 @@ agency_data:
                     fg: ""
 
     # Pradaschier AG Top - PAGT
-    "000342":
+    "342":
         code: PAG
         short_name: PAGT
         name: Pradaschier AG Top
@@ -5964,7 +5964,7 @@ agency_data:
                     fg: ""
 
     # Pilatusbahnen - PB
-    "000136":
+    "136":
         code: PB
         short_name: PB
         name: Pilatusbahnen
@@ -5975,7 +5975,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Kriens-Fräkmüntegg - PB Fpl
-    "013600":
+    "13600":
         code: PB
         short_name: PB Fpl
         name: Kriens-Fräkmüntegg
@@ -5991,7 +5991,7 @@ agency_data:
                     fg: ""
 
     # Prodkammbahnen Flumserberg AG - PBF-stp
-    "000288":
+    "288":
         code: PBF
         short_name: PBF-stp
         name: Prodkammbahnen Flumserberg AG
@@ -6006,7 +6006,7 @@ agency_data:
                     fg: ""
 
     # Poly-Bahn Zürich - PBZ
-    "000165":
+    "165":
         code: PBZ
         short_name: PBZ
         name: Poly-Bahn Zürich
@@ -6018,7 +6018,7 @@ agency_data:
                     fg: ""
 
     # Pizolbahnen AG - PIZAG
-    "000287":
+    "287":
         code: PIZ
         short_name: PIZAG
         name: Pizolbahnen AG
@@ -6033,7 +6033,7 @@ agency_data:
                     fg: ""
 
     # PRO REGIO HUTTWIL Verkehrsverein - PRH
-    "007079":
+    "7079":
         code: PRH
         short_name: PRH
         name: PRO REGIO HUTTWIL Verkehrsverein
@@ -6045,7 +6045,7 @@ agency_data:
                     fg: ""
 
     # Scuol-Ftan-Sent - PSFS
-    "000223":
+    "223":
         code: PSF
         short_name: PSFS
         name: Scuol-Ftan-Sent
@@ -6060,7 +6060,7 @@ agency_data:
                     fg: ""
 
     # Sedrun Pendicularas SA - PSR
-    "000333":
+    "333":
         code: PSR
         short_name: PSR
         name: Sedrun Pendicularas SA
@@ -6072,7 +6072,7 @@ agency_data:
                     fg: ""
 
     # Regionalps - RA
-    "000074":
+    "74":
         code: RA
         short_name: RA
         name: Regionalps
@@ -6089,7 +6089,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Regionalalps INFO+ - RA     F
-    "003074":
+    "3074":
         code: RA
         short_name: RA     F
         name: Regionalalps INFO+
@@ -6104,7 +6104,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Weggis-Rigi Kaltbad - RB Fpl
-    "013700":
+    "13700":
         code: RB
         short_name: RB Fpl
         name: Weggis-Rigi Kaltbad
@@ -6116,7 +6116,7 @@ agency_data:
                     fg: ""
 
     # Rigi-Bahnen - RB
-    "000137":
+    "137":
         code: RB
         short_name: RB
         name: Rigi-Bahnen
@@ -6129,7 +6129,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Regionalbus Lenzburg - RBL
-    "000873":
+    "873":
         code: RBL
         short_name: RBL
         name: Regionalbus Lenzburg
@@ -6171,7 +6171,7 @@ agency_data:
                     fg: ""
 
     # Regionalverkehr Bern-Solothurn - RBS
-    "000088":
+    "88":
         code: RBS
         short_name: RBS
         name: Regionalverkehr Bern-Solothurn
@@ -6196,7 +6196,7 @@ agency_data:
                     fg: ""
 
     # Autobusbetrieb RBS - RBS Auto
-    "000850":
+    "850":
         code: RBS
         short_name: RBS Auto
         name: Autobusbetrieb RBS
@@ -6277,7 +6277,7 @@ agency_data:
                     fg: ""
 
     # Regiobus Gossau SG - REGO
-    "000896":
+    "896":
         code: REG
         short_name: REGO
         name: Regiobus Gossau SG
@@ -6307,7 +6307,7 @@ agency_data:
                     fg: ""
 
     # Reichenbachfall-Bahn - RFB
-    "003087":
+    "3087":
         code: RFB
         short_name: RFB
         name: Reichenbachfall-Bahn
@@ -6319,7 +6319,7 @@ agency_data:
                     fg: ""
 
     # Remontées Méc. du Wildhorn Anzére - RMA-tapm
-    "000294":
+    "294":
         code: RMA
         short_name: RMA-tapm
         name: Remontées Méc. du Wildhorn Anzére
@@ -6331,7 +6331,7 @@ agency_data:
                     fg: ""
 
     # Remontées Mécaniques Grimentz-Zinal SA - RMGZ
-    "000337":
+    "337":
         code: RMG
         short_name: RMGZ
         name: Remontées Mécaniques Grimentz-Zinal SA
@@ -6347,7 +6347,7 @@ agency_data:
                     fg: ""
 
     # Regionale Verkehrsbetriebe Baden-Wettingen - RVBW
-    "000886":
+    "886":
         code: RVB
         short_name: RVBW
         name: Regionale Verkehrsbetriebe Baden-Wettingen
@@ -6400,7 +6400,7 @@ agency_data:
                     <<: *NIGHT
 
     # Regionale Verkehrsbetriebe Schaffhausen - RVSH
-    "000846":
+    "846":
         code: RVS
         short_name: RVSH
         name: Regionale Verkehrsbetriebe Schaffhausen
@@ -6437,7 +6437,7 @@ agency_data:
                     <<: *NIGHT
 
     # Autoverkehr RhB - RhB Auto
-    "000865":
+    "865":
         code: RhB
         short_name: RhB Auto
         name: Autoverkehr RhB
@@ -6452,7 +6452,7 @@ agency_data:
                     fg: ""
 
     # Rhätische Bahn - RhB
-    "000072":
+    "72":
         code: RhB
         short_name: RhB
         name: Rhätische Bahn
@@ -6492,7 +6492,7 @@ agency_data:
                     <<: *NIGHT
 
     # Société des Auto-transports du Pied du Jura Vaudois - SAPJV
-    "000719":
+    "719":
         code: SAP
         short_name: SAPJV
         name: Société des Auto-transports du Pied du Jura Vaudois
@@ -6504,7 +6504,7 @@ agency_data:
                     fg: ""
 
     # Savognin-Bergbahnen AG - SB
-    "000230":
+    "230":
         code: SB
         short_name: SB
         name: Savognin-Bergbahnen AG
@@ -6516,7 +6516,7 @@ agency_data:
                     fg: ""
 
     # Sportbahnen Amden - SBA
-    "003130":
+    "3130":
         code: SBA
         short_name: SBA
         name: Sportbahnen Amden
@@ -6528,7 +6528,7 @@ agency_data:
                     fg: ""
 
     # Sportbahnen Bergün - SBAD
-    "000336":
+    "336":
         code: SBA
         short_name: SBAD
         name: Sportbahnen Bergün
@@ -6540,7 +6540,7 @@ agency_data:
                     fg: ""
 
     # Schweizerische Bundesbahnen SBB - SBB
-    "000011":
+    "11":
         code: SBB
         short_name: SBB
         name: Schweizerische Bundesbahnen SBB
@@ -6719,7 +6719,7 @@ agency_data:
                     <<: *NIGHT
 
     # Automobildienst SBB - SBB Bus
-    "000702":
+    "702":
         code: SBB
         short_name: SBB Bus
         name: Automobildienst SBB
@@ -6757,7 +6757,7 @@ agency_data:
                     <<: *NIGHT
 
     # SBB GmbH (Grenzverkehr) - SBB GmbH
-    "000351":
+    "351":
         code: SBB
         short_name: SBB GmbH
         name: SBB GmbH (Grenzverkehr)
@@ -6795,7 +6795,7 @@ agency_data:
                     fg: ""
 
     # Stadtbus Chur - SBC
-    "000766":
+    "766":
         code: SBC
         short_name: SBC
         name: Stadtbus Chur
@@ -6839,7 +6839,7 @@ agency_data:
                     <<: *NIGHT
 
     # Sportbahnen Elm - SBE
-    "003139":
+    "3139":
         code: SBE
         short_name: SBE
         name: Sportbahnen Elm
@@ -6851,7 +6851,7 @@ agency_data:
                     fg: ""
 
     # Stadtbus Frauenfeld - SBF
-    "000797":
+    "797":
         code: SBF
         short_name: SBF
         name: Stadtbus Frauenfeld
@@ -6889,7 +6889,7 @@ agency_data:
                     <<: *NIGHT
 
     # Seilbahngenossenschaft Golzern - SBGG
-    "003112":
+    "3112":
         code: SBG
         short_name: SBGG
         name: Seilbahngenossenschaft Golzern
@@ -6901,7 +6901,7 @@ agency_data:
                     fg: ""
 
     # Südbadenbus GmbH - SBG
-    "000354":
+    "354":
         code: SBG
         short_name: SBG
         name: Südbadenbus GmbH
@@ -6916,7 +6916,7 @@ agency_data:
                     fg: ""
 
     # Sportbahnen Pischa - SBP
-    "000224":
+    "224":
         code: SBP
         short_name: SBP
         name: Sportbahnen Pischa
@@ -6928,7 +6928,7 @@ agency_data:
                     fg: ""
 
     # Sportbahnen Bellwald Goms AG - SBR
-    "003063":
+    "3063":
         code: SBR
         short_name: SBR
         name: Sportbahnen Bellwald Goms AG
@@ -6940,7 +6940,7 @@ agency_data:
                     fg: ""
 
     # Schweizerische Bodensee-Schiffahrtsgesellschaft - SBS
-    "000195":
+    "195":
         code: SBS
         short_name: SBS
         name: Schweizerische Bodensee-Schiffahrtsgesellschaft
@@ -6952,7 +6952,7 @@ agency_data:
                     fg: ""
 
     # Sportbahnen Unterbäch AG - SBU
-    "003050":
+    "3050":
         code: SBU
         short_name: SBU
         name: Sportbahnen Unterbäch AG
@@ -6964,7 +6964,7 @@ agency_data:
                     fg: ""
 
     # Stadtbus Winterthur - SBW
-    "000882":
+    "882":
         code: SBW
         short_name: SBW
         name: Stadtbus Winterthur
@@ -7034,7 +7034,7 @@ agency_data:
                     <<: *NIGHT
 
     # Sportbahnen Davos - SDS-dsb
-    "000111":
+    "111":
         code: SDS
         short_name: SDS-dsb
         name: Sportbahnen Davos
@@ -7046,7 +7046,7 @@ agency_data:
                     fg: ""
 
     # Gemeinde Fanas - SFE
-    "003142":
+    "3142":
         code: SFE
         short_name: SFE
         name: Gemeinde Fanas
@@ -7058,7 +7058,7 @@ agency_data:
                     fg: ""
 
     # Sesselbahn Feldis-Mutta - SFM
-    "003158":
+    "3158":
         code: SFM
         short_name: SFM
         name: Sesselbahn Feldis-Mutta
@@ -7070,7 +7070,7 @@ agency_data:
                     fg: ""
 
     # Seilbahngenossenschaft Embd-Schalb - SGES
-    "003054":
+    "3054":
         code: SGE
         short_name: SGES
         name: Seilbahngenossenschaft Embd-Schalb
@@ -7082,7 +7082,7 @@ agency_data:
                     fg: ""
 
     # Greifensee - SGG
-    "000180":
+    "180":
         code: SGG
         short_name: SGG
         name: Greifensee
@@ -7094,7 +7094,7 @@ agency_data:
                     fg: ""
 
     # Hallwilersee - SGH
-    "000181":
+    "181":
         code: SGH
         short_name: SGH
         name: Hallwilersee
@@ -7106,7 +7106,7 @@ agency_data:
                     fg: ""
 
     # Vierwaldstättersee - SGV
-    "000185":
+    "185":
         code: SGV
         short_name: SGV
         name: Vierwaldstättersee
@@ -7121,7 +7121,7 @@ agency_data:
                     fg: ""
 
     # Zugersee - SGZ
-    "000186":
+    "186":
         code: SGZ
         short_name: SGZ
         name: Zugersee
@@ -7133,7 +7133,7 @@ agency_data:
                     fg: ""
 
     # Sattel-Hochstuckli AG - SHAG
-    "000240":
+    "240":
         code: SHA
         short_name: SHAG
         name: Sattel-Hochstuckli AG
@@ -7148,7 +7148,7 @@ agency_data:
                     fg: ""
 
     # Sesselbahn Krümmenschwil-Rietbach - SKR
-    "003128":
+    "3128":
         code: SKR
         short_name: SKR
         name: Sesselbahn Krümmenschwil-Rietbach
@@ -7160,7 +7160,7 @@ agency_data:
                     fg: ""
 
     # Sesselbahn Kiental-Ramslauenen - SKRa
-    "003070":
+    "3070":
         code: SKR
         short_name: SKRa
         name: Sesselbahn Kiental-Ramslauenen
@@ -7172,7 +7172,7 @@ agency_data:
                     fg: ""
 
     # Sierre-Montana-Crans - SMC
-    "000142":
+    "142":
         code: SMC
         short_name: SMC
         name: Sierre-Montana-Crans
@@ -7206,7 +7206,7 @@ agency_data:
                     fg: ""
 
     # Sportbahnen Melchsee-Frutt (lsm) INFO+ - SMF-lsmF
-    "003222":
+    "3222":
         code: SMF
         short_name: SMF-lsmF
         name: Sportbahnen Melchsee-Frutt (lsm) INFO+
@@ -7218,7 +7218,7 @@ agency_data:
                     fg: ""
 
     # Sportbahnen Melchsee-Frutt (ldb) - SMF-ldb
-    "003091":
+    "3091":
         code: SMF
         short_name: SMF-ldb
         name: Sportbahnen Melchsee-Frutt (ldb)
@@ -7230,7 +7230,7 @@ agency_data:
                     fg: ""
 
     # Sportbahnen Melchsee-Frutt (lsm) - SMF-lsm
-    "000222":
+    "222":
         code: SMF
         short_name: SMF-lsm
         name: Sportbahnen Melchsee-Frutt (lsm)
@@ -7242,7 +7242,7 @@ agency_data:
                     fg: ""
 
     # Société des Mouettes Genevoises Navigation - SMGN
-    "000199":
+    "199":
         code: SMG
         short_name: SMGN
         name: Société des Mouettes Genevoises Navigation
@@ -7254,7 +7254,7 @@ agency_data:
                     fg: ""
 
     # Funiculaire Saint-Imier-Mont-Soleil SA - SMtS
-    "000143":
+    "143":
         code: SMt
         short_name: SMtS
         name: Funiculaire Saint-Imier-Mont-Soleil SA
@@ -7266,7 +7266,7 @@ agency_data:
                     fg: ""
 
     # Servizio d'automobili - SNL Auto
-    "000737":
+    "737":
         code: SNL
         short_name: SNL Auto
         name: Servizio d'automobili
@@ -7281,7 +7281,7 @@ agency_data:
                     fg: ""
 
     # Lago di Lugano - SNL
-    "000188":
+    "188":
         code: SNL
         short_name: SNL
         name: Lago di Lugano
@@ -7293,7 +7293,7 @@ agency_data:
                     fg: ""
 
     # Schweizerische Südostbahn (sob) - SOB-sob
-    "000082":
+    "82":
         code: SOB
         short_name: SOB-sob
         name: Schweizerische Südostbahn (sob)
@@ -7336,7 +7336,7 @@ agency_data:
                     <<: *NIGHT
 
     # Sportbahnen Braunwald - SPBR
-    "003168":
+    "3168":
         code: SPB
         short_name: SPBR
         name: Sportbahnen Braunwald
@@ -7351,7 +7351,7 @@ agency_data:
                     fg: ""
 
     # Pontresina-Alp Languard - SPL
-    "000267":
+    "267":
         code: SPL
         short_name: SPL
         name: Pontresina-Alp Languard
@@ -7363,7 +7363,7 @@ agency_data:
                     fg: ""
 
     # Seilbahn Ried Illgau - SRI
-    "000347":
+    "347":
         code: SRI
         short_name: SRI
         name: Seilbahn Ried Illgau
@@ -7375,7 +7375,7 @@ agency_data:
                     fg: ""
 
     # Seilbahn Rickenbach-Rotenfluh/Rotenfluebahn Mythenregion - SRR
-    "000235":
+    "235":
         code: SRR
         short_name: SRR
         name: Seilbahn Rickenbach-Rotenfluh/Rotenfluebahn Mythenregion
@@ -7387,7 +7387,7 @@ agency_data:
                     fg: ""
 
     # Schiffahrtsunternehmung Silsersee - SS
-    "003183":
+    "3183":
         code: SS
         short_name: SS
         name: Schiffahrtsunternehmung Silsersee
@@ -7399,7 +7399,7 @@ agency_data:
                     fg: ""
 
     # Schutt Atzmännig - SSA
-    "000301":
+    "301":
         code: SSA
         short_name: SSA
         name: Schutt Atzmännig
@@ -7411,7 +7411,7 @@ agency_data:
                     fg: ""
 
     # Skilift Schilt AG 8753 Mollis - SSM
-    "007030":
+    "7030":
         code: SSM
         short_name: SSM
         name: Skilift Schilt AG 8753 Mollis
@@ -7423,7 +7423,7 @@ agency_data:
                     fg: ""
 
     # Verkehrsbetriebe STI AG - STI
-    "000146":
+    "146":
         code: STI
         short_name: STI
         name: Verkehrsbetriebe STI AG
@@ -7516,7 +7516,7 @@ agency_data:
                     fg: "#ffffff"
 
     # Sumvitg Turissem - SUTU
-    "007047":
+    "7047":
         code: SUT
         short_name: SUTU
         name: Sumvitg Turissem
@@ -7528,7 +7528,7 @@ agency_data:
                     fg: ""
 
     # Städtische Verkehrsbetriebe Bern - SVB Auto
-    "000827":
+    "827":
         code: SVB
         short_name: SVB Auto
         name: Städtische Verkehrsbetriebe Bern
@@ -7739,7 +7739,7 @@ agency_data:
                     fg: ""
 
     # Sesselbahn Visperterminen-Giw - SVG
-    "003052":
+    "3052":
         code: SVG
         short_name: SVG
         name: Sesselbahn Visperterminen-Giw
@@ -7751,7 +7751,7 @@ agency_data:
                     fg: ""
 
     # Sesselbahn Vals-Gadenstatt - SVGa
-    "003151":
+    "3151":
         code: SVG
         short_name: SVGa
         name: Sesselbahn Vals-Gadenstatt
@@ -7763,7 +7763,7 @@ agency_data:
                     fg: ""
 
     # Schiffsbetrieb Walensee - SW
-    "000197":
+    "197":
         code: SW
         short_name: SW
         name: Schiffsbetrieb Walensee
@@ -7775,7 +7775,7 @@ agency_data:
                     fg: ""
 
     # Seilbahn Weissenstein AG - SWAG
-    "000202":
+    "202":
         code: SWA
         short_name: SWAG
         name: Seilbahn Weissenstein AG
@@ -7787,7 +7787,7 @@ agency_data:
                     fg: ""
 
     # Sesselbahn Wildhaus-Gamplüt - SWG
-    "003129":
+    "3129":
         code: SWG
         short_name: SWG
         name: Sesselbahn Wildhaus-Gamplüt
@@ -7799,7 +7799,7 @@ agency_data:
                     fg: ""
 
     # Schiff Eglisau-Tössegg - SZR-ET
-    "003186":
+    "3186":
         code: SZR-ET
         short_name: SZR
         name: Schiff Eglisau-Tössegg
@@ -7811,7 +7811,7 @@ agency_data:
                     fg: ""    
 
     # Sihltal-Zürich-Uetliberg-Bahn - SZU
-    "000078":
+    "78":
         code: SZU
         short_name: SZU
         name: Sihltal-Zürich-Uetliberg-Bahn
@@ -7832,7 +7832,7 @@ agency_data:
                     <<: *NIGHT
 
     # Automobildienst SZU - SZU Auto
-    "000807":
+    "807":
         code: SZU
         short_name: SZU Auto
         name: Automobildienst SZU
@@ -7904,7 +7904,7 @@ agency_data:
                     fg: ""
 
     # Standseilbahn Schwyz-Stoos AG - StSS
-    "000112":
+    "112":
         code: StS
         short_name: StSS
         name: Standseilbahn Schwyz-Stoos AG
@@ -7916,7 +7916,7 @@ agency_data:
                     fg: ""
 
     # Stanserhornbahn - SthB
-    "000145":
+    "145":
         code: Sth
         short_name: SthB
         name: Stanserhornbahn
@@ -7928,7 +7928,7 @@ agency_data:
                     fg: ""
 
     # Stoosbahnen AG - StoB
-    "003102":
+    "3102":
         code: Sto
         short_name: StoB
         name: Stoosbahnen AG
@@ -7940,7 +7940,7 @@ agency_data:
                     fg: ""
 
     # Télésiège Buttes-La Robella - TBR
-    "003003":
+    "3003":
         code: TBR
         short_name: TBR
         name: Télésiège Buttes-La Robella
@@ -7952,7 +7952,7 @@ agency_data:
                     fg: ""
 
     # Château-d'Oex-La Braye - TCLB
-    "000231":
+    "231":
         code: TCL
         short_name: TCLB
         name: Château-d'Oex-La Braye
@@ -7964,7 +7964,7 @@ agency_data:
                     fg: ""
 
     # Télé Champéry - Crosets Portes du Soleil SA (tps) - TCP-tps
-    "000331":
+    "331":
         code: TCP
         short_name: TCP-tps
         name: Télé Champéry - Crosets Portes du Soleil SA (tps)
@@ -7976,7 +7976,7 @@ agency_data:
                     fg: ""
 
     # Télé Champéry - Crosets Portes du Soleil SA - TCP
-    "000217":
+    "217":
         code: TCP
         short_name: TCP
         name: Télé Champéry - Crosets Portes du Soleil SA
@@ -7988,7 +7988,7 @@ agency_data:
                     fg: ""
 
     # Télécabine Charmey-Vounetse - TCV
-    "003008":
+    "3008":
         code: TCV
         short_name: TCV
         name: Télécabine Charmey-Vounetse
@@ -8000,7 +8000,7 @@ agency_data:
                     fg: ""
 
     # TéléDiablerets SA - TD
-    "000241":
+    "241":
         code: TD
         short_name: TD
         name: TéléDiablerets SA
@@ -8012,7 +8012,7 @@ agency_data:
                     fg: ""
 
     # Téléphérique Dorénaz-Champex d'Alesse/Commune de Dorénaz - TDCA
-    "000277":
+    "277":
         code: TDC
         short_name: TDCA
         name: Téléphérique Dorénaz-Champex d'Alesse/Commune de Dorénaz
@@ -8024,7 +8024,7 @@ agency_data:
                     fg: ""
 
     # Trägerverein Historische Postautolinie - THP
-    "007088":
+    "7088":
         code: THP
         short_name: THP
         name: Trägerverein Historische Postautolinie
@@ -8036,7 +8036,7 @@ agency_data:
                     fg: ""
 
     # THURBO - THURBO
-    "000065":
+    "65":
         code: THU
         short_name: THURBO
         name: THURBO
@@ -8103,7 +8103,7 @@ agency_data:
                     <<: *NIGHT
 
     # Treni Regionali Ticino Lombardia - TILO
-    "000420":
+    "420":
         code: TIL
         short_name: TILO
         name: Treni Regionali Ticino Lombardia
@@ -8115,7 +8115,7 @@ agency_data:
                     fg: ""
 
     # Transport publics de la Région Lausannoise - TL
-    "000151":
+    "151":
         code: TL
         short_name: TL
         name: Transport publics de la Région Lausannoise
@@ -8245,7 +8245,7 @@ agency_data:
                     fg: "#FFFFFF"
 
     # TéléLaFouly-ChampexLac SA - TLFC
-    "003024":
+    "3024":
         code: TLF
         short_name: TLFC
         name: TéléLaFouly-ChampexLac SA
@@ -8257,7 +8257,7 @@ agency_data:
                     fg: ""
 
     # Télésiège Lana-La Meina - TLLM
-    "003033":
+    "3033":
         code: TLL
         short_name: TLLM
         name: Télésiège Lana-La Meina
@@ -8269,7 +8269,7 @@ agency_data:
                     fg: ""
 
     # Télé-Leysin-Col des Mosses - La Lécherette SA - TLML
-    "000233":
+    "233":
         code: TLM
         short_name: TLML
         name: Télé-Leysin-Col des Mosses - La Lécherette SA
@@ -8281,7 +8281,7 @@ agency_data:
                     fg: ""
 
     # Télémorgins SA - TM
-    "000330":
+    "330":
         code: TM
         short_name: TM
         name: Télémorgins SA
@@ -8293,7 +8293,7 @@ agency_data:
                     fg: ""
 
     # Transports de Martigny et Régions (mc) - TMR-mc
-    "000061":
+    "61":
         code: TMR
         short_name: TMR-mc
         name: Transports de Martigny et Régions (mc)
@@ -8304,7 +8304,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Service d'automobiles TMR - TMR Auto
-    "000835":
+    "835":
         code: TMR
         short_name: TMR Auto
         name: Service d'automobiles TMR
@@ -8334,7 +8334,7 @@ agency_data:
                     fg: ""
 
     # TéléMarécottes - TMSA
-    "000305":
+    "305":
         code: TMS
         short_name: TMSA
         name: TéléMarécottes
@@ -8357,7 +8357,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Télésiège Ovronnaz-Jorasse - TOJ
-    "003040":
+    "3040":
         code: TOJ
         short_name: TOJ
         name: Télésiège Ovronnaz-Jorasse
@@ -8369,7 +8369,7 @@ agency_data:
                     fg: ""
 
     # Transports Publics du Chablais (asd) - TPC-asd
-    "000027":
+    "27":
         code: TPC
         short_name: TPC-asd
         name: Transports Publics du Chablais (asd)
@@ -8380,7 +8380,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Transports Publics du Chablais (aomc) - TPC-aomc
-    "000024":
+    "24":
         code: TPC
         short_name: TPC-aomc
         name: Transports Publics du Chablais (aomc)
@@ -8393,7 +8393,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Service d'automobiles TPC (aomc auto) - TPC/Auao
-    "000818":
+    "818":
         code: TPC
         short_name: TPC/Auao
         name: Service d'automobiles TPC (aomc auto)
@@ -8417,7 +8417,7 @@ agency_data:
                     fg: ""
 
     # Transports Publics du Chablais (bvb) - TPC-bvb
-    "000039":
+    "39":
         code: TPC
         short_name: TPC-bvb
         name: Transports Publics du Chablais (bvb)
@@ -8428,7 +8428,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Transports Publics du Chablais (al) - TPC-al
-    "000023":
+    "23":
         code: TPC
         short_name: TPC-al
         name: Transports Publics du Chablais (al)
@@ -8439,7 +8439,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Service d'automobiles TPC (bvb auto) - TPC/Autb
-    "000852":
+    "852":
         code: TPC
         short_name: TPC/Autb
         name: Service d'automobiles TPC (bvb auto)
@@ -8463,7 +8463,7 @@ agency_data:
                     fg: ""
 
     # Service d'automobiles TPF - TPF Auto
-    "000834":
+    "834":
         code: TPF
         short_name: TPF Auto
         name: Service d'automobiles TPF
@@ -8668,7 +8668,7 @@ agency_data:
                     <<: *NIGHT
 
     # Transports publics fribourgeois - TPF
-    "000053":
+    "53":
         code: TPF
         short_name: TPF
         name: Transports publics fribourgeois
@@ -8687,7 +8687,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Transports publics fribourgeois - TPF-nstp
-    "003004":
+    "3004":
         code: TPF
         short_name: TPF-nstp
         name: Transports publics fribourgeois
@@ -8699,7 +8699,7 @@ agency_data:
                     fg: ""
 
     # Transports publics fribourgeois INFO+ - TPF    F
-    "003053":
+    "3053":
         code: TPF
         short_name: TPF    F
         name: Transports publics fribourgeois INFO+
@@ -8716,7 +8716,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Transports Publics Genevois - TPG
-    "000881":
+    "881":
         code: TPG
         short_name: TPG
         name: Transports Publics Genevois
@@ -8962,7 +8962,7 @@ agency_data:
                     fg: "#ffffff"
 
     # Trasporti Pubblici Luganesi - TPL
-    "000955":
+    "955":
         code: TPL
         short_name: TPL
         name: Trasporti Pubblici Luganesi
@@ -9016,7 +9016,7 @@ agency_data:
                     fg: "#ffffff"
 
     # Trasporti Pubblici Luganesi INFO+ - TPL    F
-    "003955":
+    "3955":
         code: TPL
         short_name: TPL    F
         name: Trasporti Pubblici Luganesi INFO+
@@ -9028,7 +9028,7 @@ agency_data:
                     fg: ""
 
     # Transports Publics de la Région Nyonnaise - TPN
-    "000738":
+    "738":
         code: TPN
         short_name: TPN
         name: Transports Publics de la Région Nyonnaise
@@ -9055,7 +9055,7 @@ agency_data:
                     fg: ""
 
     # Transports Vallée de Joux-Yverdon-Ste-Croix (tpyg) - TRAVYS/t
-    "000895":
+    "895":
         code: TRA
         short_name: TRAVYS/t
         name: Transports Vallée de Joux-Yverdon-Ste-Croix (tpyg)
@@ -9094,7 +9094,7 @@ agency_data:
                     fg: ""
 
     # Transports Vallée de Joux-Yverdon-Ste-Croix (pbr) - TRAVYS-p
-    "000069":
+    "69":
         code: TRA
         short_name: TRAVYS-p
         name: Transports Vallée de Joux-Yverdon-Ste-Croix (pbr)
@@ -9107,7 +9107,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Transports Vallée de Joux-Yverdon-Ste-Croix (auto ystec) - TRAVYS/a
-    "000868":
+    "868":
         code: TRA
         short_name: TRAVYS/a
         name: Transports Vallée de Joux-Yverdon-Ste-Croix (auto ystec)
@@ -9119,7 +9119,7 @@ agency_data:
                     fg: ""
 
     # Transports Vallée de Joux-Yverdon-Ste-Croix (oc) - TRAVYS-o
-    "000067":
+    "67":
         code: TRA
         short_name: TRAVYS-o
         name: Transports Vallée de Joux-Yverdon-Ste-Croix (oc)
@@ -9134,7 +9134,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Transports Vallée de Joux-Yverdon-Ste-Croix (ystec) - TRAVYS-y
-    "000097":
+    "97":
         code: TRA
         short_name: TRAVYS-y
         name: Transports Vallée de Joux-Yverdon-Ste-Croix (ystec)
@@ -9152,7 +9152,7 @@ agency_data:
                     fg: ""
 
     # Riddes-Isérables - TRI
-    "000227":
+    "227":
         code: TRI
         short_name: TRI
         name: Riddes-Isérables
@@ -9168,7 +9168,7 @@ agency_data:
                     fg: ""
 
     # Service d'automobiles TRN(vr) - TRN/Auto
-    "000156":
+    "156":
         code: TRN
         short_name: TRN/Auto
         name: Service d'automobiles TRN(vr)
@@ -9186,7 +9186,7 @@ agency_data:
                     fg: ""
 
     # Service d'automobiles TRN (rvt Auto) - TRN/Autr
-    "000796":
+    "796":
         code: TRN
         short_name: TRN/Autr
         name: Service d'automobiles TRN (rvt Auto)
@@ -9201,7 +9201,7 @@ agency_data:
                     fg: ""
 
     # Transports Publics Neuchâtelois SA (cmn) - TRN-cmn
-    "000044":
+    "44":
         code: TRN
         short_name: TRN-cmn
         name: Transports Publics Neuchâtelois SA (cmn)
@@ -9215,7 +9215,7 @@ agency_data:
                     <<: *NIGHT
 
     # Transports Publics Neuchâtelois SA (tc) - TRN/tc
-    "000792":
+    "792":
         code: TRN
         short_name: TRN/tc
         name: Transports Publics Neuchâtelois SA (tc)
@@ -9269,7 +9269,7 @@ agency_data:
                     fg: "#ffffff"
 
     # Transports Publics Neuchâtelois SA (tn) - TRN-tn
-    "000153":
+    "153":
         code: TRN
         short_name: TRN-tn
         name: Transports Publics Neuchâtelois SA (tn)
@@ -9311,7 +9311,7 @@ agency_data:
                     fg: "#ffffff"
 
     # Transports Publics Neuchâtelois SA - TRN-tn F
-    "015300":
+    "15300":
         code: TRN
         short_name: TRN-tn F
         name: Transports Publics Neuchâtelois SA
@@ -9326,7 +9326,7 @@ agency_data:
                     fg: ""
 
     # Treib-Seelisberg-Bahn - TSB
-    "000154":
+    "154":
         code: TSB
         short_name: TSB
         name: Treib-Seelisberg-Bahn
@@ -9338,7 +9338,7 @@ agency_data:
                     fg: ""
 
     # Theytaz Excursions Sion - TSD-tcld
-    "003032":
+    "3032":
         code: TSD
         short_name: TSD-tcld
         name: Theytaz Excursions Sion
@@ -9350,7 +9350,7 @@ agency_data:
                     fg: ""
 
     # Theytaz Excursions Sion - TSD-asdt
-    "000853":
+    "853":
         code: TSD
         short_name: TSD-asdt
         name: Theytaz Excursions Sion
@@ -9368,7 +9368,7 @@ agency_data:
                     fg: ""
 
     # Télé-Torgon SA (tpct) - TTG-tpct
-    "003020":
+    "3020":
         code: TTG
         short_name: TTG-tpct
         name: Télé-Torgon SA (tpct)
@@ -9380,7 +9380,7 @@ agency_data:
                     fg: ""
 
     # Télé-Torgon SA (tpcj) - TTG-tpcj
-    "003021":
+    "3021":
         code: TTG
         short_name: TTG-tpcj
         name: Télé-Torgon SA (tpcj)
@@ -9392,7 +9392,7 @@ agency_data:
                     fg: ""
 
     # Centre Touristique Moléson - TTM-tmpf
-    "000259":
+    "259":
         code: TTM
         short_name: TTM-tmpf
         name: Centre Touristique Moléson
@@ -9408,7 +9408,7 @@ agency_data:
                     fg: ""
 
     # Télé-Thyon SA - TTY-tce
-    "003031":
+    "3031":
         code: TTY
         short_name: TTY-tce
         name: Télé-Thyon SA
@@ -9420,7 +9420,7 @@ agency_data:
                     fg: ""
 
     # Téléverbier - TV
-    "000311":
+    "311":
         code: TV
         short_name: TV
         name: Téléverbier
@@ -9439,7 +9439,7 @@ agency_data:
                     fg: ""
 
     # Télécabine Vercorin-Crêt-du-Midi - TVCM
-    "000314":
+    "314":
         code: TVC
         short_name: TVCM
         name: Télécabine Vercorin-Crêt-du-Midi
@@ -9451,7 +9451,7 @@ agency_data:
                     fg: ""
 
     # Télé-Villars-Gryon - TVGD
-    "003013":
+    "3013":
         code: TVG
         short_name: TVGD
         name: Télé-Villars-Gryon
@@ -9463,7 +9463,7 @@ agency_data:
                     fg: ""
 
     # Téléveysonnaz SA - TVSA
-    "003029":
+    "3029":
         code: TVS
         short_name: TVSA
         name: Téléveysonnaz SA
@@ -9475,7 +9475,7 @@ agency_data:
                     fg: ""
 
     # Untersee und Rhein - URh
-    "000193":
+    "193":
         code: URh
         short_name: URh
         name: Untersee und Rhein
@@ -9487,7 +9487,7 @@ agency_data:
                     fg: ""
 
     # Verkehrsbetriebe der Stadt Biel - VB
-    "000889":
+    "889":
         code: VB
         short_name: VB
         name: Verkehrsbetriebe der Stadt Biel
@@ -9535,7 +9535,7 @@ agency_data:
                     fg: "#ffffff"
 
     # Verkehrsbetriebe Biel - VB-be
-    "000101":
+    "101":
         code: VB-
         short_name: VB-be
         name: Verkehrsbetriebe Biel
@@ -9547,7 +9547,7 @@ agency_data:
                     fg: ""
 
     # Verkerhsbetriebe Biel - VB-bm
-    "000103":
+    "103":
         code: VB-
         short_name: VB-bm
         name: Verkerhsbetriebe Biel
@@ -9559,7 +9559,7 @@ agency_data:
                     fg: ""
 
     # Verkehrsbetrieb der Landschaft Davos - VBD
-    "000740":
+    "740":
         code: VBD
         short_name: VBD
         name: Verkehrsbetrieb der Landschaft Davos
@@ -9598,7 +9598,7 @@ agency_data:
                     fg: ""
 
     # Verkehrsbetriebe Glattal - VBG
-    "000773":
+    "773":
         code: VBG
         short_name: VBG
         name: Verkehrsbetriebe Glattal
@@ -9777,7 +9777,7 @@ agency_data:
                     <<: *NIGHT
 
     # Verkehrsbetriebe Herisau - VBH
-    "000799":
+    "799":
         code: VBH
         short_name: VBH
         name: Verkehrsbetriebe Herisau
@@ -9804,7 +9804,7 @@ agency_data:
                     fg: ""
 
     # Verkehrsbetriebe Luzern - VBL
-    "000820":
+    "820":
         code: VBL
         short_name: VBL
         name: Verkehrsbetriebe Luzern
@@ -9911,7 +9911,7 @@ agency_data:
                     fg: ""
 
     # Verkehrsbetriebe Schaffhausen - VBSH
-    "000836":
+    "836":
         code: VBS
         short_name: VBSH
         name: Verkehrsbetriebe Schaffhausen
@@ -9949,7 +9949,7 @@ agency_data:
                     <<: *NIGHT
 
     # Verkehrsbetriebe der Stadt St.Gallen - VBSG
-    "000885":
+    "885":
         code: VBS
         short_name: VBSG
         name: Verkehrsbetriebe der Stadt St.Gallen
@@ -10004,7 +10004,7 @@ agency_data:
                     <<: *NIGHT
 
     # Verkehrsbetriebe Zürich INFO+ - VBZ    F
-    "003849":
+    "3849":
         code: VBZ
         short_name: VBZ    F
         name: Verkehrsbetriebe Zürich INFO+
@@ -10077,7 +10077,7 @@ agency_data:
                     fg: "#ffffff"
 
     # Verkehrsbetriebe Zürich - VBZ
-    "000849":
+    "849":
         code: VBZ
         short_name: VBZ
         name: Verkehrsbetriebe Zürich
@@ -10319,7 +10319,7 @@ agency_data:
                     <<: *NIGHT
 
     # Transports publics Vevey-Montreux-Chillon-Villeneuve - VMCV
-    "000876":
+    "876":
         code: VMC
         short_name: VMCV
         name: Transports publics Vevey-Montreux-Chillon-Villeneuve
@@ -10373,7 +10373,7 @@ agency_data:
                     fg: ""
 
     # Verein Naturpark Beverin - VNB
-    "007081":
+    "7081":
         code: VNB
         short_name: VNB
         name: Verein Naturpark Beverin
@@ -10388,7 +10388,7 @@ agency_data:
                     fg: ""
 
     # Verkehrsbetriebe Kreuzlingen - VSK-bkk
-    "000727":
+    "727":
         code: VSK
         short_name: VSK-bkk
         name: Verkehrsbetriebe Kreuzlingen
@@ -10415,7 +10415,7 @@ agency_data:
                     fg: ""
 
     # Verkehrsbetriebe Zürichsee und Oberland - VZO
-    "000838":
+    "838":
         code: VZO
         short_name: VZO
         name: Verkehrsbetriebe Zürichsee und Oberland
@@ -10597,7 +10597,7 @@ agency_data:
                     <<: *NIGHT
 
     # Wengernalpbahn - WAB
-    "000157":
+    "157":
         code: WAB
         short_name: WAB
         name: Wengernalpbahn
@@ -10608,7 +10608,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Bürgerbus Walperswil-Epsach-Täuffelen-Aarberg - WETA
-    "007044":
+    "7044":
         code: WET
         short_name: WETA
         name: Bürgerbus Walperswil-Epsach-Täuffelen-Aarberg
@@ -10620,7 +10620,7 @@ agency_data:
                     fg: ""
 
     # Wynental-und Suhrental-Bahn - WSB
-    "000096":
+    "96":
         code: WSB
         short_name: WSB
         name: Wynental-und Suhrental-Bahn
@@ -10631,7 +10631,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # Walker's Söhne Urnerboden - WSU
-    "007027":
+    "7027":
         code: WSU
         short_name: WSU
         name: Walker's Söhne Urnerboden
@@ -10643,7 +10643,7 @@ agency_data:
                     fg: ""
 
     # Walter Tschannen Zofingen - WTZ
-    "007063":
+    "7063":
         code: WTZ
         short_name: WTZ
         name: Walter Tschannen Zofingen
@@ -10658,7 +10658,7 @@ agency_data:
                     fg: ""
 
     # Zentralbahn - ZB
-    "000086":
+    "86":
         code: ZB
         short_name: ZB
         name: Zentralbahn
@@ -10683,7 +10683,7 @@ agency_data:
                     <<: *TRAIN_SBAHN
 
     # ZB Bus Fahrplanbedürfnisse - ZB Bus F
-    "007050":
+    "7050":
         code: ZB
         short_name: ZB Bus F
         name: ZB Bus Fahrplanbedürfnisse
@@ -10713,7 +10713,7 @@ agency_data:
                     fg: ""
 
     # Zermatt Bergbahnen AG - ZBAG
-    "000299":
+    "299":
         code: ZBA
         short_name: ZBAG
         name: Zermatt Bergbahnen AG
@@ -10733,7 +10733,7 @@ agency_data:
                     fg: ""
 
     # Zugerbergbahn - ZBB
-    "000158":
+    "158":
         code: ZBB
         short_name: ZBB
         name: Zugerbergbahn
@@ -10745,7 +10745,7 @@ agency_data:
                     fg: ""
 
     # Zürichsee - ZSG
-    "000194":
+    "194":
         code: ZSG
         short_name: ZSG
         name: Zürichsee
@@ -10766,7 +10766,7 @@ agency_data:
                     fg: ""
 
     # Zugerland Verkehrsbetriebe - ZVB
-    "000839":
+    "839":
         code: ZVB
         short_name: ZVB
         name: Zugerland Verkehrsbetriebe
